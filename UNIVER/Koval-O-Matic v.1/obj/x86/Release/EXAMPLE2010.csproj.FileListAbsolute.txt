@@ -1,0 +1,40 @@
+C:\Users\Taiber009\Desktop\EXAMPLE2010\bin\Release\EXAMPLE2010.exe
+C:\Users\Taiber009\Desktop\EXAMPLE2010\bin\Release\EXAMPLE2010.pdb
+C:\Users\Taiber009\Desktop\EXAMPLE2010\obj\x86\Release\EXAMPLE2010.csprojResolveAssemblyReference.cache
+C:\Users\Taiber009\Desktop\EXAMPLE2010\obj\x86\Release\EXAMPLE2010.Properties.Resources.resources
+C:\Users\Taiber009\Desktop\EXAMPLE2010\obj\x86\Release\EXAMPLE2010.csproj.GenerateResource.Cache
+C:\Users\Taiber009\Desktop\EXAMPLE2010\obj\x86\Release\EXAMPLE2010.exe
+C:\Users\Taiber009\Desktop\EXAMPLE2010\obj\x86\Release\EXAMPLE2010.pdb
+C:\Users\Taiber009\Desktop\EXAMPLE2010\obj\x86\Release\EXAMPLE2010.Proga.resources
+C:\Users\Taiber009\Desktop\Koval'-O-Matic v.1\obj\x86\Release\EXAMPLE2010.csprojResolveAssemblyReference.cache
+C:\Users\Taiber009\Desktop\Koval'-O-Matic v.1\obj\x86\Release\EXAMPLE2010.Proga.resources
+C:\Users\Taiber009\Desktop\Koval'-O-Matic v.1\obj\x86\Release\EXAMPLE2010.csproj.GenerateResource.Cache
+C:\Users\Taiber009\Desktop\Koval'-O-Matic v.1\bin\Release\Koval'-O-Matic v.1.exe
+C:\Users\Taiber009\Desktop\Koval'-O-Matic v.1\bin\Release\Koval'-O-Matic v.1.pdb
+C:\Users\Taiber009\Desktop\Koval'-O-Matic v.1\obj\x86\Release\Koval.Properties.Resources.resources
+C:\Users\Taiber009\Desktop\Koval'-O-Matic v.1\obj\x86\Release\Koval'-O-Matic v.1.exe
+C:\Users\Taiber009\Desktop\Koval'-O-Matic v.1\obj\x86\Release\Koval'-O-Matic v.1.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval'-O-Matic v.1\obj\x86\Release\EXAMPLE2010.Proga.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval'-O-Matic v.1\obj\x86\Release\Koval.Properties.Resources.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval'-O-Matic v.1\obj\x86\Release\EXAMPLE2010.csproj.GenerateResource.Cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval'-O-Matic v.1\bin\Release\Koval-O-Matic v.1.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval'-O-Matic v.1\bin\Release\Koval-O-Matic v.1.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval'-O-Matic v.1\obj\x86\Release\Koval-O-Matic v.1.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval'-O-Matic v.1\obj\x86\Release\Koval-O-Matic v.1.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval'-O-Matic v.1\obj\x86\Release\EXAMPLE2010.csprojResolveAssemblyReference.cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval-O-Matic v.1\obj\x86\Release\Koval-O-Matic v.1.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval-O-Matic v.1\obj\x86\Release\Koval-O-Matic v.1.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval-O-Matic v.1\bin\Release\Koval-O-Matic v.1.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval-O-Matic v.1\bin\Release\Koval-O-Matic v.1.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval-O-Matic v.1\obj\x86\Release\EXAMPLE2010.Proga.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval-O-Matic v.1\obj\x86\Release\Koval.Properties.Resources.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval-O-Matic v.1\obj\x86\Release\EXAMPLE2010.csproj.GenerateResource.Cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval-O-Matic v.1\obj\x86\Release\EXAMPLE2010.csprojResolveAssemblyReference.cache
+E:\С#\Koval-O-Matic v.1\obj\x86\Release\EXAMPLE2010.csprojResolveAssemblyReference.cache
+E:\С#\Koval-O-Matic v.1\obj\x86\Release\EXAMPLE2010.Proga.resources
+E:\С#\Koval-O-Matic v.1\obj\x86\Release\Koval.Properties.Resources.resources
+E:\С#\Koval-O-Matic v.1\obj\x86\Release\EXAMPLE2010.csproj.GenerateResource.Cache
+E:\С#\Koval-O-Matic v.1\bin\Release\Koval-O-Matic v. 1.2.exe
+E:\С#\Koval-O-Matic v.1\bin\Release\Koval-O-Matic v. 1.2.pdb
+E:\С#\Koval-O-Matic v.1\obj\x86\Release\Koval-O-Matic v. 1.2.exe
+E:\С#\Koval-O-Matic v.1\obj\x86\Release\Koval-O-Matic v. 1.2.pdb

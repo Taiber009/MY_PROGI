@@ -1,0 +1,54 @@
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Лифт(2)\obj\x86\Debug\Сапер(1).exe
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Лифт(2)\obj\x86\Debug\Сапер(1).pdb
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Лифт(2)\bin\Debug\Сапер(1).exe
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Лифт(2)\bin\Debug\Сапер(1).pdb
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Лифт(2)\obj\x86\Debug\ResolveAssemblyReference.cache
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Лифт(2)\obj\x86\Debug\Лифт_2_.Form1.resources
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Лифт(2)\obj\x86\Debug\Лифт_2_.Properties.Resources.resources
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Лифт(2)\obj\x86\Debug\GenerateResource.read.1.tlog
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Лифт(2)\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Лифт(2)\obj\x86\Debug\Сапер(1).exe
+D:\Лифт(2)\obj\x86\Debug\Сапер(1).pdb
+D:\Лифт(2)\bin\Debug\Сапер(1).exe
+D:\Лифт(2)\bin\Debug\Сапер(1).pdb
+D:\Лифт(2)\obj\x86\Debug\Лифт(2).csprojResolveAssemblyReference.cache
+D:\Лифт(2)\obj\x86\Debug\Лифт_2_.Form1.resources
+D:\Лифт(2)\obj\x86\Debug\Лифт_2_.Properties.Resources.resources
+D:\Лифт(2)\obj\x86\Debug\Лифт(2).csproj.GenerateResource.Cache
+F:\Лифт(2)\obj\x86\Debug\Сапер(1).exe
+F:\Лифт(2)\obj\x86\Debug\Сапер(1).pdb
+F:\Лифт(2)\bin\Debug\Сапер(1).exe
+F:\Лифт(2)\bin\Debug\Сапер(1).pdb
+F:\Лифт(2)\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Лифт(2)\obj\x86\Debug\Лифт_2_.Form1.resources
+F:\Лифт(2)\obj\x86\Debug\Лифт_2_.Properties.Resources.resources
+F:\Лифт(2)\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Лифт(2)\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\С#\Лифт(2)\obj\x86\Debug\Сапер(1).exe
+E:\С#\Лифт(2)\obj\x86\Debug\Сапер(1).pdb
+E:\С#\Лифт(2)\bin\Debug\Сапер(1).exe
+E:\С#\Лифт(2)\bin\Debug\Сапер(1).pdb
+E:\С#\Лифт(2)\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\С#\Лифт(2)\obj\x86\Debug\Лифт_2_.Form1.resources
+E:\С#\Лифт(2)\obj\x86\Debug\Лифт_2_.Properties.Resources.resources
+E:\С#\Лифт(2)\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\С#\Лифт(2)\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\С#\Лифт(2)\obj\x86\Debug\Сапер(1).exe
+F:\С#\Лифт(2)\obj\x86\Debug\Сапер(1).pdb
+F:\С#\Лифт(2)\bin\Debug\Сапер(1).exe
+F:\С#\Лифт(2)\bin\Debug\Сапер(1).pdb
+F:\С#\Лифт(2)\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\С#\Лифт(2)\obj\x86\Debug\Лифт_2_.Form1.resources
+F:\С#\Лифт(2)\obj\x86\Debug\Лифт_2_.Properties.Resources.resources
+F:\С#\Лифт(2)\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\С#\Лифт(2)\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\С#\Лифт(2)\obj\x86\Debug\Сапер(1).exe
+D:\С#\Лифт(2)\obj\x86\Debug\Сапер(1).pdb
+D:\С#\Лифт(2)\bin\Debug\Сапер(1).exe
+D:\С#\Лифт(2)\bin\Debug\Сапер(1).pdb
+D:\С#\Лифт(2)\obj\x86\Debug\Лифт(2).csprojResolveAssemblyReference.cache
+D:\С#\Лифт(2)\obj\x86\Debug\Лифт_2_.Form1.resources
+D:\С#\Лифт(2)\obj\x86\Debug\Лифт_2_.Properties.Resources.resources
+D:\С#\Лифт(2)\obj\x86\Debug\Лифт(2).csproj.GenerateResource.Cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Лифт(2)\obj\x86\Debug\Сапер(1).exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Лифт(2)\obj\x86\Debug\Сапер(1).pdb

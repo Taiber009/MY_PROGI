@@ -1,0 +1,5 @@
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Interface\bin\Debug\PaintInterface.dll
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Interface\bin\Debug\PaintInterface.pdb
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Interface\obj\Debug\ResolveAssemblyReference.cache
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Interface\obj\Debug\PaintInterface.dll
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Interface\obj\Debug\PaintInterface.pdb

@@ -1,0 +1,6 @@
+Z:\solomatin\!\Src\Interface\bin\Release\PaintInterface.dll
+Z:\solomatin\!\Src\Interface\obj\Release\ResolveAssemblyReference.cache
+Z:\solomatin\!\Src\Interface\obj\Release\PaintInterface.dll
+Z:\!\Src\Interface\bin\Release\PaintInterface.dll
+Z:\!\Src\Interface\obj\Release\ResolveAssemblyReference.cache
+Z:\!\Src\Interface\obj\Release\PaintInterface.dll

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MountAndOpen2", "MountAndOpen2.csproj", "{27CFE495-FD57-406F-B17D-ED67F6677550}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27CFE495-FD57-406F-B17D-ED67F6677550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CFE495-FD57-406F-B17D-ED67F6677550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CFE495-FD57-406F-B17D-ED67F6677550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CFE495-FD57-406F-B17D-ED67F6677550}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA067791-1FB2-4E84-8C9A-5E347F6D3D9F}
+	EndGlobalSection
+EndGlobal

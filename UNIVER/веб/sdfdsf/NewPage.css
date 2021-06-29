@@ -1,0 +1,44 @@
+div#container {
+	border: 1px solid black;
+	border-collapse: collapse;
+	background:#F5F5F5;
+	margin: auto;
+    width: 613px;
+    height: 850px;
+}
+ div#HEDA{
+	text-align: center;
+ }
+div#photo{
+	margin-left: 34px;
+	text-align: center;
+	height: 210px;
+	width: 165px;
+	float: left;
+	background: url("images/goodguy.jpg") no-repeat;
+}
+ h2.text
+ {
+	border: 1px solid black;
+	border-collapse: collapse;
+	color: black;
+	font-size: 12px;
+	width: 355px;
+ }
+ h2.head
+{
+	text-align: center;
+}
+div#header {
+    width: 343px;
+    height: 210px;
+	margin-left: 176px;
+}
+div#table {
+    width: 544px;
+}
+div#mail {
+	font-weight: normal;
+	font-family: Times;
+    width: 544px;
+}

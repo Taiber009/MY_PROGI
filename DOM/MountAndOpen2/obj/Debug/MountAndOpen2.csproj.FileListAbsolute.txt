@@ -1,0 +1,11 @@
+T:\Progi!\MountAndOpen2\bin\Debug\MountAndOpen2.exe.config
+T:\Progi!\MountAndOpen2\bin\Debug\MountAndOpen2.exe
+T:\Progi!\MountAndOpen2\bin\Debug\MountAndOpen2.pdb
+T:\Progi!\MountAndOpen2\bin\Debug\System.Management.Automation.dll
+T:\Progi!\MountAndOpen2\obj\Debug\MountAndOpen2.csprojAssemblyReference.cache
+T:\Progi!\MountAndOpen2\obj\Debug\MountAndOpen2.Properties.Resources.resources
+T:\Progi!\MountAndOpen2\obj\Debug\MountAndOpen2.csproj.GenerateResource.cache
+T:\Progi!\MountAndOpen2\obj\Debug\MountAndOpen2.csproj.CoreCompileInputs.cache
+T:\Progi!\MountAndOpen2\obj\Debug\MountAndOpen2.csproj.CopyComplete
+T:\Progi!\MountAndOpen2\obj\Debug\MountAndOpen2.exe
+T:\Progi!\MountAndOpen2\obj\Debug\MountAndOpen2.pdb

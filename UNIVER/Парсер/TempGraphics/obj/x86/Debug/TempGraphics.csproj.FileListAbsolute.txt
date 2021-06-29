@@ -1,0 +1,42 @@
+D:\Storage\ВГУ\КУРС 2 'Ничтожество'\Новая папка\TempGraphics\TempGraphics\bin\Debug\TempGraphics.exe
+D:\Storage\ВГУ\КУРС 2 'Ничтожество'\Новая папка\TempGraphics\TempGraphics\bin\Debug\TempGraphics.pdb
+D:\Storage\ВГУ\КУРС 2 'Ничтожество'\Новая папка\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.csprojResolveAssemblyReference.cache
+D:\Storage\ВГУ\КУРС 2 'Ничтожество'\Новая папка\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.MainForm.resources
+D:\Storage\ВГУ\КУРС 2 'Ничтожество'\Новая папка\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.Properties.Resources.resources
+D:\Storage\ВГУ\КУРС 2 'Ничтожество'\Новая папка\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.csproj.GenerateResource.Cache
+D:\Storage\ВГУ\КУРС 2 'Ничтожество'\Новая папка\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.exe
+D:\Storage\ВГУ\КУРС 2 'Ничтожество'\Новая папка\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.pdb
+D:\Storage\Github\CSF\Apps\C_Sharp\КГ\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.exe
+D:\Storage\Github\CSF\Apps\C_Sharp\КГ\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.pdb
+D:\Storage\Github\CSF\Apps\C_Sharp\КГ\TempGraphics\TempGraphics\bin\Debug\TempGraphics.exe
+D:\Storage\Github\CSF\Apps\C_Sharp\КГ\TempGraphics\TempGraphics\bin\Debug\TempGraphics.pdb
+D:\Storage\Github\CSF\Apps\C_Sharp\КГ\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.csprojResolveAssemblyReference.cache
+D:\Storage\Github\CSF\Apps\C_Sharp\КГ\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.MainForm.resources
+D:\Storage\Github\CSF\Apps\C_Sharp\КГ\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.Properties.Resources.resources
+D:\Storage\Github\CSF\Apps\C_Sharp\КГ\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.csproj.GenerateResource.Cache
+E:\ВГУ\КУРС 2 'Ничтожество'\КГАМ\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.exe
+E:\ВГУ\КУРС 2 'Ничтожество'\КГАМ\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.pdb
+E:\ВГУ\КУРС 2 'Ничтожество'\КГАМ\TempGraphics\TempGraphics\bin\Debug\TempGraphics.exe
+E:\ВГУ\КУРС 2 'Ничтожество'\КГАМ\TempGraphics\TempGraphics\bin\Debug\TempGraphics.pdb
+E:\ВГУ\КУРС 2 'Ничтожество'\КГАМ\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.csprojResolveAssemblyReference.cache
+E:\ВГУ\КУРС 2 'Ничтожество'\КГАМ\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.MainForm.resources
+E:\ВГУ\КУРС 2 'Ничтожество'\КГАМ\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.Properties.Resources.resources
+E:\ВГУ\КУРС 2 'Ничтожество'\КГАМ\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.csproj.GenerateResource.Cache
+F:\ВГУ\КУРС 2 'Ничтожество'\КГАМ\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.exe
+F:\ВГУ\КУРС 2 'Ничтожество'\КГАМ\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.pdb
+Z:\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.exe
+Z:\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.pdb
+Z:\TempGraphics\TempGraphics\bin\Debug\TempGraphics.exe
+Z:\TempGraphics\TempGraphics\bin\Debug\TempGraphics.pdb
+Z:\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.csprojResolveAssemblyReference.cache
+Z:\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.MainForm.resources
+Z:\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.Properties.Resources.resources
+Z:\TempGraphics\TempGraphics\obj\x86\Debug\TempGraphics.csproj.GenerateResource.Cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Парсер\TempGraphics\obj\x86\Debug\TempGraphics.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Парсер\TempGraphics\obj\x86\Debug\TempGraphics.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Парсер\TempGraphics\bin\Debug\TempGraphics.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Парсер\TempGraphics\bin\Debug\TempGraphics.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Парсер\TempGraphics\obj\x86\Debug\TempGraphics.csprojResolveAssemblyReference.cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Парсер\TempGraphics\obj\x86\Debug\TempGraphics.MainForm.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Парсер\TempGraphics\obj\x86\Debug\TempGraphics.Properties.Resources.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Парсер\TempGraphics\obj\x86\Debug\TempGraphics.csproj.GenerateResource.Cache

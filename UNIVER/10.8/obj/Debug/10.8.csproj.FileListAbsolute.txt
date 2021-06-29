@@ -1,0 +1,9 @@
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\10.8\bin\Debug\10.8.exe.config
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\10.8\bin\Debug\10.8.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\10.8\bin\Debug\10.8.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\10.8\obj\Debug\10.8.csprojResolveAssemblyReference.cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\10.8\obj\Debug\_10._8.Form1.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\10.8\obj\Debug\_10._8.Properties.Resources.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\10.8\obj\Debug\10.8.csproj.GenerateResource.Cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\10.8\obj\Debug\10.8.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\10.8\obj\Debug\10.8.pdb

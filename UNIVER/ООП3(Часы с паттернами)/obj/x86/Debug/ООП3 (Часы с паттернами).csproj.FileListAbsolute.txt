@@ -1,0 +1,36 @@
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ООП3 (Часы с паттернами)\bin\Debug\ООП3 (Часы с паттернами).exe
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ООП3 (Часы с паттернами)\bin\Debug\ООП3 (Часы с паттернами).pdb
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ООП3 (Часы с паттернами)\obj\x86\Debug\ResolveAssemblyReference.cache
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ООП3 (Часы с паттернами)\obj\x86\Debug\ООП3__Часы_с_паттернами_.Form1.resources
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ООП3 (Часы с паттернами)\obj\x86\Debug\ООП3__Часы_с_паттернами_.Properties.Resources.resources
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ООП3 (Часы с паттернами)\obj\x86\Debug\GenerateResource.read.1.tlog
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ООП3 (Часы с паттернами)\obj\x86\Debug\GenerateResource.write.1.tlog
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ООП3 (Часы с паттернами)\obj\x86\Debug\ООП3 (Часы с паттернами).exe
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ООП3 (Часы с паттернами)\obj\x86\Debug\ООП3 (Часы с паттернами).pdb
+E:\С#\ООП3 (Часы с паттернами)\obj\x86\Debug\ООП3 (Часы с паттернами).exe
+E:\С#\ООП3 (Часы с паттернами)\obj\x86\Debug\ООП3 (Часы с паттернами).pdb
+E:\С#\ООП3 (Часы с паттернами)\bin\Debug\ООП3 (Часы с паттернами).exe
+E:\С#\ООП3 (Часы с паттернами)\bin\Debug\ООП3 (Часы с паттернами).pdb
+E:\С#\ООП3 (Часы с паттернами)\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\С#\ООП3 (Часы с паттернами)\obj\x86\Debug\ООП3__Часы_с_паттернами_.Form1.resources
+E:\С#\ООП3 (Часы с паттернами)\obj\x86\Debug\ООП3__Часы_с_паттернами_.Properties.Resources.resources
+E:\С#\ООП3 (Часы с паттернами)\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\С#\ООП3 (Часы с паттернами)\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\С#\ООП3 (Часы с паттернами)\obj\x86\Debug\ООП3 (Часы с паттернами).exe
+D:\С#\ООП3 (Часы с паттернами)\obj\x86\Debug\ООП3 (Часы с паттернами).pdb
+D:\С#\ООП3 (Часы с паттернами)\bin\Debug\ООП3 (Часы с паттернами).exe
+D:\С#\ООП3 (Часы с паттернами)\bin\Debug\ООП3 (Часы с паттернами).pdb
+D:\С#\ООП3 (Часы с паттернами)\obj\x86\Debug\ООП3 (Часы с паттернами).csprojResolveAssemblyReference.cache
+D:\С#\ООП3 (Часы с паттернами)\obj\x86\Debug\ООП3__Часы_с_паттернами_.Form1.resources
+D:\С#\ООП3 (Часы с паттернами)\obj\x86\Debug\ООП3__Часы_с_паттернами_.Properties.Resources.resources
+D:\С#\ООП3 (Часы с паттернами)\obj\x86\Debug\ООП3 (Часы с паттернами).csproj.GenerateResource.Cache
+D:\С#\ООП3(Часы с паттернами)\obj\x86\Debug\ООП3 (Часы с паттернами).exe
+D:\С#\ООП3(Часы с паттернами)\obj\x86\Debug\ООП3 (Часы с паттернами).pdb
+D:\С#\ООП3(Часы с паттернами)\bin\Debug\ООП3 (Часы с паттернами).exe
+D:\С#\ООП3(Часы с паттернами)\bin\Debug\ООП3 (Часы с паттернами).pdb
+D:\С#\ООП3(Часы с паттернами)\obj\x86\Debug\ООП3 (Часы с паттернами).csprojResolveAssemblyReference.cache
+D:\С#\ООП3(Часы с паттернами)\obj\x86\Debug\ООП3__Часы_с_паттернами_.Form1.resources
+D:\С#\ООП3(Часы с паттернами)\obj\x86\Debug\ООП3__Часы_с_паттернами_.Properties.Resources.resources
+D:\С#\ООП3(Часы с паттернами)\obj\x86\Debug\ООП3 (Часы с паттернами).csproj.GenerateResource.Cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\ООП3(Часы с паттернами)\obj\x86\Debug\ООП3 (Часы с паттернами).exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\ООП3(Часы с паттернами)\obj\x86\Debug\ООП3 (Часы с паттернами).pdb

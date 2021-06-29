@@ -1,0 +1,103 @@
+Z:\solomatin\!\Src\Engine\bin\Debug\PaintEngine.exe
+Z:\solomatin\!\Src\Engine\bin\Debug\PaintEngine.pdb
+Z:\solomatin\!\Src\Engine\bin\Debug\PaintControls.dll
+Z:\solomatin\!\Src\Engine\bin\Debug\PaintInterface.dll
+Z:\solomatin\!\Src\Engine\bin\Debug\PaintControls.pdb
+Z:\solomatin\!\Src\Engine\bin\Debug\PaintInterface.pdb
+Z:\solomatin\!\Src\Engine\obj\Debug\ResolveAssemblyReference.cache
+Z:\solomatin\!\Src\Engine\obj\Debug\Oop.Tasks.Paint.Engine.PaintMainForm.resources
+Z:\solomatin\!\Src\Engine\obj\Debug\Engine.csproj.GenerateResource.Cache
+Z:\solomatin\!\Src\Engine\obj\Debug\PaintEngine.exe
+Z:\solomatin\!\Src\Engine\obj\Debug\PaintEngine.pdb
+Z:\!\Src\Engine\obj\Debug\PaintEngine.exe
+Z:\!\Src\Engine\obj\Debug\PaintEngine.pdb
+Z:\!\Src\Engine\bin\Debug\PaintEngine.exe
+Z:\!\Src\Engine\bin\Debug\PaintEngine.pdb
+Z:\!\Src\Engine\bin\Debug\PaintControls.dll
+Z:\!\Src\Engine\bin\Debug\PaintInterface.dll
+Z:\!\Src\Engine\bin\Debug\PaintControls.pdb
+Z:\!\Src\Engine\bin\Debug\PaintInterface.pdb
+Z:\!\Src\Engine\obj\Debug\ResolveAssemblyReference.cache
+Z:\!\Src\Engine\obj\Debug\Oop.Tasks.Paint.Engine.PaintMainForm.resources
+Z:\!\Src\Engine\obj\Debug\Engine.csproj.GenerateResource.Cache
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.exe.config
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Engine\obj\Debug\PaintEngine.exe
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Engine\obj\Debug\PaintEngine.pdb
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.exe
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.pdb
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Engine\bin\Debug\PaintControls.dll
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Engine\bin\Debug\PaintInterface.dll
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Engine\bin\Debug\PaintControls.pdb
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Engine\bin\Debug\PaintInterface.pdb
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Engine\obj\Debug\ResolveAssemblyReference.cache
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Engine\obj\Debug\Oop.Tasks.Paint.Engine.PaintMainForm.resources
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Engine\obj\Debug\GenerateResource.read.1.tlog
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Engine\obj\Debug\GenerateResource.write.1.tlog
+F:\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.exe.config
+F:\task4\PluginsPaint\Engine\obj\Debug\PaintEngine.exe
+F:\task4\PluginsPaint\Engine\obj\Debug\PaintEngine.pdb
+F:\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.exe
+F:\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.pdb
+F:\task4\PluginsPaint\Engine\bin\Debug\PaintControls.dll
+F:\task4\PluginsPaint\Engine\bin\Debug\PaintInterface.dll
+F:\task4\PluginsPaint\Engine\bin\Debug\PaintControls.pdb
+F:\task4\PluginsPaint\Engine\bin\Debug\PaintInterface.pdb
+F:\task4\PluginsPaint\Engine\obj\Debug\ResolveAssemblyReference.cache
+F:\task4\PluginsPaint\Engine\obj\Debug\Oop.Tasks.Paint.Engine.PaintMainForm.resources
+F:\task4\PluginsPaint\Engine\obj\Debug\GenerateResource.read.1.tlog
+F:\task4\PluginsPaint\Engine\obj\Debug\GenerateResource.write.1.tlog
+E:\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.exe.config
+E:\task4\PluginsPaint\Engine\obj\Debug\PaintEngine.exe
+E:\task4\PluginsPaint\Engine\obj\Debug\PaintEngine.pdb
+E:\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.exe
+E:\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.pdb
+E:\task4\PluginsPaint\Engine\bin\Debug\PaintControls.dll
+E:\task4\PluginsPaint\Engine\bin\Debug\PaintInterface.dll
+E:\task4\PluginsPaint\Engine\bin\Debug\PaintControls.pdb
+E:\task4\PluginsPaint\Engine\bin\Debug\PaintInterface.pdb
+E:\task4\PluginsPaint\Engine\obj\Debug\Engine.csprojResolveAssemblyReference.cache
+E:\task4\PluginsPaint\Engine\obj\Debug\Oop.Tasks.Paint.Engine.PaintMainForm.resources
+E:\task4\PluginsPaint\Engine\obj\Debug\Engine.csproj.GenerateResource.Cache
+D:\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.exe.config
+D:\task4\PluginsPaint\Engine\obj\Debug\PaintEngine.exe
+D:\task4\PluginsPaint\Engine\obj\Debug\PaintEngine.pdb
+F:\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.exe.config
+F:\Плагин1(4)\task4\PluginsPaint\Engine\obj\Debug\PaintEngine.exe
+F:\Плагин1(4)\task4\PluginsPaint\Engine\obj\Debug\PaintEngine.pdb
+F:\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.exe
+F:\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.pdb
+F:\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintControls.dll
+F:\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintInterface.dll
+F:\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintControls.pdb
+F:\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintInterface.pdb
+F:\Плагин1(4)\task4\PluginsPaint\Engine\obj\Debug\ResolveAssemblyReference.cache
+F:\Плагин1(4)\task4\PluginsPaint\Engine\obj\Debug\Oop.Tasks.Paint.Engine.PaintMainForm.resources
+F:\Плагин1(4)\task4\PluginsPaint\Engine\obj\Debug\GenerateResource.read.1.tlog
+F:\Плагин1(4)\task4\PluginsPaint\Engine\obj\Debug\GenerateResource.write.1.tlog
+D:\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.exe.config
+D:\Плагин1(4)\task4\PluginsPaint\Engine\obj\Debug\PaintEngine.exe
+D:\Плагин1(4)\task4\PluginsPaint\Engine\obj\Debug\PaintEngine.pdb
+D:\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.exe
+D:\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.pdb
+D:\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintControls.dll
+D:\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintInterface.dll
+D:\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintControls.pdb
+D:\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintInterface.pdb
+D:\Плагин1(4)\task4\PluginsPaint\Engine\obj\Debug\Engine.csprojResolveAssemblyReference.cache
+D:\Плагин1(4)\task4\PluginsPaint\Engine\obj\Debug\Oop.Tasks.Paint.Engine.PaintMainForm.resources
+D:\Плагин1(4)\task4\PluginsPaint\Engine\obj\Debug\Engine.csproj.GenerateResource.Cache
+G:\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.exe.config
+G:\Плагин1(4)\task4\PluginsPaint\Engine\obj\Debug\PaintEngine.exe
+G:\Плагин1(4)\task4\PluginsPaint\Engine\obj\Debug\PaintEngine.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.exe.config
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Engine\obj\Debug\PaintEngine.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Engine\obj\Debug\PaintEngine.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintEngine.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintControls.dll
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintInterface.dll
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintControls.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Engine\bin\Debug\PaintInterface.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Engine\obj\Debug\Engine.csprojResolveAssemblyReference.cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Engine\obj\Debug\Oop.Tasks.Paint.Engine.PaintMainForm.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Engine\obj\Debug\Engine.csproj.GenerateResource.Cache

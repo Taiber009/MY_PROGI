@@ -1,0 +1,6 @@
+c:\users\taiber009\documents\visual studio 2013\Projects\Хозиев, параграф 2 задание 3\Хозиев, параграф 2 задание 3\bin\Debug\Хозиев, параграф 2 задание 3.exe.config
+c:\users\taiber009\documents\visual studio 2013\Projects\Хозиев, параграф 2 задание 3\Хозиев, параграф 2 задание 3\obj\Debug\Хозиев, параграф 2 задание 3.csprojResolveAssemblyReference.cache
+c:\users\taiber009\documents\visual studio 2013\Projects\Хозиев, параграф 2 задание 3\Хозиев, параграф 2 задание 3\bin\Debug\Хозиев, параграф 2 задание 3.exe
+c:\users\taiber009\documents\visual studio 2013\Projects\Хозиев, параграф 2 задание 3\Хозиев, параграф 2 задание 3\bin\Debug\Хозиев, параграф 2 задание 3.pdb
+c:\users\taiber009\documents\visual studio 2013\Projects\Хозиев, параграф 2 задание 3\Хозиев, параграф 2 задание 3\obj\Debug\Хозиев, параграф 2 задание 3.exe
+c:\users\taiber009\documents\visual studio 2013\Projects\Хозиев, параграф 2 задание 3\Хозиев, параграф 2 задание 3\obj\Debug\Хозиев, параграф 2 задание 3.pdb

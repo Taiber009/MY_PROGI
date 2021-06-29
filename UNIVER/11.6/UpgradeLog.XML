@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="11.6">
+</Property><Property Name="Файл решения" Value="D:\11.6\11.6.sln">
+</Property><Property Name="Файл параметров пользователя" Value="D:\11.6\11.6.suo">
+</Property><Property Name="Date" Value="11 декабря 2015 г.">
+</Property><Property Name="Time" Value="9:53">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="11.6.sln" Description="Успешно создана резервная копия файла D:\11.6\Backup\11.6.sln">
+</Event><Event ErrorLevel="0" Project="" Source="11.6.suo" Description="Успешно создана резервная копия файла D:\11.6\Backup\11.6.suo">
+</Event><Event ErrorLevel="0" Project="11.6" Source="11.6.csproj" Description="Успешно создана резервная копия файла проекта: D:\11.6\Backup\11.6.csproj">
+</Event><Event ErrorLevel="0" Project="11.6" Source="Form1.cs" Description="Успешно создана резервная копия файла D:\11.6\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="11.6" Source="Form1.Designer.cs" Description="Успешно создана резервная копия файла D:\11.6\Backup\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="11.6" Source="Kod.cs" Description="Успешно создана резервная копия файла D:\11.6\Backup\Kod.cs">
+</Event><Event ErrorLevel="0" Project="11.6" Source="Program.cs" Description="Успешно создана резервная копия файла D:\11.6\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="11.6" Source="Properties\AssemblyInfo.cs" Description="Успешно создана резервная копия файла D:\11.6\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="11.6" Source="Properties\Resources.Designer.cs" Description="Успешно создана резервная копия файла D:\11.6\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="11.6" Source="Properties\Settings.Designer.cs" Description="Успешно создана резервная копия файла D:\11.6\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="11.6" Source="Properties\Settings.settings" Description="Успешно создана резервная копия файла D:\11.6\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="11.6" Source="App.config" Description="Успешно создана резервная копия файла D:\11.6\Backup\App.config">
+</Event><Event ErrorLevel="0" Project="11.6" Source="Form1.resx" Description="Успешно создана резервная копия файла D:\11.6\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="11.6" Source="Properties\Resources.resx" Description="Успешно создана резервная копия файла D:\11.6\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="11.6" Source="11.6.csproj" Description="Файл проекта не нуждается в преобразовании.">
+</Event><Event ErrorLevel="3" Project="11.6" Source="11.6.csproj" Description="Преобразование не требуется">
+</Event><Event ErrorLevel="0" Project="" Source="11.6.sln" Description="Преобразование решения успешно завершено">
+</Event><Event ErrorLevel="3" Project="" Source="11.6.sln" Description="Converted">
+</Event></UpgradeLog>

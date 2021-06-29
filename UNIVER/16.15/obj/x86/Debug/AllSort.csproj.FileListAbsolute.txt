@@ -1,0 +1,55 @@
+\\csfs\home$\nik\Profile\Desktop\AllSort\AllSort\bin\Debug\AllSort.exe
+\\csfs\home$\nik\Profile\Desktop\AllSort\AllSort\bin\Debug\AllSort.pdb
+\\csfs\home$\nik\Profile\Desktop\AllSort\AllSort\obj\x86\Debug\ResolveAssemblyReference.cache
+\\csfs\home$\nik\Profile\Desktop\AllSort\AllSort\obj\x86\Debug\AllSort.FormMain.resources
+\\csfs\home$\nik\Profile\Desktop\AllSort\AllSort\obj\x86\Debug\AllSort.Properties.Resources.resources
+\\csfs\home$\nik\Profile\Desktop\AllSort\AllSort\obj\x86\Debug\GenerateResource.read.1.tlog
+\\csfs\home$\nik\Profile\Desktop\AllSort\AllSort\obj\x86\Debug\GenerateResource.write.1.tlog
+\\csfs\home$\nik\Profile\Desktop\AllSort\AllSort\obj\x86\Debug\AllSort.exe
+\\csfs\home$\nik\Profile\Desktop\AllSort\AllSort\obj\x86\Debug\AllSort.pdb
+F:\Документы\Лекции\АиСД C#\Лекция 1 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.exe
+F:\Документы\Лекции\АиСД C#\Лекция 1 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.pdb
+F:\Документы\Лекции\АиСД C#\Лекция 1 Сортировки\AllSort\AllSort\bin\Debug\AllSort.exe
+F:\Документы\Лекции\АиСД C#\Лекция 1 Сортировки\AllSort\AllSort\bin\Debug\AllSort.pdb
+F:\Документы\Лекции\АиСД C#\Лекция 1 Сортировки\AllSort\AllSort\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Документы\Лекции\АиСД C#\Лекция 1 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.FormMain.resources
+F:\Документы\Лекции\АиСД C#\Лекция 1 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.Properties.Resources.resources
+F:\Документы\Лекции\АиСД C#\Лекция 1 Сортировки\AllSort\AllSort\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Документы\Лекции\АиСД C#\Лекция 1 Сортировки\AllSort\AllSort\obj\x86\Debug\GenerateResource.write.1.tlog
+L:\Лекции\1 Курс\АиСД C#\Лекция 1 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.exe
+L:\Лекции\1 Курс\АиСД C#\Лекция 1 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.pdb
+L:\Лекции\1 Курс\АиСД C#\Лекция 1 Сортировки\AllSort\AllSort\bin\Debug\AllSort.exe
+L:\Лекции\1 Курс\АиСД C#\Лекция 1 Сортировки\AllSort\AllSort\bin\Debug\AllSort.pdb
+L:\Лекции\1 Курс\АиСД C#\Лекция 1 Сортировки\AllSort\AllSort\obj\x86\Debug\ResolveAssemblyReference.cache
+L:\Лекции\1 Курс\АиСД C#\Лекция 1 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.FormMain.resources
+L:\Лекции\1 Курс\АиСД C#\Лекция 1 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.Properties.Resources.resources
+L:\Лекции\1 Курс\АиСД C#\Лекция 1 Сортировки\AllSort\AllSort\obj\x86\Debug\GenerateResource.read.1.tlog
+L:\Лекции\1 Курс\АиСД C#\Лекция 1 Сортировки\AllSort\AllSort\obj\x86\Debug\GenerateResource.write.1.tlog
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.exe
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.pdb
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 2 Сортировки\AllSort\AllSort\bin\Debug\AllSort.exe
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 2 Сортировки\AllSort\AllSort\bin\Debug\AllSort.pdb
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\ResolveAssemblyReference.cache
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.FormMain.resources
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.Properties.Resources.resources
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\GenerateResource.read.1.tlog
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\GenerateResource.write.1.tlog
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.FormGraph.resources
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.exe
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.pdb
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\bin\Debug\AllSort.exe
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\bin\Debug\AllSort.pdb
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\ResolveAssemblyReference.cache
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.FormMain.resources
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.FormGraph.resources
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.Properties.Resources.resources
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\GenerateResource.read.1.tlog
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Taiber009\Desktop\Универ\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.exe
+C:\Users\Taiber009\Desktop\Универ\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.pdb
+C:\Users\Taiber009\Desktop\Универ\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\bin\Debug\AllSort.exe
+C:\Users\Taiber009\Desktop\Универ\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\bin\Debug\AllSort.pdb
+C:\Users\Taiber009\Desktop\Универ\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.FormMain.resources
+C:\Users\Taiber009\Desktop\Универ\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.FormGraph.resources
+C:\Users\Taiber009\Desktop\Универ\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.Properties.Resources.resources
+C:\Users\Taiber009\Desktop\Универ\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.csproj.GenerateResource.Cache

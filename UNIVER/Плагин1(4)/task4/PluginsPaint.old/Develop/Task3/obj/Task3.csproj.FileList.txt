@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\Task3.dll
+bin\Debug\Task3.pdb
+bin\Debug\PaintInterface.dll
+bin\Debug\PaintInterface.pdb
+obj\Debug\Task3.dll
+obj\Debug\Task3.pdb
+..\Engine\bin\Debug\Plugins\Task3\Task3.dll
+..\Engine\bin\Debug\Plugins\Task3\Task3.pdb

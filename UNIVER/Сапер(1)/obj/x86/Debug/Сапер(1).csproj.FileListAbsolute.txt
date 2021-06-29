@@ -1,0 +1,11 @@
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\Сапер(1)\bin\Debug\Сапер(1).exe
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\Сапер(1)\bin\Debug\Сапер(1).pdb
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\Сапер(1)\obj\x86\Debug\Сапер_1_.Form1.resources
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\Сапер(1)\obj\x86\Debug\Сапер_1_.Properties.Resources.resources
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\Сапер(1)\obj\x86\Debug\Сапер(1).exe
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\Сапер(1)\obj\x86\Debug\Сапер(1).pdb
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Сапер(1)\obj\x86\Debug\ResolveAssemblyReference.cache
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Сапер(1)\obj\x86\Debug\GenerateResource.read.1.tlog
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Сапер(1)\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Сапер(1)\obj\x86\Debug\Сапер(1).exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Сапер(1)\obj\x86\Debug\Сапер(1).pdb

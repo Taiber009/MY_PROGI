@@ -1,0 +1,44 @@
+<html> 
+<head> 
+<title>Аякс</title> 
+</head> 
+<head> 
+<meta charset="utf-8"> 
+<script type="text/javascript" src="http://yandex.st/jquery/2.0.3/jquery.min.js"> 
+</script> 
+</head> 
+	<body>
+		
+		<table>
+		   <tr>
+			     <td><b>Радиус:</b></td>
+			     <td><input name="radius" value="" size=10></td>
+			</tr>
+            <tr>
+			     <td><b>Высота:</b></td>
+		         <td><input name="visota" value="" size=10></td>
+			</tr>	
+			<tr>
+			     <td><button id="but">Вычислить</button></td>
+			</tr>
+		</table>
+		<div id="Placeholder"></div> 
+<script>
+		$(document).ready(function(){
+				$("#but").click(
+					function(){
+						$.ajax({
+							url: 'Logic.php',
+							data: 'radius='+$('input[name="radius"]').val()+'&visota='+$('input[name="visota"]').val(),
+							dataType: 'html',
+							success: function(data){
+								$("#Placeholder").html(data);
+							}}
+						)
+					}
+				)
+			}
+		);
+		</script>
+	</body>
+</html>

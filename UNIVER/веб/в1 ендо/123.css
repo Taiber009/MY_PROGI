@@ -1,0 +1,110 @@
+div#con {
+	border: 1px solid black;
+	border-collapse: collapse;
+	background:#FF0000;
+	margin: auto;
+    width: 613px;
+    height: 839px;
+}
+ 
+div#photo{
+	margin-top: 46px;
+	margin-left: 34px;
+	text-align: center;
+	height: 210px;
+	width: 150px;
+	float: left;
+	background: url("endovitskiy.jpg") no-repeat;
+}
+ h2.text
+ {
+	border: 1px solid black;
+	border-collapse: collapse;
+	color: gray;
+	font-family: Tahoma, sans-serif;
+	font-size: 8px;
+	width: 355px;
+	height: 125px;
+	text-align: right;
+ }
+ h2.head
+{
+	text-align: center;
+}
+div#head {
+    width: 343px;
+    height: 210px;
+	margin-left: 176px;
+	margin-top: 53px;
+}
+ 
+div#main {
+	font-weight: normal;
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-family: Times;
+	font-size: 12px;
+    width: 544px;
+    height: 153px;
+}
+ li.b
+ {
+	font-weight: bold;
+ }
+ li.it
+ {
+	font-style: italic;
+ }
+div#table {
+	
+			
+            width: 544px;
+            height: 144px;
+}
+table.table2 
+{	
+	
+	border-collapse: collapse;
+	width: 544px;
+	height: 144px;
+}
+table.table2 th
+{
+	background: #555555;
+	
+	border-collapse: collapse;
+}
+table.table2 td
+{	
+	border-collapse: collapse;
+	
+}
+div#name{
+	margin-top: 15px;
+	height: 60px;
+	width: 544px;
+	text-align: left;
+	font-family: Arial;
+	font-size: 36px;
+	font-style: bold;
+}
+div#comm{
+	height: 100px;
+	width: 544px;
+	font-family: Arial;
+	font-size: 36px;
+}
+ 
+div#button {
+	margin-top: 15px;
+	height: 44px;
+	width: 544px; 
+    font-family: Arial;
+	font-size: 36px;    
+}
+button
+{
+	border: 1px solid black;
+	width: 139px;
+	height: 39px;
+}

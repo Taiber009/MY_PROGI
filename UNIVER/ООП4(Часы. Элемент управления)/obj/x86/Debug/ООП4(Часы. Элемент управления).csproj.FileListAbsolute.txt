@@ -1,0 +1,11 @@
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\bin\Debug\ООП4_Часы.Элемент_управления_.exe
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\bin\Debug\ООП4_Часы.Элемент_управления_.pdb
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\bin\Debug\ClockLib.dll
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\bin\Debug\ClockLib.pdb
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\obj\x86\Debug\ResolveAssemblyReference.cache
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\obj\x86\Debug\ООП4_Часы.Элемент_управления_.Form1.resources
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\obj\x86\Debug\ООП4_Часы.Элемент_управления_.Properties.Resources.resources
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\obj\x86\Debug\GenerateResource.read.1.tlog
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\obj\x86\Debug\GenerateResource.write.1.tlog
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\obj\x86\Debug\ООП4_Часы.Элемент_управления_.exe
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\obj\x86\Debug\ООП4_Часы.Элемент_управления_.pdb

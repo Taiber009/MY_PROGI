@@ -1,0 +1,20 @@
+C:\Users\Taiber009\Desktop\Универ\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.exe
+C:\Users\Taiber009\Desktop\Универ\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.pdb
+C:\Users\Taiber009\Desktop\Универ\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\bin\Debug\AllSort.exe
+C:\Users\Taiber009\Desktop\Универ\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\bin\Debug\AllSort.pdb
+C:\Users\Taiber009\Desktop\Универ\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.FormMain.resources
+C:\Users\Taiber009\Desktop\Универ\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.FormGraph.resources
+C:\Users\Taiber009\Desktop\Универ\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\AllSort.Properties.Resources.resources
+C:\Users\Taiber009\Desktop\Универ\АиСД C#\2016\Лекция 2 Сортировки\AllSort\AllSort\obj\x86\Debug\16.15.2.csproj.GenerateResource.Cache
+J:\AllSort\obj\x86\Debug\AllSort.exe
+J:\AllSort\obj\x86\Debug\AllSort.pdb
+F:\AllSort\obj\x86\Debug\AllSort.exe
+F:\AllSort\obj\x86\Debug\AllSort.pdb
+F:\AllSort\bin\Debug\AllSort.exe
+F:\AllSort\bin\Debug\AllSort.pdb
+F:\AllSort\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\AllSort\obj\x86\Debug\AllSort.FormMain.resources
+F:\AllSort\obj\x86\Debug\AllSort.FormGraph.resources
+F:\AllSort\obj\x86\Debug\AllSort.Properties.Resources.resources
+F:\AllSort\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\AllSort\obj\x86\Debug\GenerateResource.write.1.tlog

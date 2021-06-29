@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Задача 5!", "Задача 5!.csproj", "{066BA16A-FEA5-42B7-85A2-0461DE1496C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{066BA16A-FEA5-42B7-85A2-0461DE1496C9}.Debug|x86.ActiveCfg = Debug|x86
+		{066BA16A-FEA5-42B7-85A2-0461DE1496C9}.Debug|x86.Build.0 = Debug|x86
+		{066BA16A-FEA5-42B7-85A2-0461DE1496C9}.Release|x86.ActiveCfg = Release|x86
+		{066BA16A-FEA5-42B7-85A2-0461DE1496C9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

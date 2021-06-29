@@ -1,0 +1,13 @@
+F:\С#\Dimka\Monetki\bin\Debug\Sorevnovanie_test.exe
+F:\С#\Dimka\Monetki\bin\Debug\Sorevnovanie_test.pdb
+F:\С#\Dimka\Monetki\obj\x86\Debug\Sorevnovanie_test.exe
+F:\С#\Dimka\Monetki\obj\x86\Debug\Sorevnovanie_test.pdb
+F:\Флешка\С#\Dimka\Monetki\obj\x86\Debug\Sorevnovanie_test.exe
+F:\Флешка\С#\Dimka\Monetki\obj\x86\Debug\Sorevnovanie_test.pdb
+F:\Флешка\С#\Dimka\Monetki\bin\Debug\Sorevnovanie_test.exe
+F:\Флешка\С#\Dimka\Monetki\bin\Debug\Sorevnovanie_test.pdb
+E:\С#\Dimka\Five-Exercises\bin\Debug\Sorevnovanie_test.exe
+E:\С#\Dimka\Five-Exercises\bin\Debug\Sorevnovanie_test.pdb
+E:\С#\Dimka\Five-Exercises\obj\x86\Debug\Monetki.csprojAssemblyReference.cache
+E:\С#\Dimka\Five-Exercises\obj\x86\Debug\Sorevnovanie_test.exe
+E:\С#\Dimka\Five-Exercises\obj\x86\Debug\Sorevnovanie_test.pdb

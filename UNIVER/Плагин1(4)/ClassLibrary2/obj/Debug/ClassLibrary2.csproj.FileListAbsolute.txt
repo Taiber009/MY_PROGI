@@ -1,0 +1,36 @@
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ClassLibrary2\obj\Debug\ResolveAssemblyReference.cache
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ClassLibrary2\bin\Debug\ClassLibrary2.dll
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ClassLibrary2\bin\Debug\PaintInterface.dll
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ClassLibrary2\bin\Debug\PaintInterface.pdb
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ClassLibrary2\obj\Debug\ClassLibrary2.dll
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ClassLibrary2\obj\Debug\ClassLibrary2.pdb
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ClassLibrary2\obj\Debug\ClassLibrary2.UserControl1.resources
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ClassLibrary2\obj\Debug\GenerateResource.read.1.tlog
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\ClassLibrary2\obj\Debug\GenerateResource.write.1.tlog
+D:\Плагин1(4)\ClassLibrary2\bin\Debug\ClassLibrary2.dll
+D:\Плагин1(4)\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
+D:\Плагин1(4)\ClassLibrary2\bin\Debug\PaintInterface.pdb
+D:\Плагин1(4)\ClassLibrary2\obj\Debug\ClassLibrary2.csprojResolveAssemblyReference.cache
+D:\Плагин1(4)\ClassLibrary2\obj\Debug\ClassLibrary2.UserControl1.resources
+D:\Плагин1(4)\ClassLibrary2\obj\Debug\ClassLibrary2.csproj.GenerateResource.Cache
+D:\Плагин1(4)\ClassLibrary2\obj\Debug\ClassLibrary2.dll
+D:\Плагин1(4)\ClassLibrary2\obj\Debug\ClassLibrary2.pdb
+G:\Плагин1(4)\ClassLibrary2\obj\Debug\ClassLibrary2.csprojResolveAssemblyReference.cache
+G:\Плагин1(4)\ClassLibrary2\obj\Debug\ClassLibrary2.UserControl1.resources
+G:\Плагин1(4)\ClassLibrary2\obj\Debug\ClassLibrary2.csproj.GenerateResource.Cache
+G:\Плагин1(4)\ClassLibrary2\obj\Debug\ClassLibrary2.dll
+G:\Плагин1(4)\ClassLibrary2\bin\Debug\ClassLibrary2.dll
+G:\Плагин1(4)\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
+G:\Плагин1(4)\ClassLibrary2\bin\Debug\PaintInterface.pdb
+G:\Плагин1(4)\ClassLibrary2\obj\Debug\ClassLibrary2.pdb
+F:\Плагин1(4)\ClassLibrary2\bin\Debug\ClassLibrary2.dll
+F:\Плагин1(4)\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
+F:\Плагин1(4)\ClassLibrary2\bin\Debug\PaintInterface.dll
+F:\Плагин1(4)\ClassLibrary2\bin\Debug\PaintInterface.pdb
+F:\Плагин1(4)\ClassLibrary2\obj\Debug\ResolveAssemblyReference.cache
+F:\Плагин1(4)\ClassLibrary2\obj\Debug\ClassLibrary2.UserControl1.resources
+F:\Плагин1(4)\ClassLibrary2\obj\Debug\GenerateResource.read.1.tlog
+F:\Плагин1(4)\ClassLibrary2\obj\Debug\GenerateResource.write.1.tlog
+F:\Плагин1(4)\ClassLibrary2\obj\Debug\ClassLibrary2.dll
+F:\Плагин1(4)\ClassLibrary2\obj\Debug\ClassLibrary2.pdb

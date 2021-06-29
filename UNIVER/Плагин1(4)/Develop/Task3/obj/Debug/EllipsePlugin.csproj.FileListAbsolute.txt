@@ -1,0 +1,5 @@
+E:\ЯиСП\Develop\Engine\bin\Debug\Plugins\Task3\Task3.dll
+E:\ЯиСП\Develop\Engine\bin\Debug\Plugins\Task3\Task3.pdb
+E:\ЯиСП\Develop\Task3\obj\Debug\EllipsePlugin.csprojResolveAssemblyReference.cache
+E:\ЯиСП\Develop\Task3\obj\Debug\Task3.dll
+E:\ЯиСП\Develop\Task3\obj\Debug\Task3.pdb

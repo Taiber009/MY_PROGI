@@ -1,0 +1,34 @@
+﻿<html>
+	<head>
+		<title>АЙАКС</title>
+	</head>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="http://yandex.st/jquery/2.0.3/jquery.min.js">
+		</script>
+	</head>
+	<body>
+		<b>Радиус шара: </b>
+		<input name="radius" value="0" size=20 id="radius">
+		<button id="baton">FUCK</button>
+		<br><br>
+		<div id="Placeholder"></div>
+		<script>
+		$(document).ready(function(){
+				$("#baton").click(
+					function(){
+						$.ajax({
+							url: 'Logic.php',
+							data: 'radius='+$('input[name="radius"]').val(),
+							dataType: 'html',
+							success: function(data){
+								$("#Placeholder").html(data);
+							}}
+						)
+					}
+				)
+			}
+		);
+		</script>
+	</body>
+</html>

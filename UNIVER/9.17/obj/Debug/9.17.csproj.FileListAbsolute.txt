@@ -1,0 +1,9 @@
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\9.17\bin\Debug\9.17.exe.config
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\9.17\bin\Debug\9.17.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\9.17\bin\Debug\9.17.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\9.17\obj\Debug\9.17.csprojResolveAssemblyReference.cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\9.17\obj\Debug\_9._17.Properties.Resources.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\9.17\obj\Debug\9.17.csproj.GenerateResource.Cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\9.17\obj\Debug\9.17.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\9.17\obj\Debug\9.17.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\9.17\obj\Debug\_9._17.Proga.resources

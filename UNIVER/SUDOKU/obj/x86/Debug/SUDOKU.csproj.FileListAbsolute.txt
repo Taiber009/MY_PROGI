@@ -1,0 +1,9 @@
+P:\GitHubDesktop\Repo\ProjectSudoku\SUDOKU\bin\Debug\EXAMPLE2010.exe
+P:\GitHubDesktop\Repo\ProjectSudoku\SUDOKU\bin\Debug\EXAMPLE2010.pdb
+P:\GitHubDesktop\Repo\ProjectSudoku\SUDOKU\obj\x86\Debug\SUDOKU.csprojResolveAssemblyReference.cache
+P:\GitHubDesktop\Repo\ProjectSudoku\SUDOKU\obj\x86\Debug\SUDOKU.DifficultyForm.resources
+P:\GitHubDesktop\Repo\ProjectSudoku\SUDOKU\obj\x86\Debug\SUDOKU.SudokuForm.resources
+P:\GitHubDesktop\Repo\ProjectSudoku\SUDOKU\obj\x86\Debug\SUDOKU.Properties.Resources.resources
+P:\GitHubDesktop\Repo\ProjectSudoku\SUDOKU\obj\x86\Debug\SUDOKU.csproj.GenerateResource.Cache
+P:\GitHubDesktop\Repo\ProjectSudoku\SUDOKU\obj\x86\Debug\EXAMPLE2010.exe
+P:\GitHubDesktop\Repo\ProjectSudoku\SUDOKU\obj\x86\Debug\EXAMPLE2010.pdb

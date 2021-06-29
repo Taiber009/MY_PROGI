@@ -1,0 +1,1634 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://esate.ru/uroki/OpenGL/image_processing/_p4106/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" class="bx-core bx-no-touch bx-no-retina bx-chrome mdl-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=1280">
+
+<link rel="shortcut icon" href="http://esate.ru/favicon.ico" type="image/x-icon">
+<link rel="icon" href="http://esate.ru/favicon.ico" type="image/x-icon">
+    
+<script type="text/javascript" async="" src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/watch.js.Без названия"></script><script src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/jquery-1.7.2.min.js.Без названия" language="javascript" type="text/javascript"></script><style type="text/css">:root .banner_box,
+:root .adv
+{display:none !important;}</style>
+<link href="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/css" rel="stylesheet" type="text/css">
+
+<meta name="keywords" content="Графические фильтры на основе попиксельной обработки изображений (Часть 2)">
+<meta name="description" content="Графические фильтры на основе попиксельной обработки изображений (Часть 2)">
+<link href="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/kernel_main.css" type="text/css" rel="stylesheet">
+<link href="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/page_120b117b650ab8f3236ab308316c5500.css" type="text/css" rel="stylesheet">
+<link href="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/template_75ae87dfb482624d48506cd62ee1948b.css" type="text/css" data-template-style="true" rel="stylesheet">
+<link href="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/popup.min.css" type="text/css" data-template-style="true" rel="stylesheet">
+<script type="text/javascript">if(!window.BX)window.BX={message:function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1481990527','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'b314f2c21d86390c0228eabb8da24f62'});</script>
+
+
+<script type="text/javascript" src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/kernel_main.js.Без названия"></script>
+<script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core.js?146264487570997','/bitrix/js/main/core/core_ajax.js?146264484620978','/bitrix/js/main/json/json2.min.js?14234231783467','/bitrix/js/main/core/core_ls.js?14427393257365','/bitrix/js/main/session.js?14427393212511','/bitrix/js/main/core/core_window.js?146264487574754','/bitrix/js/main/core/core_fx.js?14427393219592','/bitrix/js/main/core/core_popup.js?146264474831170','/bitrix/js/main/rating_like.js?14626448507611','/bitrix/js/main/utils.js?144273932119858','/bitrix/js/main/core/core_date.js?146264484934276','/bitrix/js/main/core/core_autosave.js?14427394486561','/bitrix/js/main/core/core_dd.js?14626448452188','/bitrix/js/main/core/core_timer.js?14427393214311','/bitrix/js/main/dd.js?146264487511084','/bitrix/templates/esate_v2/js/jMenu.jquery.min.js?14234231522845','/bitrix/templates/esate_v2/js/jquery-ui.js?14234231528662','/bitrix/templates/esate_v2/js/esate2.js?14234231524570','/core/core.js?14234231866503','/core/auth.js?142843928023759','/bitrix/templates/esate_v2/js/prism.js?142342315220411','/bitrix/templates/.default/components/bitrix/search.suggest.input/seacrh_form_main/script.js?142342315112644','/core/socialservices/ss.js?14234231861419']); </script>
+<script type="text/javascript">BX.setCSSList(['/bitrix/js/main/core/css/core.css?14427393212854','/bitrix/js/main/core/css/core_popup.css?146264475033075','/bitrix/js/main/core/css/core_date.css?14427394489689','/bitrix/templates/esate_v2/components/esate/news.detail/windows7/style.css?14234231524145','/bitrix/templates/esate_v2/components/bitrix/forum.topic.reviews/articles/style.css?142342315217481','/bitrix/templates/esate_v2/prism.css?14234231525227','/bitrix/templates/esate_v2/animate.css?142342315248522','/bitrix/templates/.default/components/bitrix/search.suggest.input/seacrh_form_main/style.css?1423423151501','/bitrix/templates/esate_v2/components/bitrix/breadcrumb/breadCrumbMain/style.css?14234231521193','/bitrix/templates/esate_v2/components/bitrix/news.list/right-col-list/style.css?1423423152108','/bitrix/templates/esate_v2/components//bitrix/system.pagenavigation/esate/style.css?1423423152703','/bitrix/templates/esate_v2/components/bitrix/forum/forum-3-1/style.css?142342315219392','/bitrix/templates/esate_v2/components/bitrix/forum/forum-3-1/themes/blue/style.css?14444848089999','/bitrix/templates/esate_v2/add-social.css?144728031321456','/core/socialservices/css/ss.css?14234231865017','/bitrix/templates/esate_v2/styles.css?14234231521075','/bitrix/templates/esate_v2/template_styles.css?144275513224675']); </script>
+<script type="text/javascript">var bxDate = new Date(); document.cookie="BITRIX_SM_TIME_ZONE="+bxDate.getTimezoneOffset()+"; path=/; expires=Fri, 01-Jan-2038 00:00:00 GMT"</script>
+<link href="http://esate.ru/uroki/OpenGL/image_processing/_p4106/" rel="canonical">
+
+
+
+<script type="text/javascript" src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/template_0a270ec668a75cc79c24b0ff666bd620.js.Без названия"></script>
+<script type="text/javascript">
+bxSession.Expand(1440, 'b314f2c21d86390c0228eabb8da24f62', false, '72868d51db643b6277018262423295a0');
+</script>
+
+
+<title>1.2 Графические фильтры: изменение яркости и контрастности изображения</title>
+
+
+<!-- <script src="/bitrix/templates/esate_v2/cs3/idangerous.chopslider-3.4.min.js" language="javascript" type="text/javascript" ></script>-->
+
+<link rel="stylesheet" href="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/core.css">
+
+<style>
+.cs3 {
+	width: 1130px;
+	height: 200px;
+}
+</style>
+
+<style type="text/css" id="ya_share_style">.b-share-popup-wrap{z-index:1073741823;position:absolute;width:500px}.b-share-popup{position:absolute;z-index:1073741823;border:1px solid #888;background:#FFF;color:#000}.b-share-popup-wrap .b-share-popup_down{top:0}.b-share-popup-wrap .b-share-popup_up{bottom:0}.b-share-popup-wrap_state_hidden{position:absolute!important;top:-9999px!important;right:auto!important;bottom:auto!important;left:-9999px!important;visibility:hidden!important}.b-share-popup,x:nth-child(1){border:0;padding:1px!important}@media all and (resolution=0){.b-share-popup,x:nth-child(1),x:-o-prefocus{padding:0!important;border:1px solid #888}}.b-share-popup__i{display:-moz-inline-box;display:inline-block;padding:5px 0!important;overflow:hidden;vertical-align:top;white-space:nowrap;visibility:visible;background:#FFF;-webkit-box-shadow:0 2px 9px rgba(0,0,0,.6);-moz-box-shadow:0 2px 9px rgba(0,0,0,.6);box-shadow:0 2px 9px rgba(0,0,0,.6)}.b-share-popup__item{font:1em/1.25em Arial,sans-serif;display:block;padding:5px 15px!important;white-space:nowrap;background:#FFF}.b-share-popup__item,a.b-share-popup__item:link,a.b-share-popup__item:visited{text-decoration:none!important;border:0!important}a.b-share-popup__item{cursor:pointer}a.b-share-popup__item .b-share-popup__item__text{display:inline;text-decoration:underline;color:#1A3DC1}a.b-share-popup__item:hover{word-spacing:0}a.b-share-popup__item:hover .b-share-popup__item__text{color:red;cursor:pointer}.b-share-popup__icon{display:-moz-inline-box;display:inline-block;margin:-3px 0 0;padding:0 5px 0 0!important;vertical-align:middle}.b-share-popup__icon_input{width:21px;height:16px;margin-top:-6px;padding:0!important}.b-share-popup__icon__input{margin-right:0;margin-left:2px;vertical-align:top}.b-share-popup__spacer{display:block;padding-top:10px!important}.b-share-popup__header{font:86%/1em Verdana,sans-serif;display:block;padding:10px 15px 5px!important;color:#999}.b-share-popup__header_first{padding-top:5px!important}.b-share-popup__input{font:86%/1em Verdana,sans-serif;display:block;padding:5px 15px!important;color:#999;text-align:left}.b-share-popup__input__input{font:1em/1em Verdana,sans-serif;display:block;width:10px;margin:5px 0 0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;resize:none;text-align:left;direction:ltr}.b-share-popup_down .b-share-popup_with-link .b-share-popup__input_link{position:absolute;top:5px;right:0;left:0}.b-share-popup_up .b-share-popup_with-link .b-share-popup__input_link{position:absolute;right:0;bottom:5px;left:0}.b-share-popup_down .b-share-popup_with-link{padding-top:55px!important}.b-share-popup_up .b-share-popup_with-link{padding-bottom:55px!important}.b-share-popup_down .b-share-popup_expandable .b-share-popup__main{padding-bottom:25px!important}.b-share-popup_up .b-share-popup_expandable .b-share-popup__main{padding-top:25px!important}.b-share-popup_down .b-share-popup_yandexed{padding-bottom:10px!important}.b-share-popup_up .b-share-popup_yandexed{padding-top:10px!important}.b-share-popup__yandex{position:absolute;right:4px;bottom:2px;font:78.125%/1em Verdana,sans-serif;padding:3px!important;background:0 0}a.b-share-popup__yandex:link,a.b-share-popup__yandex:visited{color:#C6C5C5;text-decoration:none}a.b-share-popup__yandex:link:hover,a.b-share-popup__yandex:visited:hover{color:red;text-decoration:underline}.b-share-popup_up .b-share-popup__yandex{top:2px;bottom:auto}.b-share-popup_expandable .b-share-popup__yandex{right:auto;left:4px}.b-share-popup_to-right .b-share-popup_expandable .b-share-popup__yandex{right:4px;left:auto}.b-share-popup__expander .b-share-popup__item{position:absolute;bottom:5px;font:86%/1em Verdana,sans-serif;margin:10px 0 0;padding:5px 10px!important;cursor:pointer;color:#999;background:0 0}.b-share-popup_to-right,.b-share-popup_to-right .b-share-popup__expander{direction:rtl}.b-share-popup_to-right .b-share-popup__expander .b-share-popup__icon{padding:0 0 0 5px!important}.b-share-popup_up .b-share-popup__expander .b-share-popup__item{top:-5px;bottom:auto}.b-share-popup__expander .b-share-popup__item:hover .b-share-popup__item__text{text-decoration:underline}.b-share-popup__expander .b-ico_action_rarr,.b-share-popup_to-right .b-share-popup__expander .b-ico_action_larr,.b-share-popup_full .b-share-popup__expander .b-ico_action_larr,.b-share-popup_to-right .b-share-popup_full .b-share-popup__expander .b-ico_action_rarr,.b-share-popup__expander .b-share-popup__item__text_collapse,.b-share-popup_full .b-share-popup__item__text_expand{display:none}.b-share-popup_to-right .b-share-popup__expander .b-ico_action_rarr,.b-share-popup_full .b-share-popup__item__text_collapse,.b-share-popup_full .b-share-popup__expander .b-ico_action_rarr,.b-share-popup_to-right .b-share-popup_full .b-share-popup__expander .b-ico_action_larr{display:inline}.b-ico_action_rarr,.b-ico_action_larr{width:8px;height:7px;border:0}.b-share-popup__main,.b-share-popup__extra{direction:ltr;vertical-align:bottom;text-align:left}.b-share-popup_down .b-share-popup__main,.b-share-popup_down .b-share-popup__extra{vertical-align:top}.b-share-popup__main{display:-moz-inline-stack;display:inline-block}.b-share-popup__extra{display:none;margin:0 -10px 0 0}.b-share-popup_full .b-share-popup__extra{display:-moz-inline-stack;display:inline-block}.b-share-popup_to-right .b-share-popup__extra{margin:0 0 0 -10px}.b-share-popup__tail{position:absolute;width:21px;height:10px;margin:0 0 0 -11px}.b-share-popup_down .b-share-popup__tail{top:-10px;background:url("//yastatic.net/share/static/b-share-popup_down__tail.gif") 0 0 no-repeat}.b-share-popup_up .b-share-popup__tail{bottom:-10px;background:url("//yastatic.net/share/static/b-share-popup_up__tail.gif") 0 0 no-repeat}.b-share-popup_down .b-share-popup__tail,x:nth-child(1){top:-9px;background-image:url("//yastatic.net/share/static/b-share-popup_down__tail.png")}.b-share-popup_up .b-share-popup__tail,x:nth-child(1){bottom:-9px;background-image:url("//yastatic.net/share/static/b-share-popup_up__tail.png")}@media all and (resolution=0){.b-share-popup_down .b-share-popup__tail,x:nth-child(1),x:-o-prefocus{top:-10px;background-image:url("//yastatic.net/share/static/b-share-popup_down__tail.gif")}.b-share-popup_up .b-share-popup__tail,x:nth-child(1),x:-o-prefocus{bottom:-10px;background-image:url("//yastatic.net/share/static/b-share-popup_up__tail.gif")}}.b-share-popup .b-share-popup_show_form_mail,.b-share-popup .b-share-popup_show_form_html{padding:0!important}.b-share-popup .b-share-popup_show_form_mail .b-share-popup__main,.b-share-popup .b-share-popup_show_form_html .b-share-popup__main,.b-share-popup .b-share-popup_show_form .b-share-popup__main,.b-share-popup .b-share-popup_show_form_mail .b-share-popup__extra,.b-share-popup .b-share-popup_show_form_html .b-share-popup__extra,.b-share-popup .b-share-popup_show_form .b-share-popup__extra{height:15px;padding:0!important;overflow:hidden;visibility:hidden}.b-share-popup_show_form_mail .b-share-popup__expander,.b-share-popup_show_form_html .b-share-popup__expander,.b-share-popup_show_form .b-share-popup__expander,.b-share-popup_show_form_mail .b-share-popup__input_link,.b-share-popup_show_form_html .b-share-popup__input_link,.b-share-popup_show_form .b-share-popup__input_link{display:none}.b-share-popup__form{position:relative;display:none;overflow:hidden;padding:5px 0 0!important;margin:0 0 -15px;white-space:normal}.b-share-popup_show_form_mail .b-share-popup__form_mail,.b-share-popup_show_form_html .b-share-popup__form_html,.b-share-popup_show_form .b-share-popup__form{display:block}.b-share-popup__form__link{padding:5px!important;margin:0 0 5px 10px;text-decoration:underline;cursor:pointer;color:#1A3DC1}.b-share-popup__form__link,.b-share-popup__form__button{font:86%/1.4545em Verdana,sans-serif;float:left;display:inline}.b-share-popup__form__button{margin:5px 0 0 15px}.b-share-popup__form__close{font:86%/1.4545em Verdana,sans-serif;float:right;display:inline;padding:5px!important;margin:0 10px 5px 0;cursor:pointer;color:#999}a.b-share-popup__form__link:hover,a.b-share-popup__form__close:hover{text-decoration:underline;color:red}.b-share-popup_font_fixed .b-share-popup__item{font-size:12.8px}.b-share-popup_font_fixed .b-share-popup__header,.b-share-popup_font_fixed .b-share-popup__input,.b-share-popup_font_fixed .b-share-popup__expander .b-share-popup__item,.b-share-popup_font_fixed .b-share-popup__form__link,.b-share-popup_font_fixed .b-share-popup__form__button,.b-share-popup_font_fixed .b-share-popup__form__close{font-size:11px}.b-share-popup_font_fixed .b-share-popup__yandex{font-size:10px}.b-share-form-button{font:86%/17px Verdana,Arial,sans-serif;display:-moz-inline-box;display:inline-block;position:relative;height:19px;margin:0 3px;padding:0 4px;cursor:default;white-space:nowrap;text-decoration:none!important;color:#000!important;border:none;outline:none;background:url("//yastatic.net/share/static/b-share-form-button.png") 0 -20px repeat-x}.b-share-form-button:link:hover,.b-share-form-button:visited:hover{color:#000!important}.b-share-form-button__before,.b-share-form-button__after{position:absolute;width:3px;height:19px;background:url("//yastatic.net/share/static/b-share-form-button.png")}.b-share-form-button__before{margin-left:-7px}.b-share-form-button__after{margin-left:4px;background-position:-3px 0}.b-share-form-button::-moz-focus-inner{border:none}button.b-share-form-button .b-share-form-button__before,button.b-share-form-button .b-share-form-button__after{margin-top:-1px}@-moz-document url-prefix(){button.b-share-form-button .b-share-form-button__after{margin-top:-2px;margin-left:6px}button.b-share-form-button .b-share-form-button__before{margin-top:-2px;margin-left:-9px}}SPAN.b-share-form-button:hover,.b-share-form-button_state_hover{background-position:0 -60px}SPAN.b-share-form-button:hover .b-share-form-button__before,.b-share-form-button_state_hover .b-share-form-button__before{background-position:0 -40px}SPAN.b-share-form-button:hover .b-share-form-button__after,.b-share-form-button_state_hover .b-share-form-button__after{background-position:-3px -40px}.b-share-form-button_state_pressed,.b-share-form-button_state_pressed .b-share-form-button_share{background-position:0 -100px!important}.b-share-form-button_state_pressed .b-share-form-button__before{background-position:0 -80px!important}.b-share-form-button_state_pressed .b-share-form-button__after{background-position:-3px -80px!important}button.b-share-form-button_state_pressed{overflow:visible}.b-share-form-button_icons{position:relative;padding:0;background-position:0 -20px!important}.b-share-form-button_icons .b-share-form-button__before{left:0;margin-left:-3px;background-position:0 0!important}.b-share-form-button_icons .b-share-form-button__after{z-index:-1;margin-left:0;background-position:-3px 0!important}.b-share-form-button_icons .b-share__handle{padding:2px!important}.b-share-form-button_icons .b-share__handle_more{position:relative;padding-right:6px!important;margin-right:-4px}.b-share-form-button_icons .b-share-icon{opacity:.5;background-image:url("//yastatic.net/share/static/b-share-icon_size_14.png")}.b-share-form-button_icons A.b-share__handle:hover .b-share-icon{opacity:1}.b-share{font:86%/1.4545em Arial,sans-serif;display:-moz-inline-box;display:inline-block;padding:1px 3px 1px 4px!important;vertical-align:middle}.b-share .b-share-form-button{font-size:1em}.b-share__text .b-share-icon{margin:0 5px 0 0;border:none}.b-share__text{margin-right:5px}.b-share__handle{float:left;height:16px;padding:5px 3px 5px 2px!important;cursor:pointer;text-align:left;text-decoration:none!important}.b-share__handle_cursor_default{cursor:default}.b-share__handle .b-share-form-button{margin-top:-2px}.b-share__hr{display:none;float:left;width:1px;height:26px;margin:0 3px 0 2px}a.b-share__handle:hover .b-share__text{text-decoration:underline;color:red}.b-share_bordered{padding:0 2px 0 3px!important;border:1px solid #E4E4E4;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}.b-share_bordered .b-share__hr{display:inline;background:#E4E4E4}.b-share_link{margin:-8px 0}a.b-share_link{margin:0}.b-share_link .b-share__text{text-decoration:underline;color:#1A3DC1}.b-share-form-button_share{padding-left:26px!important;vertical-align:top}.b-share-form-button_share .b-share-form-button__before{margin-left:-29px}.b-share-form-button_share .b-share-form-button__icon{position:absolute;width:20px;height:17px;margin:1px 0 0 -23px;background:url("//yastatic.net/share/static/b-share-form-button_share__icon.png") 0 0 no-repeat}.b-share-pseudo-link{border-bottom:1px dotted;cursor:pointer;text-decoration:none!important}.b-share_font_fixed{font-size:11px}.b-share__handle_more{font-size:9px;margin-top:-1px;color:#7B7B7B}A.b-share__handle_more:hover{color:#000}.b-share__group{float:left}.b-share-icon{float:left;display:inline;overflow:hidden;width:16px;height:16px;padding:0!important;vertical-align:top;border:0;background:url("//yastatic.net/share/static/b-share-icon.png") 0 99px no-repeat}.b-share-icon_vkontakte,.b-share-icon_custom{background-position:0 0}.b-share-icon_yaru,.b-share-icon_yaru_photo,.b-share-icon_yaru_wishlist{background-position:0 -17px}.b-share-icon_lj{background-position:0 -34px}.b-share-icon_twitter{background-position:0 -51px}.b-share-icon_facebook{background-position:0 -68px}.b-share-icon_moimir{background-position:0 -85px}.b-share-icon_friendfeed{background-position:0 -102px}.b-share-icon_mail{background-position:0 -119px}.b-share-icon_html{background-position:0 -136px}.b-share-icon_postcard{background-position:0 -153px}.b-share-icon_odnoklassniki{background-position:0 -170px}.b-share-icon_blogger{background-position:0 -187px}.b-share-icon_delicious{background-position:0 -221px}.b-share-icon_gbuzz{background-position:0 -238px}.b-share-icon_linkedin{background-position:0 -255px}.b-share-icon_myspace{background-position:0 -272px}.b-share-icon_evernote{background-position:0 -289px}.b-share-icon_digg{background-position:0 -306px}.b-share-icon_juick{background-position:0 -324px}.b-share-icon_moikrug{background-position:0 -341px}.b-share-icon_yazakladki{background-position:0 -358px}.b-share-icon_liveinternet{background-position:0 -375px}.b-share-icon_tutby{background-position:0 -392px}.b-share-icon_diary{background-position:0 -409px}.b-share-icon_gplus{background-position:0 -426px}.b-share-icon_pocket{background-position:0 -443px}.b-share-icon_surfingbird{background-position:0 -460px}.b-share-icon_pinterest{background-position:0 -477px}.b-share-icon_renren{background-position:0 0}.b-share-icon_renren,.b-share-icon_sina_weibo{background:url("//yastatic.net/share/static/b-share-icon__china.png") no-repeat}.b-share-icon_sina_weibo{background-position:-18px 0}.b-share-icon_qzone{background-position:-36px 0}.b-share-icon_qzone,.b-share-icon_tencent_weibo{background:url("//yastatic.net/share/static/b-share-icon__china.png") no-repeat}.b-share-icon_tencent_weibo{background-position:-54px 0}.b-share_theme_dark .b-share-icon{background:url("//yastatic.net/share/static/b-share-icons__theme_dark.png") 99px 0 no-repeat}.b-share_theme_dark .b-share-icon_odnoklassniki{background-position:-4px -3px}.b-share_theme_dark .b-share-icon_vkontakte{background-position:-24px -3px}.b-share_theme_dark .b-share-icon_twitter{background-position:-44px -3px}.b-share_theme_dark .b-share-icon_facebook{background-position:-64px -3px}.b-share_theme_dark .b-share-icon_lj{background-position:-85px -3px}.b-share_theme_dark .b-share-icon_yaru{background-position:-105px -3px}.b-share_theme_dark .b-share-popup .b-share-icon_odnoklassniki,.b-share_theme_dark .b-share-icon_odnoklassniki:hover{background-position:-4px -28px}.b-share_theme_dark .b-share-popup .b-share-icon_vkontakte,.b-share_theme_dark .b-share-icon_vkontakte:hover{background-position:-24px -28px}.b-share_theme_dark .b-share-popup .b-share-icon_twitter,.b-share_theme_dark .b-share-icon_twitter:hover{background-position:-44px -28px}.b-share_theme_dark .b-share-popup .b-share-icon_facebook,.b-share_theme_dark .b-share-icon_facebook:hover{background-position:-64px -28px}.b-share_theme_dark .b-share-popup .b-share-icon_lj,.b-share_theme_dark .b-share-icon_lj:hover{background-position:-85px -28px}.b-share_theme_dark .b-share-popup .b-share-icon_yaru,.b-share_theme_dark .b-share-icon_yaru:hover{background-position:-105px -28px}.b-share_theme_dark .b-share-form-button_share .b-share-form-button__icon{background-image:url("//yastatic.net/share/static/b-share-form-button_share__icon_dark.png")}.b-share_theme_dark .b-share-form-button{color:#fff!important;opacity:.8}.b-share_theme_dark .b-share__handle:hover .b-share-form-button,.b-share_theme_dark .b-share-form-button:hover{opacity:1;cursor:pointer}.b-share_theme_dark .b-share-form-button,.b-share_theme_dark .b-share-form-button__before,.b-share_theme_dark .b-share-form-button__after{background:0 0}.b-share_theme_dark .b-share-popup__i{background-color:#333;border-radius:10px;-webkit-box-shadow:0 2px 9px rgba(255,255,255,.6);-moz-box-shadow:0 2px 9px rgba(255,255,255,.6);box-shadow:0 2px 9px rgba(255,255,255,.6)}.b-share_theme_dark .b-share__text{color:#AAA}.b-share_theme_dark .b-share-popup{color:#AAA;border-radius:10px;background-color:#333;background-color:rgba(50,50,50,.3)}.b-share_theme_dark .b-share-popup__item{background:0 0;color:#ccc}.b-share_theme_dark .b-share-popup .b-share-popup__item__text{color:#ccc}.b-share_theme_counter .b-share{display:inline-block;vertical-align:middle;white-space:nowrap}.b-share-counter{font:14px Arial,sans-serif;line-height:18px;display:none;float:left;margin:3px 6px 3px 3px;color:#fff}.b-share_theme_counter .b-share_type_small .b-share-counter{font-size:11px;line-height:14px;margin:2px 6px 2px 1px}.b-share_theme_counter .b-share-btn__counter .b-share-counter{display:block}.b-share-btn__counter{text-decoration:none}.b-share_theme_counter .b-share-btn__wrap{position:relative;float:left;margin-left:5px}.b-share_theme_counter .b-share_type_small .b-share-btn__wrap{margin-left:4px}.b-share_theme_counter .b-share-btn__wrap:first-child{margin-left:0}.b-share_theme_counter .b-share__link{display:inline-block;cursor:pointer;-webkit-border-radius:3px;border-radius:3px}.b-share_theme_counter .b-share_type_small .b-share__link{-webkit-border-radius:2px;border-radius:2px}.b-share_theme_counter .b-share-icon{display:block;float:left;width:24px;height:24px;background-image:url("//yastatic.net/share/static/b-share_counter_large.png");background-position:-20px 0}.b-share_theme_counter .b-share_type_small .b-share-icon{width:18px;height:18px;background-image:url("//yastatic.net/share/static/b-share_counter_small.png")}.b-share_theme_counter .b-share-icon_facebook{background-position:0 0}.b-share_theme_counter .b-share-btn__facebook{background-color:#3c5a98}.b-share_theme_counter .b-share-btn__facebook:hover{background-color:#30487a}.b-share_theme_counter .b-share-btn__facebook:active{border-top:2px solid #24365a;background-color:#334d81}.b-share_theme_counter .b-share-icon_moimir{background-position:0 -29px}.b-share_theme_counter .b-share-btn__moimir{background-color:#226eb7}.b-share_theme_counter .b-share-btn__moimir:hover{background-color:#1b5892}.b-share_theme_counter .b-share-btn__moimir:active{border-top:2px solid #14426d;background-color:#1d5e9c}.b-share_theme_counter .b-share-icon_vkontakte{background-position:0 -58px}.b-share_theme_counter .b-share-btn__vkontakte{background-color:#48729e}.b-share_theme_counter .b-share-btn__vkontakte:hover{background-color:#3a5b7e}.b-share_theme_counter .b-share-btn__vkontakte:active{border-top:2px solid #2b445e;background-color:#3d6186}.b-share_theme_counter .b-share-icon_twitter{background-position:0 -87px}.b-share_theme_counter .b-share-btn__twitter{background-color:#00aced}.b-share_theme_counter .b-share-btn__twitter:hover{background-color:#008abe}.b-share_theme_counter .b-share-btn__twitter:active{border-top:2px solid #00668d;background-color:#0092ca}.b-share_theme_counter .b-share-icon_odnoklassniki{background-position:0 -116px}.b-share_theme_counter .b-share-btn__odnoklassniki{background-color:#ff9f4d}.b-share_theme_counter .b-share-btn__odnoklassniki:hover{background-color:#cc7f3e}.b-share_theme_counter .b-share-btn__odnoklassniki:active{border-top:2px solid #975e2e;background-color:#d98742}.b-share_theme_counter .b-share-icon_gplus{background-position:0 -145px}.b-share_theme_counter .b-share-btn__gplus{background-color:#c25234}.b-share_theme_counter .b-share-btn__gplus:hover{background-color:#9b422a}.b-share_theme_counter .b-share-btn__gplus:active{border-top:2px solid #73311f;background-color:#a5462c}.b-share_theme_counter .b-share-icon_yaru{background-position:0 -174px}.b-share_theme_counter .b-share-btn__yaru{background-color:#d83933}.b-share_theme_counter .b-share-btn__yaru:hover{background-color:#ad2e29}.b-share_theme_counter .b-share-btn__yaru:active{border-top:2px solid #80221e;background-color:#b8312b}.b-share_theme_counter .b-share-icon_pinterest{background-position:0 -203px}.b-share_theme_counter .b-share-btn__pinterest{background-color:#cd1e27}.b-share_theme_counter .b-share-btn__pinterest:hover{background-color:#a4181f}.b-share_theme_counter .b-share-btn__pinterest:active{border-top:2px solid #7b1217;background-color:#ae1921}.b-share_theme_counter .b-share__link:active{height:22px}.b-share_theme_counter .b-share_type_small .b-share__link:active{height:16px}.b-share_theme_counter .b-share__link:active .b-share-icon,.b-share_theme_counter .b-share__link:active .b-share-counter{position:relative;top:-1px}.b-share_theme_counter .b-share__link::after{position:absolute;top:0;right:0;bottom:0;left:0;content:"";background-image:url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)}.b-share_theme_counter .b-share__handle{height:auto;padding:0!important}</style><style type="text/css">/*.lleo_errorSelection *::-moz-selection,
+.lleo_errorSelection *::selection,
+.lleo_errorSelection *::-webkit-selection {
+    background-color: red !important;
+    color: #fff !important;;
+}*/
+
+#lleo_dialog,
+#lleo_dialog * {
+    color: #000 !important;
+    font: normal 13px Arial, Helvetica !important;
+    line-height: 15px !important;
+    margin: 0 !important;
+	padding: 0 !important;
+	background: none !important;
+	border: none 0 !important;
+	position: static !important;
+	vertical-align: baseline !important;
+	overflow: visible !important;
+	width: auto !important;
+	height: auto !important;
+    max-width: none !important;
+    max-height: none !important;
+	float: none !important;
+	visibility: visible !important;
+	text-align: left !important;
+    text-transform: none !important;
+	border-collapse: separate !important;
+	border-spacing: 2px !important;
+    box-sizing: content-box !important;
+    box-shadow: none !important;
+    opacity: 1 !important;
+    text-shadow: none !important;
+    letter-spacing: normal !important;
+    -webkit-filter: none !important;
+    -moz-filter: none !important;
+    filter: none !important;
+}
+#lleo_dialog *:before,
+#lleo_dialog *:after {
+    content: '';
+}
+
+#lleo_dialog iframe {
+	height: 0 !important;
+	width: 0 !important;
+}
+
+#lleo_dialog {
+    position: absolute !important;
+    background: #fff !important;
+    border: solid 1px #ccc !important;
+    padding: 7px 0 0 !important;
+    left: -999px;
+    top: -999px;
+    width: 440px !important;
+    overflow: hidden;
+    display: block !important;
+    z-index: 999999999 !important;
+    box-shadow: 8px 16px 30px rgba(0, 0, 0, 0.16) !important;
+    border-radius: 3px !important;
+    opacity: 0 !important;
+    -webkit-transform: translateY(15px);
+    -moz-transform: translateY(15px);
+    -ms-transform: translateY(15px);
+    -o-transform: translateY(15px);
+    transform: translateY(15px);
+}
+#lleo_dialog.lleo_show_small {
+    width: 150px !important;
+}
+#lleo_dialog.lleo_show {
+    opacity: 1 !important;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s !important;
+    -moz-transition: -moz-transform 0.3s, opacity 0.3s !important;
+    -ms-transition: -ms-transform 0.3s, opacity 0.3s !important;
+    -o-transition: -o-transform 0.3s, opacity 0.3s !important;
+    transition: transform 0.3s, opacity 0.3s !important;
+}
+#lleo_dialog.lleo_collapse {
+    opacity: 0 !important;
+    -webkit-transform: scale(0.25, 0.1) translate(-550px, 100px);
+    -moz-transform: scale(0.25, 0.1) translate(-550px, 100px);
+    -ms-transform: scale(0.25, 0.1) translate(-550px, 100px);
+    -o-transform: scale(0.25, 0.1) translate(-550px, 100px);
+    transform: scale(0.25, 0.1) translate(-550px, 100px);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.4s !important;
+    -moz-transition: -moz-transform 0.4s, opacity 0.4s !important;
+    -ms-transition: -ms-transform 0.4s, opacity 0.4s !important;
+    -o-transition: -o-transform 0.4s, opacity 0.4s !important;
+    transition: transform 0.4s, opacity 0.4s !important;
+}
+#lleo_dialog input::-webkit-input-placeholder {
+    color: #aaa !important;
+}
+#lleo_dialog .lleo_has_pic #lleo_word {
+	margin-right: 80px !important;
+}
+#lleo_dialog #lleo_translationsContainer1 {
+	position: relative !important;
+}
+#lleo_dialog #lleo_translationsContainer2 {
+	padding: 7px 0 0 !important;
+	vertical-align: middle !important;
+}
+#lleo_dialog #lleo_word {
+    color: #000 !important;
+    margin: 0 5px 2px 0 !important;
+    /*float: left !important;*/
+}
+#lleo_dialog .lleo_has_sound #lleo_word {
+    margin-left: 30px !important;
+}
+#lleo_dialog #lleo_text {
+    font-weight: bold !important;
+    color: #d56e00 !important;
+    text-decoration: none !important;
+    cursor: default !important;
+}
+/*
+#lleo_dialog #lleo_text.lleo_known {
+    cursor: pointer !important;
+    text-decoration: underline !important;
+}
+*/
+/*#lleo_dialog #lleo_closeBtn {
+    position: absolute !important;
+    right: 6px !important;
+    top: 5px !important;
+    line-height: 1px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    font-size: 0 !important;
+    color: #aaa !important;
+    display: block !important;
+	z-index: 9999999999 !important;
+	width: 7px !important;
+	height: 7px !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}*/
+
+#lleo_dialog #lleo_optionsBtn {
+    position: absolute !important; 
+    right: 3px !important;
+    top: 5px !important;
+    line-height: 1px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    font-size: 13px !important;
+    color: #aaa !important;
+    padding: 2px !important;
+	display: none;
+}
+    #lleo_dialog.lleo_optionsShown #lleo_optionsBtn {
+        display: block !important;
+    }
+    #lleo_dialog #lleo_optionsBtn img {
+        width: 12px !important;
+        height: 12px !important;
+    }
+#lleo_dialog #lleo_sound {
+    float: left !important;
+    width: 16px !important;
+    height: 16px !important;
+    margin-left: 9px !important;
+    margin-right: 3px !important;
+    background: 0 0 no-repeat !important;
+    cursor: pointer !important;
+    display: none !important;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAfNJREFUeNq0U01IVFEU/u57Oo5WhBRIBBptykWLYBa2soWiEKQQEbrSFsGbVRQKQc2iFqGitXqvjQxCoCJCqyI0aBUtZILaJNUuYWYWo8HovJ/707nP94bnz0rxwvfOuefd8517fi5TSuE4i50YwZ3l37ZhNlpgzFkaaM/G9sHF1YskNrT+7l4PjMOcb78t2JL71uxgB+2UlfxHTtq5N94fIOh/88kWgWfl73ZCSQkpeGg3H091JY6dI2S00qA/N3KO3dDUYhFgEmZGurG+w9FqApIHsVM7kaTF9Nhn0r8Q7hPWQgIRuNaH3AMUA4W/Lkdh04cpFS43G0TgxQTvCdMETVAk3KynIHwXZU/ge8XDt7KH9bKLjU0P2zVO5LsEpSejVRJ9UR18EtfqKegovs9R3Q6w9c/H1o4Aa2Jwm1lIvn9RJ4w9RdRRzqcYrpwycCll4Cy1lnkS3Bc6vfBg28v8aRIfI78zhB/1GygROH3jLyyzMQ0zlUZuZBSlKkeLoegGtTjYLcJ8pF+NakHOFC2J6w+f25mxSfWrWFF/ShXVPTGvtN14NNkVnxlYWJkgZEL7/vwKr55lKSVnaGYWkuYgrgG172uUv47+U7fw0EHaJXmalUQy/HqO6lBzEsVjJC4Q8kd6TETQpjuaGOvjv8b/AgwA/ij1XMx58NIAAAAASUVORK5CYII=) !important;
+}
+#lleo_dialog .lleo_has_sound #lleo_sound {
+    display: block !important;
+}
+
+#lleo_dialog #lleo_soundWave {
+    border: solid 5px #4495CC !important;
+    border-radius: 5px !important;
+    position: absolute !important;
+    left: -5px !important;
+    top: -5px !important;
+    right: -5px !important;
+    bottom: -5px !important;
+    z-index: 0 !important;
+    opacity: 0.9 !important;
+    display: none !important;
+}
+    #lleo_dialog #lleo_soundWave.lleo_beforePlaying {
+        display: block !important;
+    }
+    #lleo_dialog #lleo_soundWave.lleo_playing {
+        opacity: 0 !important;
+        border-width: 20px !important;
+        border-radius: 30px !important;
+
+        -webkit-transform: scale(1.07,1.1) !important;
+        -moz-transform: scale(1.07,1.1) !important;
+        -ms-transform: scale(1.07,1.1) !important;
+        transform: scale(1.07,1.1) !important;
+
+        -webkit-transition: all 0.6s !important;
+        -moz-transition: all 0.6s !important;
+        -ms-transition: all 0.6s !important;
+        transition: all 0.6s !important;
+    }
+
+
+#lleo_dialog #lleo_picOuter {
+    position: absolute !important;
+    float: right !important;
+    top: 4px;
+    right: 5px;
+    z-index: 9 !important;
+    display: none !important;
+    width: 100px !important;
+}
+    #lleo_dialog.lleo_optionsShown #lleo_picOuter {
+        right: 25px;
+    }
+#lleo_dialog .lleo_has_pic #lleo_picOuter {
+    display: block !important;
+}
+    #lleo_dialog #lleo_picOuter:hover {
+        width: auto !important;
+        z-index: 11 !important;
+    }
+#lleo_dialog #lleo_pic,
+#lleo_dialog #lleo_picBig {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    border: solid 2px #fff !important;
+    -webkit-border-radius: 2px !important;
+    -moz-border-radius: 2px !important;
+	border-radius: 2px !important;
+    z-index: 1 !important;
+}
+#lleo_dialog #lleo_pic {
+	position: relative !important;
+    border: none !important;
+	width: 30px !important;
+}
+#lleo_dialog #lleo_picBig {
+    box-shadow: -1px 2px 4px rgba(0,0,0,0.3);
+    z-index: 2 !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+    #lleo_dialog #lleo_picOuter:hover #lleo_picBig {
+        visibility: visible !important;
+        opacity: 1 !important;
+        -webkit-transition: opacity 0.3s !important;
+        -webkit-transition-delay: 0.3s !important;
+    }
+#lleo_dialog #lleo_transcription {
+    margin: 0 80px 4px 31px !important;
+    color: #aaaaaa !important;
+}
+#lleo_dialog .lleo_no_trans {
+    color: #aaa !important;
+}
+
+#lleo_dialog .ll-translation-counter {
+	float: right !important;
+    font-size: 11px !important;
+    color: #aaa !important;
+    padding: 2px 2px 1px 10px !important;
+}
+
+#lleo_dialog .ll-translation-text {
+	float: left !important;
+	/*width: 80% !important;*/
+}
+
+#lleo_dialog #lleo_trans a {
+    color: #3F669F !important;
+    text-decoration: none !important;
+    text-overflow: ellipsis !important;
+    padding: 1px 4px !important;
+    overflow: hidden !important;
+    float: left !important;
+    width: 320px !important;
+}
+
+#lleo_dialog .ll-translation-item {
+    color: #3F669F !important;
+    border: solid 1px #fff !important;
+    padding: 3px !important;
+    width: 100% !important;
+    float: left !important;
+	-moz-border-radius: 2px !important;
+	-webkit-border-radius: 2px !important;
+	border-radius: 2px !important;
+}
+
+#lleo_dialog .ll-translation-item:hover {
+	border: solid 1px #9FC2C9 !important;
+    background: #EDF4F6 !important;
+	cursor: pointer !important;
+}
+#lleo_dialog .ll-translation-item:hover .ll-translation-counter {
+	color: #83a0a6 !important;
+}
+
+#lleo_dialog .ll-translation-marker {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAWSURBVBhXY7RPm/+fAQkwIXNAbMICAJQ8AkvqWg/SAAAAAElFTkSuQmCC) !important;
+    display: inline-block !important;
+    width: 4px !important;
+    height: 4px !important;
+    margin: 7px 5px 2px 2px !important;
+    float: left !important;
+}
+
+#lleo_dialog #lleo_icons {
+    color: #aaa !important;
+    font-size: 11px !important;
+    background: #f8f8f8 !important;
+    padding: 10px 10px 10px 16px !important;
+}
+#lleo_icons a {
+    display: inline-block !important;
+    width: 16px !important;
+    height: 16px !important;
+    margin: 0 10px -4px 3px !important;
+    text-decoration: none !important;
+    opacity: 0.5 !important;
+    background: url(data:image/png;base64,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) !important;
+}
+#lleo_icons a:hover {
+    opacity: 1 !important;
+}
+#lleo_icons a.lleo_google     {background-position:-34px 0 !important;}
+#lleo_icons a.lleo_multitran  {background-position:-64px 0 !important;}
+#lleo_icons a.lleo_lingvo     {background-position:-51px 0 !important; width: 12px !important;}
+#lleo_icons a.lleo_dict       {background-position:-17px 0 !important;}
+#lleo_icons a.lleo_linguee    {background-position:-81px 0 !important;}
+#lleo_icons a.lleo_michaelis  {background-position:-98px 0 !important;}
+
+#lleo_dialog #lleo_contextContainer {
+    margin: 0 !important;
+    padding: 3px 15px 8px 10px !important;
+    background: #eee !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee)) !important;
+    background: -moz-linear-gradient(-90deg, #fff, #eee) !important;
+    border-bottom: solid 1px #ddd !important;
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+    display: none !important;
+    overflow: hidden !important;
+}
+#lleo_dialog .lleo_has_context #lleo_contextContainer {
+    display: block !important;
+}
+#lleo_dialog #lleo_context {
+    color: #444 !important;
+    text-shadow: 1px 1px 0 #f4f4f4 !important;
+    line-height: 12px !important;
+    font-size: 11px !important;
+    margin-left: 2px !important;
+}
+#lleo_dialog #lleo_context b {
+    line-height: 12px !important;
+    color: #000 !important;
+    font-weight: bold !important;
+    font-size: 11px !important;
+}
+/*#lleo_dialog #lleo_gBrand {
+    color: #aaa !important;
+    font-size: 10px !important;
+    *//*padding-right: 52px !important;*//*
+    padding-bottom: 14px !important;
+    margin: -3px 4px 0 4px !important;
+    background: left bottom url(data:image/png;base64,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) no-repeat !important;
+    display: inline-block !important;
+    float: right !important;
+}
+#lleo_dialog #lleo_gBrand.hidden {
+    display: none !important;
+}*/
+#lleo_dialog #lleo_translateContextLink {
+    color: #444 !important;
+    text-shadow: 1px 1px 0 #f4f4f4 !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#ddd)) !important;
+    background: -moz-linear-gradient(-90deg, #f4f4f4, #ddd) !important;
+    border: solid 1px !important;
+    box-shadow: 1px 1px 0 #f6f6f6 !important;
+    border-color: #999 #aaa #aaa #999 !important;
+    -moz-border-radius: 2px !important;
+	-webkit-border-radius: 2px !important;
+	border-radius: 2px !important;
+    padding: 0 3px !important;
+    font-size: 11px !important;
+    text-decoration: none !important;
+    margin: 1px 5px 0 !important;
+    display: inline-block !important;
+    white-space: nowrap !important;
+}
+#lleo_dialog #lleo_translateContextLink:hover {
+    background: #f8f8f8 !important;
+}
+#lleo_dialog #lleo_translateContextLink.hidden {
+    visibility: hidden !important;
+}
+
+#lleo_dialog #lleo_setTransForm {
+    display: block !important;
+    margin-top: 3px !important;
+    padding-top: 5px !important;
+    /* Set position and background because the form might be overlapped by an image when no translations */
+    position: relative !important;
+    background: #fff !important;
+    z-index: 10 !important;
+    padding-bottom: 10px !important;
+    padding-left: 16px !important;
+}
+#lleo_dialog .lleo-custom-translation {
+    padding: 4px 5px !important;
+    border: solid 1px #ddd !important;
+	border-radius: 2px !important;
+    width: 90% !important;
+    min-width: 270px !important;
+    background: -webkit-gradient(linear, 0 0, 0 20, from(#f1f1f1), to(#fff)) !important;
+    background: -moz-linear-gradient(-90deg, #f1f1f1, #fff) !important;
+	font: normal 13px Arial, Helvetica !important;
+	line-height: 15px !important;
+}
+#lleo_dialog .lleo-custom-translation:hover {
+    border: solid 1px #aaa !important;
+}
+#lleo_dialog .lleo-custom-translation:focus {
+    background: #FFFEC9 !important;
+}
+
+#lleo_dialog *.hidden {
+    display: none !important;
+}
+
+#lleo_dialog .infinitive{
+    color: #D56E00 !important;
+    text-decoration: none;
+    border-bottom: 1px dotted #D56E00 !important;
+}
+#lleo_dialog .infinitive:hover{
+    border: none !important;
+}
+
+#lleo_dialog .lleo_separator {
+    height: 1px !important;
+    background: #eee;
+    margin-top: 10px !important;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,#eee 8%,rgba(255,255,255,1) 80%) !important;
+    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, #eee 8%, rgba(255,255,255,1) 80%) !important;
+    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%,#eee 8%,rgba(255,255,255,1) 80%) !important;
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,#eee 8%,rgba(255,255,255,1) 80%) !important;
+}
+#lleo_dialog #lleo_trans {
+    /*border-top: 1px solid #eeeeee !important;*/
+    padding: 5px 30px 0 14px !important;
+    zoom: 1;
+}
+
+#lleo_dialog .lleo_clearfix {
+	display: block !important;
+	clear: both !important;
+	visibility: hidden !important;
+	height: 0 !important;
+	font-size: 0 !important;
+}
+
+
+#lleo_dialog #lleo_picOuter table {
+    width: 44px !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    vertical-align: middle !important;
+}
+
+#lleo_dialog #lleo_picOuter td {
+    width: 38px !important;
+    height: 38px !important;
+    /*border: 1px solid #eeeeee !important;*/
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+#lleo_dialog #lleo_picOuter td div {
+	height: 38px !important;
+	overflow: hidden !important;
+}
+
+#lleo_dialog .lleo_empty {
+    margin: 0 5px 7px !important;
+}
+
+#lleo_youtubeExportBtn {
+    margin-left: 10px;
+    height: 24px;
+}
+    #lleo_youtubeExportBtn i {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: 0 0 url(https://d144fqpiyasmrr.cloudfront.net/plugins/all/images/i16.png) !important;
+    }
+    #lleo_youtubeExportBtn .yt-uix-button-content {
+        font-size: 12px;
+        line-height: 2px;
+    }
+
+
+/*** Parsed Lyrics Content *****************************/
+
+.lleo_lyrics tran {
+    background: transparent !important;
+    border-radius: 2px !important;
+    text-shadow: none !important;
+    cursor: pointer !important;
+}
+    .lleo_lyrics tran:hover {
+        color: #fff !important;
+        background: #C77213 !important;
+        -webkit-transition: all 0.1s !important;
+        -moz-transition: all 0.1s !important;
+        -ms-transition: all 0.1s !important;
+        -o-transition: all 0.1s !important;
+        transition: all 0.1s !important;
+    }
+
+.lleo_songName {
+    border: solid 1px #ffd47c;
+    background: #fff1c2;
+    border-radius: 2px;
+}
+
+.lleo_hidden_iframe {
+    visibility: hidden;
+}</style></head>
+
+<body class="des_body">
+
+<!-- control panel -->
+<!-- /control panel -->
+
+<div class="des_mainCont">
+
+	<header>
+		<div class="des_headerCont">
+	    	<div class="des_mainHeadLine">
+	        	
+	        		            <a href="http://esate.ru/"><img src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/esate-new-logo.png" width="354" height="49" alt="Esate.ru" class="des_logoPos"></a>
+
+	        </div>
+	    </div>
+		<div class="des_headLine">
+	    	<div class="des_headLineBg">
+	        	<div class="des_headLineMainCont">
+	                <div class="des_navLineLeft">
+	                    <nav>
+
+	                    	
+<ul>
+
+
+	
+	
+									<li>
+					<span class="des_sxLeft"></span>	
+						<a href="http://esate.ru/" class="des_mainMenu">Главная</a>
+					<span class="des_sxRight"></span>
+				</li>
+					
+	
+	
+
+	
+	
+									<li>
+					<span class="des_sxLeft"></span>	
+						<a href="http://esate.ru/forum/" class="des_mainMenu">Форум</a>
+					<span class="des_sxRight"></span>
+				</li>
+					
+	
+	
+
+	
+	
+					<li>
+				<span class="des_sxLeft"></span>	
+					<a href="http://esate.ru/uroki/">Уроки (курсы)</a>
+				<span class="des_sxRight"></span>
+				<ul>
+		
+	
+	
+
+	
+	
+									<li>
+					<a href="http://esate.ru/uroki/3d-max/">Уроки 3D-Max</a>
+				</li>
+					
+	
+	
+
+	
+	
+									<li class="des_menu_item_selected">
+					<a href="http://esate.ru/uroki/OpenGL/">Уроки программирование 3D</a>
+				</li>
+					
+	
+	
+
+	
+	
+									<li>
+					<a href="http://esate.ru/uroki/OpenGL/uroki-OpenGL-c-sharp/">Уроки OpenGL + C#</a>
+				</li>
+					
+	
+	
+
+	
+	
+									<li>
+					<a href="http://esate.ru/article/cg/">Компьютерная графика</a>
+				</li>
+					
+	
+	
+
+			</ul></li>	
+	
+									<li>
+					<span class="des_sxLeft"></span>	
+						<a href="http://esate.ru/blogs/" class="des_mainMenu">Блоги - (уроки от пользователей)</a>
+					<span class="des_sxRight"></span>
+				</li>
+					
+	
+	
+
+	
+	
+					<li>
+				<span class="des_sxLeft"></span>	
+					<a href="http://esate.ru/article/windows-7/">Windows 7 &amp; 10</a>
+				<span class="des_sxRight"></span>
+				<ul>
+		
+	
+	
+
+	
+	
+									<li>
+					<a href="http://esate.ru/article/windows-7/">Windows 7</a>
+				</li>
+					
+	
+	
+
+	
+	
+									<li>
+					<a href="http://esate.ru/article/windows-7/nastroyka_windows_7/">Настройка windows 7</a>
+				</li>
+					
+	
+	
+
+	
+	
+									<li>
+					<a href="http://esate.ru/article/windows-7/ustanovka_windows_7/">Установка windows 7</a>
+				</li>
+					
+	
+	
+
+	
+	
+									<li>
+					<a href="http://esate.ru/article/windows-10/">Раздел: windows 10</a>
+				</li>
+					
+	
+	
+
+	
+	
+									<li>
+					<a href="http://esate.ru/article/windows-10/ustanovka_windows_10/skachat_windows_10/">Скачать windows 10</a>
+				</li>
+					
+	
+	
+
+	
+	
+									<li>
+					<a href="http://esate.ru/article/windows-10/ustanovka_windows_10/ustanovka_windows_10/">Установка windows 10</a>
+				</li>
+					
+	
+	
+
+	</ul></li>
+</ul>
+<div class="menu-clear-left"></div>
+
+	                    </nav>
+	                </div>
+	                <div class="des_navLineRight">
+	                	<div class="des_seachMainLine">
+
+	                    	<form action="http://esate.ru/search/" method="get">
+<input size="30" name="q" id="qplSKIW" value="поиск по сайту" class="search-suggest" type="text" style="margin-top:1px;" onfocus="this.value = (this.value == &#39;поиск по сайту&#39;) ? &#39;&#39; : this.value" onblur="this.value = (this.value == &#39;&#39;) ? &#39;поиск по сайту&#39; : this.value">
+</form>
+	                    </div>
+
+	                    <div class="des_topBtn">
+	                    </div>
+	                </div>
+	                <div class="des_cL"></div>
+				</div>  
+	            
+	           
+	                          
+	        </div>
+	    </div>
+	    
+		<div class="des_subMenuCont">
+	    	<div class="des_subMenu">
+
+	    			<div class="des_submenu_lane">
+						
+						<div class="des_cB"></div>		
+					</div>
+
+					<div class="des_submenu_user">
+											
+<div class="des_authBlock">
+	<div class="des_authTopLine0">
+		<a href="javascript:void(0);" onclick="ShowAuthForm();">Войти</a> &nbsp; | &nbsp; <a href="javascript:void(0);" onclick="OpenFromRegInit();">Зарегистрироваться</a>
+	</div>
+	<div class="des_authTopLine1">
+		<a href="http://esate.ru/site_terms/">правила сайта</a> &nbsp;
+	</div>
+</div>	
+
+						<div class="des_cB"></div>
+										</div>
+					<div class="des_cl"></div>
+	        </div>
+		</div>
+	</header>
+
+          
+
+	<div class="des_h25space"></div>
+
+	<div class="des_main_content">
+
+
+					<div class="des_main_left_col">
+		
+                <div class="des_bread">
+                    <a href="http://esate.ru/" class="des-navchain-item-main"><span class="des-sp-ch-main">Esate.ru</span></a> <span class="des_sep"><img src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/arr-bread2.png" alt="" style="margin-bottom:-2px;"></span> <a href="http://esate.ru/uroki/" title="Уроки" class="des-navchain-item"><span class="des-sp-ch">Уроки</span></a> <span class="des_sep"><img src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/arr-bread2.png" alt="" style="margin-bottom:-2px;"></span> <a href="http://esate.ru/uroki/OpenGL/" title="Программирование 3D" class="des-navchain-item"><span class="des-sp-ch">Программирование 3D</span></a> <span class="des_sep"><img src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/arr-bread2.png" alt="" style="margin-bottom:-2px;"></span> <a href="http://esate.ru/uroki/OpenGL/image_processing/" title="Обработка изображений" class="des-navchain-item"><span class="des-sp-ch">Обработка изображений</span></a><span class="des_sep"><img src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/arr-bread2.png" alt="" style="margin-bottom:-2px;"></span><span class="des-sp-ch">Графические фильтры: изменение яркости и контрастности изображения </span><div style="clear:both;"></div>                </div>
+	
+				
+    <div itemscope="" itemtype="http://schema.org/TechArticle">
+        <div id="comp_3718cdbfd463268dfa1465338bb1d5c1">
+
+    <div class="ds_sectionBlockMain marB25">
+        <div class="ds_curSectionElem">
+            <h2>Обработка изображений</h2>
+            <div class="ds_descr">В этом разделе вы найдете примеры практической реализации алгоритмов, предназначенных для обработки изображений.</div>
+        </div>
+    </div>
+<div class="ds_articleBlock" id="id_articleBlock">
+
+            <div class="ds_redLink"><a href="http://esate.ru/blogs/user/844/" target="_blank" title="Эта публикация была перенесена из личного блога пользователя в общие разделы уровок сайта.">Блоговая публикация пользователя: Alexei16</a></div>
+        
+    <div class="ds_elemHead">
+        <h1>1.2 Графические фильтры: изменение яркости и контрастности изображения</h1>
+    </div>
+
+    <div class="ds_gradTop"></div>
+
+    <meta itemprop="description" content="Данный урок основывается на авторской публикации пользователя. В нем вы познакомитесь со способами изменения таких параметров изображения, как яркость и контрастность. Яркость - световая характеристика тел, отношение силы света, излучаемого поверхностью, к площади ее проекции на плоскости, перпендикулярной оси наблюдения. Контрастность - разница между оттенками цвета предмета наблюдения и окружающего его фона.
+
+
+">
+        <div itemprop="dependencies" class="ds_dependencies">
+        <h2>Необходимые знания</h2>
+        <h6><span class="cRed">Вам могут понадобится следующие статьи:</span></h6>
+
+        <div class="des_artNeed2lern">
+            <ul>
+                                    <li>
+                        <a target="_blank" href="http://esate.ru/uroki/OpenGL/image_processing/_p4105/">Графические фильтры: «негатив» и «сепия»</a>                    </li>
+                                </ul>
+        </div>
+    </div>
+    <br>
+    
+    <div itemprop="articleBody" class="ds_articleBody">
+        В этом уроке мы научимся изменять яркость и контрастность изображения. <br>
+
+
+ 
+<h2>Изменение яркости изображения</h2> 
+
+<b>Яркость</b> - это световая характеристика тел, отношение силы света, излучаемого поверхностью, к площади ее проекции на плоскости, перпендикулярной оси наблюдения. Если сказать проще, это количество белого цвета на изображении. Чем выше яркость, тем светлее оно становится.<br>
+<br>
+Вот формула, по которой мы будем изменять яркость: <br>
+<br> 
+<div class="blog-post-code"><span>Код:</span> 
+  <table class="blogcode"> 
+    <tbody> 
+      <tr><td> 
+          <pre class=" language-csharp"><code class=" language-csharp" data-language="C#"><span class="token comment" spellcheck="true">/*<a class="token url-link" href="http://esate.ru/">http://esate.ru</a>, Alexei16*/</span>
+
+Pixel<span class="token punctuation">[</span>X<span class="token punctuation">,</span> Y<span class="token punctuation">]</span> <span class="token operator">=</span> Pixel<span class="token punctuation">[</span>X<span class="token punctuation">,</span> Y<span class="token punctuation">]</span> <span class="token operator">+</span> Brightness<span class="token punctuation">;</span> 
+<span class="token comment" spellcheck="true">//где Pixel[X, Y] – это цвет пикселя с координатами X, Y, а Brightness – это значение яркости.
+</span>
+
+
+</code></pre>
+         </td></tr>
+     </tbody>
+   </table>
+ </div>
+ 
+<br>
+Значения яркости находятся в диапазоне от <b>0</b> до <b>255</b>. Для того чтобы яркость можно было уменьшать и увеличивать, значения яркости берут в диапазоне от <b>-255</b> до <b>255</b>, затем по формуле вычисляют цвет и приводят к диапазону от <b>0</b> до <b>255</b>. <br>
+<br>
+Чтобы цвет был в диапазоне от <b>0</b> до <b>255</b>, мы будем использовать функцию <b>ToByte()</b>.<br>
+<br>
+Создайте класс <b>Brightness</b> и добавьте в него функцию <b>ToByte()</b>. <br>
+ <br>
+ 
+<div class="blog-post-code"><span>Код:</span> 
+  <table class="blogcode"> 
+    <tbody> 
+      <tr><td> 
+          <pre class=" language-csharp"><code class=" language-csharp" data-language="C#"><span class="token comment" spellcheck="true">/*<a class="token url-link" href="http://esate.ru/">http://esate.ru</a>, Alexei16*/</span>
+
+<span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token keyword">byte</span> <span class="token function">ToByte<span class="token punctuation">(</span></span><span class="token keyword">int</span> Val<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>Val <span class="token operator">&gt;</span> <span class="token number">255</span><span class="token punctuation">)</span> Val <span class="token operator">=</span> <span class="token number">255</span><span class="token punctuation">;</span>
+    <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>Val <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">)</span> Val <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token keyword">byte</span><span class="token punctuation">)</span>Val<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+
+</code></pre>
+         </td></tr>
+     </tbody>
+   </table>
+ </div>
+ 
+<br>
+ Теперь нужно добавить функцию <b>ProcessImage</b>: <br>
+<br>
+ 
+<div class="blog-post-code"><span>Код:</span> 
+  <table class="blogcode"> 
+    <tbody> 
+      <tr><td> 
+          <pre class=" language-csharp"><code class=" language-csharp" data-language="C#"><span class="token comment" spellcheck="true">/*<a class="token url-link" href="http://esate.ru/">http://esate.ru</a>, Alexei16*/</span>
+
+<span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">unsafe</span> Bitmap <span class="token function">ProcessImage<span class="token punctuation">(</span></span>Filter Main<span class="token punctuation">,</span><span class="token keyword">int</span> Value<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> I <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> I <span class="token operator">&lt;</span> Main<span class="token punctuation">.</span>AllPixelsBytes<span class="token punctuation">;</span> I <span class="token operator">+</span><span class="token operator">=</span> Main<span class="token punctuation">.</span>BytesPerPixel<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token operator">*</span><span class="token punctuation">(</span>Main<span class="token punctuation">.</span>Unsafe_IMG_Scan0 <span class="token operator">+</span> I <span class="token operator">+</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token function">ToByte<span class="token punctuation">(</span></span><span class="token operator">*</span><span class="token punctuation">(</span>Main<span class="token punctuation">.</span>Unsafe_IMG_Scan0 <span class="token operator">+</span> I <span class="token operator">+</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token operator">+</span> Value<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//B
+</span>        <span class="token operator">*</span><span class="token punctuation">(</span>Main<span class="token punctuation">.</span>Unsafe_IMG_Scan0 <span class="token operator">+</span> I <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token function">ToByte<span class="token punctuation">(</span></span><span class="token operator">*</span><span class="token punctuation">(</span>Main<span class="token punctuation">.</span>Unsafe_IMG_Scan0 <span class="token operator">+</span> I <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">+</span> Value<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//G   
+</span>        <span class="token operator">*</span><span class="token punctuation">(</span>Main<span class="token punctuation">.</span>Unsafe_IMG_Scan0 <span class="token operator">+</span> I <span class="token operator">+</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token function">ToByte<span class="token punctuation">(</span></span><span class="token operator">*</span><span class="token punctuation">(</span>Main<span class="token punctuation">.</span>Unsafe_IMG_Scan0 <span class="token operator">+</span> I <span class="token operator">+</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">+</span> Value<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//R
+</span>    <span class="token punctuation">}</span>
+    Main<span class="token punctuation">.</span><span class="token function">UnLock<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> Main<span class="token punctuation">.</span>Picture<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+
+</code></pre>
+         </td></tr>
+     </tbody>
+   </table>
+ </div>
+ 
+<br>
+ В этой функции мы к каждому пикселю прибавляли одинаковое значение и таким образом увеличивали яркость. <br>
+<br>
+ <b>Использование в приложениях: яркость</b> <br>
+ <br>
+<div class="blog-post-code"><span>Код:</span> 
+  <table class="blogcode"> 
+    <tbody> 
+      <tr><td> 
+          <pre class=" language-csharp"><code class=" language-csharp" data-language="C#"><span class="token comment" spellcheck="true">/*<a class="token url-link" href="http://esate.ru/">http://esate.ru</a>, Alexei16*/</span>
+
+Bitmap Test1 <span class="token operator">=</span> Brightness<span class="token punctuation">.</span><span class="token function">ProcessImage<span class="token punctuation">(</span></span><span class="token keyword">new</span> <span class="token class-name">Filter</span><span class="token punctuation">(</span>TestImage<span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">85</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//TestImage - это ваше изображение
+</span>
+
+
+
+
+</code></pre>
+         </td></tr>
+     </tbody>
+   </table>
+ </div>
+ <br>
+ 
+<span itemscope="" itemtype="http://schema.org/ImageObject"> <img src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/d2d1af.jpg" itemprop="contentUrl" class="ds_centerImage" border="0" alt="Обработка изображений: изображение до изменения яркости"> <span itemprop="description" class="ds_descriptionImage">Рисунок 1. Изображение до изменения яркости.</span> <meta itemprop="width" content="500 px"> <meta itemprop="height" content="375 px"> </span>
+<br>
+ 
+<span itemscope="" itemtype="http://schema.org/ImageObject"> <img src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/7bc8f6.jpg" itemprop="contentUrl" class="ds_centerImage" border="0" alt="Обработка изображений: изображение после изменения яркости (+85)"> <span itemprop="description" class="ds_descriptionImage">Рисунок 2. Изображение после изменения яркости (+85).</span> <meta itemprop="width" content="500 px"> <meta itemprop="height" content="375 px"> </span>
+<br>
+
+<h2>Изменение контрастности изображения</h2> 
+ 
+<b>Контрастность</b> - разница между оттенками цвета предмета наблюдения и окружающего его фона. Опять же, если сформулировать проще, это разница между различными расположенными рядом цветами. Чем выше контрастность, тем более резко мы наблюдаем переход от одного цвета к другому.<br>
+<br>
+Реализация контрастности немного сложнее. Чтобы контрастность можно было увеличивать и уменьшать, её значения берут от <b>-100</b> до <b>100</b>, а потом уже значение приводят к диапазону от <b>0</b> до <b>255</b>.<br> 
+<br>
+Формула ее вычисления выглядит следующим образом: <br>
+ <br>
+<div class="blog-post-code"><span>Код:</span> 
+  <table class="blogcode"> 
+    <tbody> 
+      <tr><td> 
+          <pre class=" language-csharp"><code class=" language-csharp" data-language="C#"><span class="token comment" spellcheck="true">/*<a class="token url-link" href="http://esate.ru/">http://esate.ru</a>, Alexei16*/</span>
+
+Contrast <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">100.0</span> <span class="token operator">+</span> Value<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">255.0</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//Вычисляем общее значение
+</span>Contrast <span class="token operator">=</span> Contrast <span class="token operator">*</span> Contrast<span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//Вычисляем контрастность для заданного пикселя
+</span>Pixel<span class="token operator">=</span> RGB_Channels <span class="token operator">/</span> <span class="token number">255.0</span><span class="token punctuation">;</span>
+Pixel <span class="token operator">=</span> Pixel <span class="token operator">-</span> <span class="token number">0.5</span><span class="token punctuation">;</span>
+Pixel <span class="token operator">=</span> Pixel <span class="token operator">*</span> Contrast<span class="token punctuation">;</span>
+Pixel <span class="token operator">=</span> Pixel <span class="token operator">+</span> <span class="token number">0.5</span><span class="token punctuation">;</span>
+Pixel <span class="token operator">=</span> Pixel <span class="token operator">*</span> <span class="token number">255</span><span class="token punctuation">;</span>
+
+<span class="token keyword">if</span><span class="token punctuation">(</span>Pixel <span class="token operator">&gt;</span> <span class="token number">255</span><span class="token punctuation">)</span> Pixel <span class="token operator">=</span> <span class="token number">255</span><span class="token punctuation">;</span>
+<span class="token keyword">else</span> <span class="token keyword">if</span><span class="token punctuation">(</span>Pixel <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">)</span> Pixel <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+
+</code></pre>
+         </td></tr>
+     </tbody>
+   </table>
+ </div>
+ 
+<br>
+<b>RGB_Channels</b> здесь – это каналы <b>RGB</b> (красный, зелёный, синий).<br>
+<br>
+Создайте класс <b>Contrast</b> и добавьте в него функцию <b>ProcessImage</b> : <br>
+<br>
+ 
+<div class="blog-post-code"><span>Код:</span> 
+  <table class="blogcode"> 
+    <tbody> 
+      <tr><td> 
+          <pre class=" language-csharp"><code class=" language-csharp" data-language="C#"><span class="token comment" spellcheck="true">/*<a class="token url-link" href="http://esate.ru/">http://esate.ru</a>, Alexei16*/</span>
+
+<span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">unsafe</span> Bitmap <span class="token function">ProcessImage<span class="token punctuation">(</span></span>Filter Main<span class="token punctuation">,</span><span class="token keyword">int</span> Value<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">int</span> RedVal<span class="token punctuation">,</span> GreenVal<span class="token punctuation">,</span> BlueVal<span class="token punctuation">;</span>
+   
+    <span class="token keyword">double</span> Pixel<span class="token punctuation">;</span>
+    <span class="token keyword">double</span> Contrast <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">100.0</span> <span class="token operator">+</span> Value<span class="token punctuation">)</span> <span class="token operator">/</span> <span class="token number">100.0</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//Вычисляем общее значение контраста
+</span>
+    Contrast <span class="token operator">=</span> Contrast <span class="token operator">*</span> Contrast<span class="token punctuation">;</span>
+
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> I <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> I <span class="token operator">&lt;</span> Main<span class="token punctuation">.</span>AllPixelsBytes<span class="token punctuation">;</span> I <span class="token operator">+</span><span class="token operator">=</span> Main<span class="token punctuation">.</span>BytesPerPixel<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        BlueVal <span class="token operator">=</span> <span class="token operator">*</span><span class="token punctuation">(</span>Main<span class="token punctuation">.</span>Unsafe_IMG_Scan0 <span class="token operator">+</span> <span class="token punctuation">(</span>I <span class="token operator">+</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//B
+</span>        GreenVal <span class="token operator">=</span> <span class="token operator">*</span><span class="token punctuation">(</span>Main<span class="token punctuation">.</span>Unsafe_IMG_Scan0 <span class="token operator">+</span> <span class="token punctuation">(</span>I <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//G 
+</span>        RedVal <span class="token operator">=</span> <span class="token operator">*</span><span class="token punctuation">(</span>Main<span class="token punctuation">.</span>Unsafe_IMG_Scan0 <span class="token operator">+</span> <span class="token punctuation">(</span>I <span class="token operator">+</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//R
+</span>
+        Pixel <span class="token operator">=</span> RedVal <span class="token operator">/</span> <span class="token number">255.0</span><span class="token punctuation">;</span>
+        Pixel <span class="token operator">=</span> Pixel <span class="token operator">-</span> <span class="token number">0.5</span><span class="token punctuation">;</span>
+        Pixel <span class="token operator">=</span> Pixel <span class="token operator">*</span> Contrast<span class="token punctuation">;</span>
+        Pixel <span class="token operator">=</span> Pixel <span class="token operator">+</span> <span class="token number">0.5</span><span class="token punctuation">;</span>
+        Pixel <span class="token operator">=</span> Pixel <span class="token operator">*</span> <span class="token number">255</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>Pixel <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">)</span> Pixel <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>Pixel <span class="token operator">&gt;</span> <span class="token number">255</span><span class="token punctuation">)</span> Pixel <span class="token operator">=</span> <span class="token number">255</span><span class="token punctuation">;</span>
+        <span class="token operator">*</span><span class="token punctuation">(</span>Main<span class="token punctuation">.</span>Unsafe_IMG_Scan0 <span class="token operator">+</span> <span class="token punctuation">(</span>I <span class="token operator">+</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">=</span> Convert<span class="token punctuation">.</span><span class="token function">ToByte<span class="token punctuation">(</span></span>Pixel<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        Pixel <span class="token operator">=</span> GreenVal <span class="token operator">/</span> <span class="token number">255.0</span><span class="token punctuation">;</span>
+        Pixel <span class="token operator">=</span> Pixel <span class="token operator">-</span> <span class="token number">0.5</span><span class="token punctuation">;</span>
+        Pixel <span class="token operator">=</span> Pixel <span class="token operator">*</span> Contrast<span class="token punctuation">;</span>
+        Pixel <span class="token operator">=</span> Pixel <span class="token operator">+</span> <span class="token number">0.5</span><span class="token punctuation">;</span>
+        Pixel <span class="token operator">=</span> Pixel <span class="token operator">*</span> <span class="token number">255</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>Pixel <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">)</span> Pixel <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>Pixel <span class="token operator">&gt;</span> <span class="token number">255</span><span class="token punctuation">)</span> Pixel <span class="token operator">=</span> <span class="token number">255</span><span class="token punctuation">;</span>
+        <span class="token operator">*</span><span class="token punctuation">(</span>Main<span class="token punctuation">.</span>Unsafe_IMG_Scan0 <span class="token operator">+</span> <span class="token punctuation">(</span>I <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">=</span> Convert<span class="token punctuation">.</span><span class="token function">ToByte<span class="token punctuation">(</span></span>Pixel<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        Pixel <span class="token operator">=</span> BlueVal <span class="token operator">/</span> <span class="token number">255.0</span><span class="token punctuation">;</span>
+        Pixel <span class="token operator">=</span> Pixel <span class="token operator">-</span> <span class="token number">0.5</span><span class="token punctuation">;</span>
+        Pixel <span class="token operator">=</span> Pixel <span class="token operator">*</span> Contrast<span class="token punctuation">;</span>
+        Pixel <span class="token operator">=</span> Pixel <span class="token operator">+</span> <span class="token number">0.5</span><span class="token punctuation">;</span>
+        Pixel <span class="token operator">=</span> Pixel <span class="token operator">*</span> <span class="token number">255</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>Pixel <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">)</span> Pixel <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>Pixel <span class="token operator">&gt;</span> <span class="token number">255</span><span class="token punctuation">)</span> Pixel <span class="token operator">=</span> <span class="token number">255</span><span class="token punctuation">;</span>
+        <span class="token operator">*</span><span class="token punctuation">(</span>Main<span class="token punctuation">.</span>Unsafe_IMG_Scan0 <span class="token operator">+</span> <span class="token punctuation">(</span>I <span class="token operator">+</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">=</span> Convert<span class="token punctuation">.</span><span class="token function">ToByte<span class="token punctuation">(</span></span>Pixel<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    Main<span class="token punctuation">.</span><span class="token function">UnLock<span class="token punctuation">(</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> Main<span class="token punctuation">.</span>Picture<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+
+</code></pre>
+         </td></tr>
+     </tbody>
+   </table>
+ </div>
+
+ Готово! <br>
+ 
+<br>
+ <b>Использование в приложениях: контрастность</b> <br>
+<br>
+<div class="blog-post-code"><span>Код:</span> 
+  <table class="blogcode"> 
+    <tbody> 
+      <tr><td> 
+          <pre class=" language-csharp"><code class=" language-csharp" data-language="C#"><span class="token comment" spellcheck="true">/*<a class="token url-link" href="http://esate.ru/">http://esate.ru</a>, Alexei16*/</span>
+
+Bitmap Test1 <span class="token operator">=</span> Contrast<span class="token punctuation">.</span><span class="token function">ProcessImage<span class="token punctuation">(</span></span><span class="token keyword">new</span> <span class="token class-name">Filter</span><span class="token punctuation">(</span>TestImage<span class="token punctuation">)</span><span class="token punctuation">,</span><span class="token number">35</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//TestImage - это ваше изображение
+</span>
+
+
+
+
+</code></pre>
+         </td></tr>
+     </tbody>
+   </table>
+ </div>
+ <br>
+
+<span itemscope="" itemtype="http://schema.org/ImageObject"> <img src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/8eb50e.jpg" itemprop="contentUrl" class="ds_centerImage" border="0" alt="Обработка изображений: изображение до изменения контрастности (+35)"> <span itemprop="description" class="ds_descriptionImage">Рисунок 3. Изображение до изменения контрастности.</span> <meta itemprop="width" content="500 px"> <meta itemprop="height" content="375 px"> </span>
+<br>
+ 
+<span itemscope="" itemtype="http://schema.org/ImageObject"> <img src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/1ee5bc.jpg" itemprop="contentUrl" class="ds_centerImage" border="0" alt="Обработка изображений: изображение после изменения контрастности"> <span itemprop="description" class="ds_descriptionImage">Рисунок 4. Изображение после изменения контрастности (+35).</span> <meta itemprop="width" content="500 px"> <meta itemprop="height" content="375 px"> </span>
+<br>
+
+        <div style="clear:both"></div>
+    </div>
+
+
+    
+    <div class="ds_dependenciesBottom">
+
+        <h2>А что же дальше?</h2>
+        <h6><span class="cRed">Обратите внимание на эти публикации, они могут быть вам полезны:</span></h6>
+
+        <div class="des_pr_look_art">
+            <ul>
+                                                <li>
+                        <a target="_blank" href="http://esate.ru/uroki/OpenGL/uroki-OpenGL-c-sharp/primenenie-graficheskih-filtrov-opengl-vvedenie/">OpenGL - создание и применение графических фильтров. Введение.</a>                    </li>
+                                    <li>
+                        <a target="_blank" href="http://esate.ru/uroki/OpenGL/uroki-OpenGL-c-sharp/sozdanie-graficheskih-filtrov-opengl/">Создание графических фильтров для обработки изображений с помощью OpenGL.</a>                    </li>
+                                        </ul>
+        </div>
+
+    </div>
+
+    <br>
+    
+
+            <div class="des_artPrev">
+                            ← (пред.) <a href="http://esate.ru/uroki/OpenGL/image_processing/_p4105/">Графические фильтры: «негатив» и «сепия»...</a>                    </div>
+
+        <div class="des_artNext">
+                            <a href="http://esate.ru/uroki/OpenGL/image_processing/_p4113/">Графические фильтры: изменение тона...</a> (cлед.) →
+                    </div>
+
+        <div class="des_cL"></div>
+        <br>
+    
+
+    <br>
+    <div class="des_cL"></div>
+
+    <div class="des_artBottBlock_mDiv">Источник:
+                    <a href="http://esate.ru/" title="Источник статьи - Esate.ru">Esate.ru</a>
+            </div>
+    <div class="des_artBottBlock_mDiv">
+                <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                        Автор: <a href="http://esate.ru/blogs/Alexei16/" target="_blank" class="des_aRed" itemprop="name">Alexei16</a>
+        </span>
+    </div>
+    <div class="des_artBottBlock_mDiv ds_bgGray">
+                <div class="news-item-date">26 Января 2010</div>
+        <meta itemprop="datePublished" content="2010-12-26T00:00:00+03:00">
+    </div>
+
+</div></div>   <div class="ds_bottomBlockDetail">
+
+       <div class="ds_rightCounters">
+           <script type="text/javascript" src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/share.js.Без названия" charset="utf-8"></script><div class="yashare-auto-init b-share_theme_counter" data-yasharel10n="ru" data-yasharequickservices="vkontakte,facebook,twitter,moimir,gplus" data-yasharetheme="counter" data-yasharelink="http://esate.ru/uroki/OpenGL/image_processing/_p4106/"><span class="b-share"><span class="b-share-btn__wrap"><a rel="nofollow" target="_blank" title="ВКонтакте" class="b-share__handle b-share__link b-share-btn__vkontakte b-share-btn__counter" href="https://share.yandex.net/go.xml?service=vkontakte&amp;url=http%3A%2F%2Fesate.ru%2Furoki%2FOpenGL%2Fimage_processing%2F_p4106%2F&amp;title=1.2%20%D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D1%8B%3A%20%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%8F%D1%80%D0%BA%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F" data-service="vkontakte"><span class="b-share-icon b-share-icon_vkontakte"></span><span class="b-share-counter">1</span></a></span><span class="b-share-btn__wrap"><a rel="nofollow" target="_blank" title="Facebook" class="b-share__handle b-share__link b-share-btn__facebook" href="https://share.yandex.net/go.xml?service=facebook&amp;url=http%3A%2F%2Fesate.ru%2Furoki%2FOpenGL%2Fimage_processing%2F_p4106%2F&amp;title=1.2%20%D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D1%8B%3A%20%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%8F%D1%80%D0%BA%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F" data-service="facebook"><span class="b-share-icon b-share-icon_facebook"></span><span class="b-share-counter"></span></a></span><span class="b-share-btn__wrap"><a rel="nofollow" target="_blank" title="Twitter" class="b-share__handle b-share__link b-share-btn__twitter" href="https://share.yandex.net/go.xml?service=twitter&amp;url=http%3A%2F%2Fesate.ru%2Furoki%2FOpenGL%2Fimage_processing%2F_p4106%2F&amp;title=1.2%20%D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D1%8B%3A%20%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%8F%D1%80%D0%BA%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F" data-service="twitter"><span class="b-share-icon b-share-icon_twitter"></span></a></span><span class="b-share-btn__wrap"><a rel="nofollow" target="_blank" title="Мой Мир" class="b-share__handle b-share__link b-share-btn__moimir" href="https://share.yandex.net/go.xml?service=moimir&amp;url=http%3A%2F%2Fesate.ru%2Furoki%2FOpenGL%2Fimage_processing%2F_p4106%2F&amp;title=1.2%20%D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D1%8B%3A%20%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%8F%D1%80%D0%BA%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F" data-service="moimir"><span class="b-share-icon b-share-icon_moimir"></span><span class="b-share-counter">0</span></a></span><span class="b-share-btn__wrap"><a rel="nofollow" target="_blank" title="Google Plus" class="b-share__handle b-share__link b-share-btn__gplus" href="https://share.yandex.net/go.xml?service=gplus&amp;url=http%3A%2F%2Fesate.ru%2Furoki%2FOpenGL%2Fimage_processing%2F_p4106%2F&amp;title=1.2%20%D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D1%8B%3A%20%D0%B8%D0%B7%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%8F%D1%80%D0%BA%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F" data-service="gplus"><span class="b-share-icon b-share-icon_gplus"></span><span class="b-share-counter">0</span></a></span><iframe style="display: none" src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/ya-share-cnt.html"></iframe></span></div>
+
+       </div>
+
+    <br><br>
+    <div class="ds_elemHead">
+        <h1 class="cRed">Комментарии (из ветки форума)</h1>
+    </div>
+    <div class="ds_gradTop ds_mBot5"></div>
+
+    <script type="text/javascript">
+var smallEngLettersReg = new Array(/e'/g, /ch/g, /sh/g, /yo/g, /jo/g, /zh/g, /yu/g, /ju/g, /ya/g, /ja/g, /a/g, /b/g, /v/g, /g/g, /d/g, /e/g, /z/g, /i/g, /j/g, /k/g, /l/g, /m/g, /n/g, /o/g, /p/g, /r/g, /s/g, /t/g, /u/g, /f/g, /h/g, /c/g, /w/g, /~/g, /y/g, /'/g);
+var smallRusLetters = new Array("э", "ч", "ш", "ё", "ё", "ж", "ю", "ю", "я", "я", "а", "б", "в", "г", "д", "е", "з", "и", "й", "к", "л", "м", "н", "о", "п", "р", "с", "т", "у", "ф", "х", "ц", "щ", "ъ", "ы", "ь");
+
+var capitEngLettersReg = new Array(
+	/Ch/g, /Sh/g, 
+	/Yo/g, /Zh/g, 
+	/Yu/g, /Ya/g, 
+	/E'/g, /CH/g, /SH/g, /YO/g, /JO/g, /ZH/g, /YU/g, /JU/g, /YA/g, /JA/g, /A/g, /B/g, /V/g, /G/g, /D/g, /E/g, /Z/g, /I/g, /J/g, /K/g, /L/g, /M/g, /N/g, /O/g, /P/g, /R/g, /S/g, /T/g, /U/g, /F/g, /H/g, /C/g, /W/g, /Y/g);
+var capitRusLetters = new Array(
+	"Ч", "Ш",
+	"Ё", "Ж",
+	"Ю", "Я",
+	"Э", "Ч", "Ш", "Ё", "Ё", "Ж", "Ю", "Ю", "\Я", "\Я", "А", "Б", "В", "Г", "Д", "Е", "З", "И", "Й", "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", "У", "Ф", "Х", "Ц", "Щ", "Ы");
+
+var smallRusLettersReg = new Array(/э/g, /ч/g, /ш/g, /ё/g, /ё/g,/ж/g, /ю/g, /ю/g, /я/g, /я/g, /а/g, /б/g, /в/g, /г/g, /д/g, /е/g, /з/g, /и/g, /й/g, /к/g, /л/g, /м/g, /н/g, /о/g, /п/g, /р/g, /с/g, /т/g, /у/g, /ф/g, /х/g, /ц/g, /щ/g, /ъ/g, /ы/g, /ь/g );
+var smallEngLetters = new Array("e", "ch", "sh", "yo", "jo", "zh", "yu", "ju", "ya", "ja", "a", "b", "v", "g", "d", "e", "z", "i", "j", "k", "l", "m", "n", "o", "p", "r", "s", "t", "u", "f", "h", "c", "w", "~", "y", "'");
+
+var capitRusLettersReg = new Array(
+	/Ч(?=[^А-Я])/g, /Ш(?=[^А-Я])/g, 
+	/Ё(?=[^А-Я])/g, /Ж(?=[^А-Я])/g, 
+	/Ю(?=[^А-Я])/g, /Я(?=[^А-Я])/g, 
+	/Э/g, /Ч/g, /Ш/g, /Ё/g, /Ё/g, /Ж/g, /Ю/g, /Ю/g, /Я/g, /Я/g, /А/g, /Б/g, /В/g, /Г/g, /Д/g, /Е/g, /З/g, /И/g, /Й/g, /К/g, /Л/g, /М/g, /Н/g, /О/g, /П/g, /Р/g, /С/g, /Т/g, /У/g, /Ф/g, /Х/g, /Ц/g, /Щ/g, /Ъ/g, /Ы/g, /Ь/g);
+var capitEngLetters = new Array(
+	"Ch", "Sh",
+	"Yo", "Zh",
+	"Yu", "Ya",
+	"E", "CH", "SH", "YO", "JO", "ZH", "YU", "JU", "YA", "JA", "A", "B", "V", "G", "D", "E", "Z", "I", "J", "K", "L", "M", "N", "O", "P", "R", "S", "T", "U", "F", "H", "C", "W", "~", "Y", "'");
+</script>
+
+
+        <div class="ds_authToPostMess">
+            <a href="javascript:void(0);" class="ds_helpBtn0 buzz" onclick="ShowAuthForm();">Авторизируйтесь</a> или  <a href="javascript:void(0);" class="ds_helpBtn0 buzz" onclick="OpenFromRegInit();">Зарегистрируйтесь</a> <br>
+            чтобы оставлять комментарии.
+        </div>
+        </div>
+
+    </div>
+    
+
+
+
+
+				<div class="des_cB"></div>
+
+                <br>
+                
+
+				<div class="des_cB"></div>
+            
+
+                            </div>
+				<div class="des_main_right_col" style="height: 6020px;">
+
+	                <div class="ds_dir">
+    <img src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/opengl.png" width="320" height="88" alt="OpenGL">
+
+    <div class="ds_dirText" id="id_dirText">
+
+        <div class="ds_contPadding">
+            <h1>OpenGL</h1>
+            OpenGL (Open Graphics Library — открытая графическая библиотека, графический API) — спецификация, определяющая независимый от языка программирования платформонезависимый программный интерфейс для написания приложений, использующих двумерную и трёхмерную компьютерную графику.            <br><br>
+        </div>
+
+        <div id="id_rightFloatBlock" class="ds_rightFloatBlock" style="top: 0px;">
+
+            <div class="ds_contPadding">
+
+            <h2>ТОП5 популярных статей</h2>
+
+                <ul>
+    <li><a href="http://esate.ru/uroki/OpenGL/uroki-OpenGL-c-sharp/initsializatsiya-opengl-v-c-sharp/" target="_blank" title="Инициализация OpenGL в C#. Библиотека Tao Framework.">4.4 Инициализация OpenGL в C#. Тестирование визуализации 3D сферы.</a></li>
+        <li><a href="http://esate.ru/uroki/OpenGL/uroki_opengl/_p4208/" target="_blank" title="OpenGL шейдеры. Простой шейдер на GLSL">OpenGL шейдеры: Первая часть. Простой шейдер на GLSL</a></li>
+        <li><a href="http://esate.ru/uroki/OpenGL/uroki-OpenGL-c-sharp/risovanie-grafikov-v-C-sharp-OpenGL/" target="_blank" title="Визуализация графика функции в С# и OpenGL.">5.4 Визуализация графика функции. (Рисование графиков в C#, OpenGL).</a></li>
+        <li><a href="http://esate.ru/uroki/OpenGL/uroki-OpenGL-c-sharp/sintaksis-c-sharp/" target="_blank" title="Введение в C# | Описание синтаксиса C#">1.2 Основы синтаксиса языка C#</a></li>
+        <li><a href="http://esate.ru/uroki/OpenGL/uroki-OpenGL-c-sharp/osnovy-vizualizatsii-2D-primitivov-openGL/" target="_blank" title="Визуализация 2D примитивов в OpenGL. Основы.">5.2 Визуализация 2D примитивов в OpenGL. Основы.</a></li>
+    </ul>
+
+                <br>
+
+            </div>
+
+            <div id="id_rightBlockA" class="ds_rightBlockA">
+                
+                <br>
+            </div>
+
+            <div class="ds_contPadding">
+                <h2>ТОП5 новых статей</h2>
+
+                <ul>
+    <li><a href="http://esate.ru/uroki/OpenGL/uroki_opengl/_p4213/" target="_blank" title="Создание онлайн-игры: основы">Создание онлайн-игры: основы</a></li>
+        <li><a href="http://esate.ru/uroki/OpenGL/uroki_opengl/opengl-shader-prodolzhenie-pro-prostye-sheydery-na-glsl-ili-sheydery-eto-prosto/" target="_blank" title="OpenGL шейдеры: Вторая часть. Шейдер в контексте OpenGL с GLSL без ФГК">OpenGL шейдеры: Вторая часть. Шейдер в контексте OpenGL с GLSL без ФГК</a></li>
+        <li><a href="http://esate.ru/uroki/OpenGL/uroki_opengl/_p4208/" target="_blank" title="OpenGL шейдеры. Простой шейдер на GLSL">OpenGL шейдеры: Первая часть. Простой шейдер на GLSL</a></li>
+        <li><a href="http://esate.ru/uroki/OpenGL/uroki_opengl/_p4206/" target="_blank" title="C#/Tao.framework. Простой способ отобразить текст в OpenGL">C#/Tao.framework. Простой способ отобразить текст в OpenGL</a></li>
+        <li><a href="http://esate.ru/uroki/OpenGL/uroki_opengl/_p4204/" target="_blank" title="Использование Freetype. Получение битового образа символов">Использование Freetype. Получение битового образа символов</a></li>
+    </ul>
+            </div>
+
+        </div> <!-- id_rightFloatBlock -->
+
+    </div> <!-- id_dirText -->
+</div> <!-- ds_dir -->					<div class="des_cB"></div>	
+	            </div>
+            			
+        	<div class="des_cl"></div>
+        
+        </div>
+
+        <div class="des_footer">
+        
+            <div class="des_footer_left">
+				© www.esate.ru , 2007-2016. На сайте размещены уникальные авторские материалы. <br>
+ Частичное копирование разрешено при соблюдении <a href="http://esate.ru/site_terms/" target="_blank" style="color:#fff!important;">правил сайта</a> (активная ссылка, указание автора и имени сайта). <br>
+Контактный email: <img src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/support.png" alt="контакный email">.            </div>
+            <div class="des_footer_right">
+				<div style="text-align:right">
+<!--LiveInternet counter--><script type="text/javascript"><!--
+    document.write("<a  href='/redirect/?url=http%3A%2F%2Fwww.liveinternet.ru%2Fclick&cd=0ae23e80084e398981f37bc8d04dbdb0'  "+
+    "target=_blank rel='nofollow'><img src='http://counter.yadro.ru/hit?t14.11;r"+
+    escape(document.referrer)+((typeof(screen)=="undefined")?"":
+    ";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+        screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+    ";"+Math.random()+
+    "' alt='' title='LiveInternet: показано число просмотров за 24"+
+    " часа, посетителей за 24 часа и за сегодня' "+
+    "border='0' width='88' height='31'><\/a>")
+    //--></script><a href="http://esate.ru/redirect/?url=http%3A%2F%2Fwww.liveinternet.ru%2Fclick&amp;cd=0ae23e80084e398981f37bc8d04dbdb0" target="_blank" rel="nofollow"><img src="http://counter.yadro.ru/hit?t14.11;rhttps%3A//www.google.ru/;s1920*1080*24;uhttp%3A//esate.ru/uroki/OpenGL/image_processing/_p4106/;0.6519682800791173" alt="" title="LiveInternet: показано число просмотров за 24 часа, посетителей за 24 часа и за сегодня" border="0" width="88" height="31" style="display: none !important;"></a><!--/LiveInternet-->
+
+
+<!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.ru/stat/?id=21961396&amp;from=informer" target="_blank" rel="nofollow"><img src="http://bs.yandex.ru/informer/21961396/3_0_FFFFFFFF_FFFFFFFF_0_pageviews" style="width: 88px; height: 31px; border: 0px; display: none !important;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:21961396,lang:&#39;ru&#39;});return false}catch(e){}"></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter21961396 = new Ya.Metrika({id:21961396,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript>&lt;div&gt;&lt;img src="//mc.yandex.ru/watch/21961396" style="position:absolute; left:-9999px;" alt="" /&gt;&lt;/div&gt;</noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-9375756-1");
+        pageTracker._trackPageview();
+    } catch(err) {}
+</script>
+</div>            </div>
+        
+        </div> <!-- des_footer -->
+
+        
+</div>
+
+<div class="id_modalWnd" style="display:none;">
+</div>
+
+<div class="des_tmp_div" id="id_authFormOverlay">
+
+
+
+    <div class="ds_regForm" id="id_authReg">
+        <div class="des_grayLine">
+        </div>
+        <div class="des_contBlock">
+            <h1>Регистрация</h1>
+            <span>Регистрируясь, вы принимаете <a href="http://esate.ru/site_terms/" target="_blank">правила сайта</a>. Если вы не получили код подтв. регистрации - <b>не забудьте проверить папку спам</b>.</span>
+
+            <form name="form_authRegUser" class="ds_authRegUser">
+
+                <input type="hidden" name="sessid" value="b314f2c21d86390c0228eabb8da24f62">
+
+                <div class="des_l1" id="id_regl1mode1">
+                    <div class="des_l1_left">
+                        Логин<span class="ds_red">*</span><br>
+                        <input type="text" name="USER_REG_LOGIN_loc" id="USER_REG_LOGIN_loc" maxlength="255" value="">
+                    </div>
+                    <div class="des_l1_right">
+                        Email<span class="ds_red">*</span><br>
+                        <input type="text" name="USER_REG_EMAIL_loc" id="USER_REG_EMAIL_loc" maxlength="255" value="">
+                    </div>
+                    <div style="clear:left;"></div>
+
+                    <div class="des_l1_left">
+                        Пароль<span class="ds_red">*</span><br>
+                        <input type="password" name="USER_REG_PASSWORD_loc" id="USER_REG_PASSWORD_loc" maxlength="255" value="">
+                    </div>
+                    <div class="des_l1_right">
+                        Подтверждение пароля<span class="ds_red">*</span><br>
+                        <input type="password" name="USER_REG_CONFIRM_PASSWORD_loc" id="USER_REG_CONFIRM_PASSWORD_loc" maxlength="255" value="">
+                    </div>
+                    <div style="clear:left;"></div>
+                </div>
+
+                <div class="ds_red" id="id_errAuthReg">&nbsp;</div>
+
+                <div class="des_l3" id="id_regl3mode2">
+                    <div class="des_l3_left">
+                        <a href="javascript:void(0);" class="ds_blLinkPad10" onclick="SetFormPartAuth();">Назад</a>
+                    </div>
+                    <div class="des_l3_right">
+                        <a href="javascript:void(0);" onclick="ShowConfirmRegCode();" id="id_regBtnAjaxEnterCode" class="ds_blLinkPad10 ds_btnRightEnterCode">Ввести код подтверждения регистрации</a>
+                        <div style="clear:right"></div>
+                        <a href="javascript:void(0);" onclick="Register();" id="id_regBtnAjax" class="ds_btnGrayRight buzz"><span class="ds_mainBtnCont">Зарегистрироваться</span><img src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/preload.gif" width="32" height="32"></a>
+                    </div>
+                </div>
+
+                <div style="clear:left;"></div>
+            </form>
+
+
+            <form name="form_authRegUserConfirm" class="ds_authRegUserConfirm">
+
+                <input type="hidden" name="sessid" value="b314f2c21d86390c0228eabb8da24f62">
+
+                <div class="des_l1" id="id_regl1mode1">
+                    <div class="des_l1_left">
+                        Логин<span class="ds_red">*</span><br>
+                        <input type="text" name="USER_REG_LOGIN_CONF_loc" id="USER_REG_LOGIN_CONF_loc" maxlength="255" value="">
+                    </div>
+                    <div class="des_l1_right">
+                        Код<span class="ds_red">*</span><br>
+                        <input type="text" name="USER_REG_CODE_CONF_loc" id="USER_REG_CODE_CONF_loc" maxlength="255" value="">
+                    </div>
+                    <div style="clear:left;"></div>
+                </div>
+
+                <div class="ds_red" id="id_errAuthRegConf">&nbsp;</div>
+
+                <div class="des_l3" id="id_regl3mode2">
+                    <div class="des_l3_left">
+                        <a href="javascript:void(0);" class="ds_blLinkPad10" onclick="SetFormPartAuth();">Авторизоваться</a>
+                    </div>
+                    <div class="des_l3_right">
+                        <a href="javascript:void(0);" onclick="ShowRegFormFromConfirm();" id="id_regBtnAjaxEnterCodeBack" class="ds_blLinkPad10 ds_btnRightEnterCode">Вернуться к регистрации</a>
+                        <div style="clear:right"></div>
+                        <a href="javascript:void(0);" onclick="RegisterConfirm();" id="id_regBtnConfirmAjax" class="ds_btnGrayRight buzz"><span class="ds_mainBtnCont">Подтвердить регистрацию</span><img src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/preload.gif" width="32" height="32"></a>
+                    </div>
+                </div>
+
+                <div style="clear:left;"></div>
+             </form>
+
+        </div>
+
+        <div class="des_closeAuthForm" id="id_closeAuthForm1"></div>
+    </div>
+
+
+
+    <div class="ds_resetForm" id="id_authReset">
+        <div class="des_grayLine">
+        </div>
+        <div class="des_contBlock">
+            <h1>Восстановление пароля</h1>
+            <span>Пожалуйста, заполните поля, после чего вы получите код подтверждения на ваш E-mail. Если код не пришел в течении нескольких минут - проверьте папку спам.</span>
+
+            <form name="form_authResetPass" class="ds_authResetPass">
+                <input type="hidden" name="AUTH_FORM" value="Y">
+                <input type="hidden" name="TYPE" value="SEND_PWD">
+                <input type="hidden" name="sessid" value="b314f2c21d86390c0228eabb8da24f62">
+
+                <div class="des_l1" id="id_l1mode1">
+                    <div class="des_l1_left">
+                        Логин<br>
+                        <input type="text" name="AUTH_LOGIN_loc" id="USER_LOGIN_loc" maxlength="255" value=""><br>
+                    </div>
+                    <div class="des_l1_right">
+                        <span class="ds_red">или</span> Email<br>
+                        <input type="text" name="AUTH_EMAIL_loc" id="AUTH_EMAIL_loc" maxlength="255" value="">
+                    </div>
+                    <div style="clear:left;"></div>
+                </div>
+
+                <div class="ds_red" id="id_errAuthReset">&nbsp;</div>
+
+                <div class="des_l3" id="id_l3mode1">
+                    <div class="des_l3_left">
+                        <a href="javascript:void(0);" class="ds_blLinkPad10" onclick="SetFormPartAuth();">Назад</a>
+                    </div>
+                    <div class="des_l3_right">
+                        <a href="javascript:void(0);" id="id_resetBtnAjaxEnter" class="ds_blLinkPad10 ds_btnRightEnterCode">Ввести полученный код подтверждения</a>
+                        <div style="clear:right"></div>
+                        <a href="javascript:void(0);" onclick="" id="id_resetBtnAjaxSend" class="ds_btnGrayRight buzz"><span class="ds_mainBtnCont">Выслать код подтверждения</span><img src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/preload.gif" width="32" height="32"></a>
+                    </div>
+                </div>
+                <div style="clear:left;"></div>
+            </form>
+
+            <form name="form_authResetPassSet" class="ds_authResetPassSet">
+
+                <input type="hidden" name="AUTH_FORM" value="Y">
+                <input type="hidden" name="TYPE" value="CHANGE_PWD">
+                <input type="hidden" name="sessid" value="b314f2c21d86390c0228eabb8da24f62">
+
+                <div class="des_l1" id="id_l1mode2">
+                    <div class="des_l1_left">
+                        Логин<span class="ds_red">*</span><br>
+                        <input type="text" name="USER_LOGIN_loc" id="USER_LOGIN_loc" maxlength="255" value="">
+                    </div>
+                    <div class="des_l1_right">
+                        Код подтверждения<span class="ds_red">*</span><br>
+                        <input type="text" name="USER_CHECKWORD_loc" id="USER_CHECKWORD_loc" maxlength="255" value="">
+                    </div>
+                    <div style="clear:left;"></div>
+
+                    <div class="des_l1_left">
+                        Новый пароль<span class="ds_red">*</span><br>
+                        <input type="password" name="USER_PASSWORD_loc" id="USER_PASSWORD_loc" maxlength="255" value="">
+                    </div>
+                    <div class="des_l1_right">
+                        Подтверждение пароля<span class="ds_red">*</span><br>
+                        <input type="password" name="USER_CONFIRM_PASSWORD_loc" id="USER_CONFIRM_PASSWORD_loc" maxlength="255" value="">
+                    </div>
+                    <div style="clear:left;"></div>
+                </div>
+
+                <div class="ds_red" id="id_errAuthResetSet">&nbsp;</div>
+
+                <div class="des_l3" id="id_l3mode2">
+                    <div class="des_l3_left">
+                        <a href="javascript:void(0);" class="ds_blLinkPad10Gray" onclick="SetFormPartAuth();">Назад к авторизации</a>
+                    </div>
+                    <div class="des_l3_right">
+                        <a href="javascript:void(0);" id="id_resetBtnAjaxReSend" class="ds_blLinkPad10 ds_btnRightEnterCode">Запросить код подтверждения</a>
+                        <div style="clear:right"></div>
+                        <a href="javascript:void(0);" onclick="UpdatePassword();" id="id_resetBtnAjax" class="ds_btnGrayRight buzz"><span class="ds_mainBtnCont">Сменить пароль</span><img src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/preload.gif" width="32" height="32"></a>
+                    </div>
+                </div>
+                <div style="clear:left;"></div>
+            </form>
+
+        </div>
+
+        <div class="des_closeAuthForm" id="id_closeAuthForm2"></div>
+    </div>
+
+
+
+
+
+    <div class="des_authForm des_noCaptchaHeight " id="id_authForm">
+
+        <div class="des_grayLine">
+        </div>
+        <div class="des_contBlock">
+
+            <h1>Авторизация</h1>
+            <span>Пожалуйста, авторизуйтесь, для входа на сайт с помощью соц. сети:</span>
+            <div>
+<div id="bx_auth_float" class="bx-auth-float">
+
+
+
+    <div class="form-group center">
+        <form method="post" name="bx_auth_servicesform" target="_top" action="http://esate.ru/uroki/OpenGL/image_processing/_p4106/">
+        <ul class="ul_icon_social" id="bx_auth_servform">
+
+                                                <li id="bx_auth_serv_formFacebook"><a href="javascript:void(0)" onclick="BX.util.popup(&#39;https://www.facebook.com/dialog/oauth?client_id=817167491677681&amp;redirect_uri=http%3A%2F%2Fesate.ru%2Furoki%2FOpenGL%2Fimage_processing%2F_p4106%2F%3Fauth_service_id%3DFacebook%26check_key%3Dc836834c4eec37357dadd81d3675dbd0%26SECT_ID%3Dimage_processing%26PUBL_ID%3D_p4106&amp;scope=email,publish_actions,user_friends&amp;display=popup&#39;, 580, 400)" class="bx-ss-button facebook-button"></a><span class="bx-spacer"></span><span>Используйте вашу учетную запись на Facebook.com для входа на сайт.</span></li>
+                                                                <li id="bx_auth_serv_formVKontakte"><a href="javascript:void(0)" onclick="BX.util.popup(&#39;https://oauth.vk.com/authorize?client_id=4701883&amp;redirect_uri=http%3A%2F%2Fesate.ru%2Furoki%2FOpenGL%2Fimage_processing%2F_p4106%2F%3Fauth_service_id%3DVKontakte&amp;scope=friends,notify,offline,email&amp;response_type=code&amp;state=site_id%3Ds1%26backurl%3D%252Furoki%252FOpenGL%252Fimage_processing%252F_p4106%252F%253Fcheck_key%253Dc836834c4eec37357dadd81d3675dbd0%2526SECT_ID%253Dimage_processing%2526PUBL_ID%253D_p4106&#39;, 660, 425)" class="bx-ss-button vkontakte-button"></a><span class="bx-spacer"></span><span>Используйте вашу учетную запись VKontakte для входа на сайт.</span></li>
+                                                                <li id="bx_auth_serv_formGoogleOAuth"><a href="javascript:void(0)" onclick="BX.util.popup(&#39;https://accounts.google.com/o/oauth2/auth?client_id=873719019504-13ecngconp9eh9et8oslho2mng6v6phf.apps.googleusercontent.com&amp;redirect_uri=http%3A%2F%2Fesate.ru%2Fbitrix%2Ftools%2Foauth%2Fgoogle.php&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.google.com%2Fm8%2Ffeeds&amp;response_type=code&amp;access_type=offline&amp;state=provider%3DGoogleOAuth%26site_id%3Ds1%26backurl%3D%252Furoki%252FOpenGL%252Fimage_processing%252F_p4106%252F%253Fcheck_key%253Dc836834c4eec37357dadd81d3675dbd0%2526SECT_ID%253Dimage_processing%2526PUBL_ID%253D_p4106%26mode%3Dopener&#39;, 580, 400)" class="bx-ss-button google-button"></a><span class="bx-spacer"></span><span>Используйте вашу учетную запись Google для входа на сайт.</span></li>
+                            
+                        <input type="hidden" name="auth_service_id" value="">
+
+        </ul>
+        </form>
+    </div>
+
+</div>
+</div>
+
+            <br>
+            <span class="ds_orLogin">или с помощью аккаунта на сайте:</span><br><br>
+
+            <form name="form_authMainForm" class="noPadTop">
+
+                <input type="hidden" name="AUTH_FORM" value="Y">
+                <input type="hidden" name="TYPE" value="AUTH">
+                <input type="hidden" name="sessid" value="b314f2c21d86390c0228eabb8da24f62">
+
+                <div class="des_l1">
+                    <div class="des_l1_left">
+                        Логин<br>
+                        <input type="text" name="USER_LOGIN" id="USER_LOGIN" maxlength="255" value="">
+                    </div>
+                    <div class="des_l1_right">
+                        Пароль<br>
+                        <input type="password" name="USER_PASSWORD" id="USER_PASSWORD" maxlength="255" value="">
+                    </div>
+                    <div style="clear:left;"></div>
+                </div>
+                                    <div class="des_l2" id="id_authFromCaptchaBlock">
+
+                    </div>
+                    
+                <div class="ds_red" id="id_errAuth">&nbsp;</div>
+
+                <div class="des_l3" id="id_authFromLinks">
+                    <div class="des_l3_left ds_padTop40i">
+                        <a href="javascript:void(0);" class="ds_blLinkPad10" onclick="ResetPass();">Забыли пароль?</a>
+                        <a href="javascript:void(0);" class="ds_blLinkPad10" onclick="RegInit();">Зарегистрироваться?</a>
+                    </div>
+                    <div class="des_l3_right">
+
+                        <div class="ds_authStorePassLine">
+                            <input type="checkbox" id="USER_REMEMBER" name="USER_REMEMBER" value="Y">Запомнить меня
+                        </div>
+                        <a href="javascript:void(0);" onclick="" id="id_loginBtnAjax" class="des_btnGray buzz"><span class="ds_mainBtnCont">Войти</span><img src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/preload.gif" width="32" height="32"></a>
+
+                    </div>
+                    <div style="clear:left;"></div>
+
+
+                </div>
+
+            </form>
+
+            <div class="des_closeAuthForm" id="id_closeAuthForm"></div>
+
+        </div>
+    </div>
+
+
+
+</div>
+<script type="text/javascript">
+    $(document).ready(function() { AuthFormInit(); });
+</script>
+
+<div class="scrollLeft" id="id_scrollLeft" title="Наверх" style="width: 60px; display: none; opacity: 0.2;"><img src="./1.2 Графические фильтры_ изменение яркости и контрастности изображения_files/top.gif" width="15" height="" alr="^"></div>
+
+
+
+</body></html>

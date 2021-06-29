@@ -1,0 +1,26 @@
+D:\Storage\Github\CSF\Проги\C шарп\АИСД 2 атт\17-6\17-6\bin\Debug\17-6.exe
+D:\Storage\Github\CSF\Проги\C шарп\АИСД 2 атт\17-6\17-6\bin\Debug\17-6.pdb
+D:\Storage\Github\CSF\Проги\C шарп\АИСД 2 атт\17-6\17-6\obj\x86\Debug\17-6.csprojResolveAssemblyReference.cache
+D:\Storage\Github\CSF\Проги\C шарп\АИСД 2 атт\17-6\17-6\obj\x86\Debug\_17_6.WoL.resources
+D:\Storage\Github\CSF\Проги\C шарп\АИСД 2 атт\17-6\17-6\obj\x86\Debug\_17_6.Properties.Resources.resources
+D:\Storage\Github\CSF\Проги\C шарп\АИСД 2 атт\17-6\17-6\obj\x86\Debug\17-6.csproj.GenerateResource.Cache
+D:\Storage\Github\CSF\Проги\C шарп\АИСД 2 атт\17-6\17-6\obj\x86\Debug\17-6.exe
+D:\Storage\Github\CSF\Проги\C шарп\АИСД 2 атт\17-6\17-6\obj\x86\Debug\17-6.pdb
+G:\ВГУ\АИСД 2 атт\17-6\17-6\obj\x86\Debug\17-6.exe
+G:\ВГУ\АИСД 2 атт\17-6\17-6\obj\x86\Debug\17-6.pdb
+G:\ВГУ\АИСД 2 атт\17-6\17-6\bin\Debug\17-6.exe
+G:\ВГУ\АИСД 2 атт\17-6\17-6\bin\Debug\17-6.pdb
+G:\ВГУ\АИСД 2 атт\17-6\17-6\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\ВГУ\АИСД 2 атт\17-6\17-6\obj\x86\Debug\_17_6.WoL.resources
+G:\ВГУ\АИСД 2 атт\17-6\17-6\obj\x86\Debug\_17_6.Properties.Resources.resources
+G:\ВГУ\АИСД 2 атт\17-6\17-6\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\ВГУ\АИСД 2 атт\17-6\17-6\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\17.6\17-6\obj\x86\Debug\17-6.exe
+F:\17.6\17-6\obj\x86\Debug\17-6.pdb
+F:\17.6\17-6\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\17.6\17-6\obj\x86\Debug\_17_6.WoL.resources
+F:\17.6\17-6\obj\x86\Debug\_17_6.Properties.Resources.resources
+F:\17.6\17-6\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\17.6\17-6\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\17.6\17-6\bin\Debug\17-6.exe
+F:\17.6\17-6\bin\Debug\17-6.pdb

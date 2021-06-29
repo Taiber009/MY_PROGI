@@ -1,0 +1,19 @@
+D:\ООП2\bin\Debug\ООП2.exe
+D:\ООП2\bin\Debug\ООП2.pdb
+D:\ООП2\obj\x86\Debug\ООП2.Properties.Resources.resources
+D:\ООП2\obj\x86\Debug\ООП2.csproj.GenerateResource.Cache
+D:\ООП2\obj\x86\Debug\ООП2.exe
+D:\ООП2\obj\x86\Debug\ООП2.pdb
+D:\ООП2\obj\x86\Debug\ООП2.OOP2.resources
+D:\ООП2\obj\x86\Debug\ООП2.csprojResolveAssemblyReference.cache
+E:\ООП2\obj\x86\Debug\ООП2.exe
+E:\ООП2\obj\x86\Debug\ООП2.pdb
+E:\ООП2\bin\Debug\ООП2.exe
+E:\ООП2\bin\Debug\ООП2.pdb
+E:\ООП2\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\ООП2\obj\x86\Debug\ООП2.OOP2.resources
+E:\ООП2\obj\x86\Debug\ООП2.Properties.Resources.resources
+E:\ООП2\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\ООП2\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\С#\ООП2(поиск в папке, треды)\obj\x86\Debug\ООП2.exe
+E:\С#\ООП2(поиск в папке, треды)\obj\x86\Debug\ООП2.pdb

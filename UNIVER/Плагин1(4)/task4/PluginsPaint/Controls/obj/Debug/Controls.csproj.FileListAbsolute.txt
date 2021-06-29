@@ -1,0 +1,58 @@
+Z:\solomatin\!\Src\Controls\bin\Debug\PaintControls.dll
+Z:\solomatin\!\Src\Controls\bin\Debug\PaintControls.pdb
+Z:\solomatin\!\Src\Controls\obj\Debug\ResolveAssemblyReference.cache
+Z:\solomatin\!\Src\Controls\obj\Debug\Oop.Tasks.Paint.Controls.ColorGrid.resources
+Z:\solomatin\!\Src\Controls\obj\Debug\Controls.csproj.GenerateResource.Cache
+Z:\solomatin\!\Src\Controls\obj\Debug\PaintControls.dll
+Z:\solomatin\!\Src\Controls\obj\Debug\PaintControls.pdb
+Z:\!\Src\Controls\bin\Debug\PaintControls.dll
+Z:\!\Src\Controls\bin\Debug\PaintControls.pdb
+Z:\!\Src\Controls\obj\Debug\ResolveAssemblyReference.cache
+Z:\!\Src\Controls\obj\Debug\Oop.Tasks.Paint.Controls.ColorGrid.resources
+Z:\!\Src\Controls\obj\Debug\Controls.csproj.GenerateResource.Cache
+Z:\!\Src\Controls\obj\Debug\PaintControls.dll
+Z:\!\Src\Controls\obj\Debug\PaintControls.pdb
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Controls\bin\Debug\PaintControls.dll
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Controls\bin\Debug\PaintControls.pdb
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Controls\obj\Debug\ResolveAssemblyReference.cache
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Controls\obj\Debug\Oop.Tasks.Paint.Controls.ColorGrid.resources
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Controls\obj\Debug\GenerateResource.read.1.tlog
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Controls\obj\Debug\GenerateResource.write.1.tlog
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Controls\obj\Debug\PaintControls.dll
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Controls\obj\Debug\PaintControls.pdb
+F:\task4\PluginsPaint\Controls\bin\Debug\PaintControls.dll
+F:\task4\PluginsPaint\Controls\bin\Debug\PaintControls.pdb
+F:\task4\PluginsPaint\Controls\obj\Debug\ResolveAssemblyReference.cache
+F:\task4\PluginsPaint\Controls\obj\Debug\Oop.Tasks.Paint.Controls.ColorGrid.resources
+F:\task4\PluginsPaint\Controls\obj\Debug\GenerateResource.read.1.tlog
+F:\task4\PluginsPaint\Controls\obj\Debug\GenerateResource.write.1.tlog
+F:\task4\PluginsPaint\Controls\obj\Debug\PaintControls.dll
+F:\task4\PluginsPaint\Controls\obj\Debug\PaintControls.pdb
+E:\task4\PluginsPaint\Controls\bin\Debug\PaintControls.dll
+E:\task4\PluginsPaint\Controls\bin\Debug\PaintControls.pdb
+E:\task4\PluginsPaint\Controls\obj\Debug\Oop.Tasks.Paint.Controls.ColorGrid.resources
+E:\task4\PluginsPaint\Controls\obj\Debug\Controls.csproj.GenerateResource.Cache
+E:\task4\PluginsPaint\Controls\obj\Debug\PaintControls.dll
+E:\task4\PluginsPaint\Controls\obj\Debug\PaintControls.pdb
+F:\Плагин1(4)\task4\PluginsPaint\Controls\bin\Debug\PaintControls.dll
+F:\Плагин1(4)\task4\PluginsPaint\Controls\bin\Debug\PaintControls.pdb
+F:\Плагин1(4)\task4\PluginsPaint\Controls\obj\Debug\ResolveAssemblyReference.cache
+F:\Плагин1(4)\task4\PluginsPaint\Controls\obj\Debug\Oop.Tasks.Paint.Controls.ColorGrid.resources
+F:\Плагин1(4)\task4\PluginsPaint\Controls\obj\Debug\GenerateResource.read.1.tlog
+F:\Плагин1(4)\task4\PluginsPaint\Controls\obj\Debug\GenerateResource.write.1.tlog
+F:\Плагин1(4)\task4\PluginsPaint\Controls\obj\Debug\PaintControls.dll
+F:\Плагин1(4)\task4\PluginsPaint\Controls\obj\Debug\PaintControls.pdb
+D:\Плагин1(4)\task4\PluginsPaint\Controls\bin\Debug\PaintControls.dll
+D:\Плагин1(4)\task4\PluginsPaint\Controls\bin\Debug\PaintControls.pdb
+D:\Плагин1(4)\task4\PluginsPaint\Controls\obj\Debug\Controls.csprojResolveAssemblyReference.cache
+D:\Плагин1(4)\task4\PluginsPaint\Controls\obj\Debug\Oop.Tasks.Paint.Controls.ColorGrid.resources
+D:\Плагин1(4)\task4\PluginsPaint\Controls\obj\Debug\Controls.csproj.GenerateResource.Cache
+D:\Плагин1(4)\task4\PluginsPaint\Controls\obj\Debug\PaintControls.dll
+D:\Плагин1(4)\task4\PluginsPaint\Controls\obj\Debug\PaintControls.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Controls\bin\Debug\PaintControls.dll
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Controls\bin\Debug\PaintControls.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Controls\obj\Debug\Controls.csprojResolveAssemblyReference.cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Controls\obj\Debug\Oop.Tasks.Paint.Controls.ColorGrid.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Controls\obj\Debug\Controls.csproj.GenerateResource.Cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Controls\obj\Debug\PaintControls.dll
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Controls\obj\Debug\PaintControls.pdb

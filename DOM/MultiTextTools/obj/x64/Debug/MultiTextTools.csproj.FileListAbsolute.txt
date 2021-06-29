@@ -1,0 +1,15 @@
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\MultiTextTools\bin\x64\Debug\MultiTextTools.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\MultiTextTools\bin\x64\Debug\MultiTextTools.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\MultiTextTools\obj\x64\Debug\MultiTextTools.f.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\MultiTextTools\obj\x64\Debug\MultiTextTools.Properties.Resources.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\MultiTextTools\obj\x64\Debug\MultiTextTools.csproj.GenerateResource.cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\MultiTextTools\obj\x64\Debug\MultiTextTools.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\MultiTextTools\obj\x64\Debug\MultiTextTools.pdb
+C:\Users\Taiber009\Desktop\MultiTextTools\bin\x64\Debug\MultiTextTools.exe
+C:\Users\Taiber009\Desktop\MultiTextTools\bin\x64\Debug\MultiTextTools.pdb
+C:\Users\Taiber009\Desktop\MultiTextTools\obj\x64\Debug\MultiTextTools.csprojAssemblyReference.cache
+C:\Users\Taiber009\Desktop\MultiTextTools\obj\x64\Debug\MultiTextTools.f.resources
+C:\Users\Taiber009\Desktop\MultiTextTools\obj\x64\Debug\MultiTextTools.Properties.Resources.resources
+C:\Users\Taiber009\Desktop\MultiTextTools\obj\x64\Debug\MultiTextTools.csproj.GenerateResource.cache
+C:\Users\Taiber009\Desktop\MultiTextTools\obj\x64\Debug\MultiTextTools.exe
+C:\Users\Taiber009\Desktop\MultiTextTools\obj\x64\Debug\MultiTextTools.pdb

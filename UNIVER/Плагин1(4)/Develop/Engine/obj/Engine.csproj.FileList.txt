@@ -1,0 +1,11 @@
+obj\Debug\PaintEngine.exe
+obj\Debug\PaintEngine.pdb
+bin\Debug\PaintEngine.exe
+bin\Debug\PaintEngine.pdb
+bin\Debug\PaintControls.dll
+bin\Debug\PaintInterface.dll
+bin\Debug\PaintControls.pdb
+bin\Debug\PaintInterface.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Oop.Tasks.Paint.Engine.PaintMainForm.resources
+obj\Debug\Engine.csproj.GenerateResource.Cache

@@ -1,0 +1,25 @@
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\8.16\obj\x86\Debug\ResolveAssemblyReference.cache
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\8.16\obj\x86\Debug\_8._16.Proga.resources
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\8.16\obj\x86\Debug\_8._16.Properties.Resources.resources
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\8.16\obj\x86\Debug\GenerateResource.read.1.tlog
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\8.16\obj\x86\Debug\GenerateResource.write.1.tlog
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\8.16\bin\Debug\8.16.exe
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\8.16\bin\Debug\8.16.pdb
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\8.16\obj\x86\Debug\8.16.exe
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\8.16\obj\x86\Debug\8.16.pdb
+J:\aaaa\8.16\obj\x86\Debug\8.16.exe
+J:\aaaa\8.16\obj\x86\Debug\8.16.pdb
+J:\aaaa\8.16\bin\Debug\8.16.exe
+J:\aaaa\8.16\bin\Debug\8.16.pdb
+J:\aaaa\8.16\obj\x86\Debug\_8._16.Proga.resources
+J:\aaaa\8.16\obj\x86\Debug\_8._16.Properties.Resources.resources
+J:\aaaa\8.16\obj\x86\Debug\8.16.csproj.GenerateResource.Cache
+D:\aaaa\8.16\obj\x86\Debug\8.16.exe
+D:\aaaa\8.16\obj\x86\Debug\8.16.pdb
+D:\aaaa\8.16\bin\Debug\8.16.exe
+D:\aaaa\8.16\bin\Debug\8.16.pdb
+D:\aaaa\8.16\obj\x86\Debug\_8._16.Proga.resources
+D:\aaaa\8.16\obj\x86\Debug\_8._16.Properties.Resources.resources
+D:\aaaa\8.16\obj\x86\Debug\8.16.csproj.GenerateResource.Cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\8.16\obj\x86\Debug\8.16.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\8.16\obj\x86\Debug\8.16.pdb

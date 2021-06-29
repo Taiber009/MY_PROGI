@@ -1,0 +1,16 @@
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\7.16\7.16\bin\Debug\7.16.exe.config
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\7.16\7.16\bin\Debug\7.16.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\7.16\7.16\bin\Debug\7.16.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\7.16\7.16\obj\Debug\7.16.csprojResolveAssemblyReference.cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\7.16\7.16\obj\Debug\_7._16.Properties.Resources.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\7.16\7.16\obj\Debug\7.16.csproj.GenerateResource.Cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\7.16\7.16\obj\Debug\7.16.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\7.16\7.16\obj\Debug\7.16.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\7.16\7.16\obj\Debug\_7._16.Proga.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\7.16\7.16\bin\Debug\mscorlib.dll
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\7.16\7.16\bin\Debug\ru\mscorlib.resources.dll
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\7.16\7.16\bin\Debug\normidna.nlp
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\7.16\7.16\bin\Debug\normnfc.nlp
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\7.16\7.16\bin\Debug\normnfd.nlp
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\7.16\7.16\bin\Debug\normnfkc.nlp
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\7.16\7.16\bin\Debug\normnfkd.nlp

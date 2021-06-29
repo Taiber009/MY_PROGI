@@ -1,0 +1,57 @@
+div#con {
+	border: 1px solid black;
+	border-collapse: collapse;
+	background:#F5F5F5;
+	margin: auto;
+    width: 613px;
+    height: 439px;
+}
+ 
+div#photo{
+	margin-top: 46px;
+	margin-left: 34px;
+	text-align: center;
+	height: 183px;
+	width: 150px;
+	float: left;
+	background: url("1234.jpg") no-repeat;
+}
+ h2.text
+ {
+	border: 1px solid black;
+	border-collapse: collapse;
+	color: gray;
+	font-family: Tahoma, sans-serif;
+	font-size: 15px;
+	width: 355px;
+	height: 125px;
+	text-align: Left;
+ }
+ h2.head
+{
+	text-align: center;
+}
+div#head {
+    width: 343px;
+    height: 210px;
+	margin-left: 176px;
+	margin-top: 53px;
+}
+ 
+div#main {
+	font-weight: normal;
+	border: 1px solid black;
+	border-collapse: collapse;
+	font-family: Times;
+	font-size: 12px;
+    width: 544px;
+    height: 153px;
+}
+ li.b
+ {
+	font-weight: bold;
+ }
+ li.it
+ {
+	font-style: italic;
+ }

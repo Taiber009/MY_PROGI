@@ -1,0 +1,5 @@
+L:\Лекции\2 Курс\ООП\Tasks\task3\PluginsPaint\Develop\Engine\bin\Debug\Plugins\Task3\Task3.dll
+L:\Лекции\2 Курс\ООП\Tasks\task3\PluginsPaint\Develop\Engine\bin\Debug\Plugins\Task3\Task3.pdb
+L:\Лекции\2 Курс\ООП\Tasks\task3\PluginsPaint\Develop\Task3\obj\Debug\ResolveAssemblyReference.cache
+L:\Лекции\2 Курс\ООП\Tasks\task3\PluginsPaint\Develop\Task3\obj\Debug\Task3.dll
+L:\Лекции\2 Курс\ООП\Tasks\task3\PluginsPaint\Develop\Task3\obj\Debug\Task3.pdb

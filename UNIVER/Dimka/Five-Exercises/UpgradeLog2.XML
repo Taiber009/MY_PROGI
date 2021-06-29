@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Five-Exercises">
+</Property><Property Name="Файл решения" Value="E:\С#\Dimka\Five-Exercises\Five-Exercises.sln">
+</Property><Property Name="Файл параметров пользователя" Value="E:\С#\Dimka\Five-Exercises\Five-Exercises.suo">
+</Property><Property Name="Date" Value="25 декабря 2019 г.">
+</Property><Property Name="Time" Value="20:30">
+</Property><Property Name="Номер записи" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="Five-Exercises.sln" Description="Ошибка при создании резервного файла: E:\С#\Dimka\Five-Exercises\Five-Exercises.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="Five-Exercises.suo" Description="Успешно создана резервная копия файла E:\С#\Dimka\Five-Exercises\Five-Exercises.suo.old">
+</Event><Event ErrorLevel="0" Project="Five-Exercises" Source="Five-Exercises.csproj" Description="Успешно создана резервная копия файла проекта: E:\С#\Dimka\Five-Exercises\Five-Exercises.csproj.old">
+</Event><Event ErrorLevel="1" Project="Five-Exercises" Source="Five-Exercises.csproj" Description="Этот проект рассчитан на .NET Framework версии 2.0 или 3.0. Если проект будет использовать сборки, требующие более новую версию .NET Framework, возникнет ошибка построения. Чтобы изменить версию .NET Framework, выберите пункт &quot;Свойства&quot; в меню проекта, затем выберите новую версию в раскрывающемся списке &quot;.NET Framework&quot;. (В Visual Basic этот список находится на вкладке &quot;Компиляция&quot;, открываемой при нажатии кнопки &quot;Дополнительные параметры компилятора&quot;.)">
+</Event><Event ErrorLevel="0" Project="Five-Exercises" Source="Five-Exercises.csproj" Description="Проект успешно преобразован">
+</Event><Event ErrorLevel="3" Project="Five-Exercises" Source="Five-Exercises.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Exercise2" Source="..\Exercise2\Exercise2.csproj" Description="Файл проекта не нуждается в преобразовании.">
+</Event><Event ErrorLevel="3" Project="Exercise2" Source="..\Exercise2\Exercise2.csproj" Description="Преобразование не требуется">
+</Event><Event ErrorLevel="0" Project="Exercise1" Source="..\Exercise1\Exercise1.csproj" Description="Файл проекта не нуждается в преобразовании.">
+</Event><Event ErrorLevel="3" Project="Exercise1" Source="..\Exercise1\Exercise1.csproj" Description="Преобразование не требуется">
+</Event><Event ErrorLevel="0" Project="Exercise3" Source="..\Exercise3\Exercise3.csproj" Description="Файл проекта не нуждается в преобразовании.">
+</Event><Event ErrorLevel="3" Project="Exercise3" Source="..\Exercise3\Exercise3.csproj" Description="Преобразование не требуется">
+</Event><Event ErrorLevel="3" Project="Exercise33" Source="..\Exercise33\Exercise33.vcxproj" Description="Преобразование не требуется">
+</Event><Event ErrorLevel="0" Project="Exercise4" Source="..\Exercise4\Exercise4.csproj" Description="Файл проекта не нуждается в преобразовании.">
+</Event><Event ErrorLevel="3" Project="Exercise4" Source="..\Exercise4\Exercise4.csproj" Description="Преобразование не требуется">
+</Event><Event ErrorLevel="0" Project="Exercise5" Source="..\Exercise5\Exercise5.csproj" Description="Файл проекта не нуждается в преобразовании.">
+</Event><Event ErrorLevel="3" Project="Exercise5" Source="..\Exercise5\Exercise5.csproj" Description="Преобразование не требуется">
+</Event><Event ErrorLevel="3" Project="Exercise44" Source="..\Exercise44\Exercise44.vcxproj" Description="Преобразование не требуется">
+</Event><Event ErrorLevel="0" Project="" Source="Five-Exercises.sln" Description="Для этого файла не требуется преобразование.">
+</Event><Event ErrorLevel="3" Project="" Source="Five-Exercises.sln" Description="Преобразование не требуется">
+</Event><Event ErrorLevel="0" Project="Five-Exercises" Source="Five-Exercises.csproj" Description="Сканирование завершено: обновление для файлов проекта не требуется.">
+</Event></UpgradeLog>

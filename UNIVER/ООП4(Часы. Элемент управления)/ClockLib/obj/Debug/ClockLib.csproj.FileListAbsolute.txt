@@ -1,0 +1,14 @@
+C:\Users\Taiber009\Desktop\ClockLib\bin\Debug\ClockLib.dll
+C:\Users\Taiber009\Desktop\ClockLib\bin\Debug\ClockLib.pdb
+C:\Users\Taiber009\Desktop\ClockLib\obj\Debug\ClockLib.UserClock.resources
+C:\Users\Taiber009\Desktop\ClockLib\obj\Debug\ClockLib.csproj.GenerateResource.Cache
+C:\Users\Taiber009\Desktop\ClockLib\obj\Debug\ClockLib.dll
+C:\Users\Taiber009\Desktop\ClockLib\obj\Debug\ClockLib.pdb
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\ClockLib\bin\Debug\ClockLib.dll
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\ClockLib\bin\Debug\ClockLib.pdb
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\ClockLib\obj\Debug\ResolveAssemblyReference.cache
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\ClockLib\obj\Debug\ClockLib.UserClock.resources
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\ClockLib\obj\Debug\GenerateResource.read.1.tlog
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\ClockLib\obj\Debug\GenerateResource.write.1.tlog
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\ClockLib\obj\Debug\ClockLib.dll
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\ООП4(Часы. Элемент управления)\ClockLib\obj\Debug\ClockLib.pdb

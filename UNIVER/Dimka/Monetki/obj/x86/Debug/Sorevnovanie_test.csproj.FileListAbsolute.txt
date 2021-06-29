@@ -1,0 +1,12 @@
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\Sorevnovanie_test\bin\Debug\Sorevnovanie_test.exe
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\Sorevnovanie_test\bin\Debug\Sorevnovanie_test.pdb
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\Sorevnovanie_test\obj\x86\Debug\Sorevnovanie_test.exe
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\Sorevnovanie_test\obj\x86\Debug\Sorevnovanie_test.pdb
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\Sorevnovanie_test\obj\x86\Debug\Sorevnovanie_test.csprojResolveAssemblyReference.cache
+G:\С#\Dimka\Monetki\obj\x86\Debug\Sorevnovanie_test.exe
+G:\С#\Dimka\Monetki\obj\x86\Debug\Sorevnovanie_test.pdb
+G:\С#\Dimka\Monetki\bin\Debug\Sorevnovanie_test.exe
+G:\С#\Dimka\Monetki\bin\Debug\Sorevnovanie_test.pdb
+G:\С#\Dimka\Monetki\obj\x86\Debug\Sorevnovanie_test.csprojResolveAssemblyReference.cache
+F:\С#\Dimka\Monetki\obj\x86\Debug\Sorevnovanie_test.exe
+F:\С#\Dimka\Monetki\obj\x86\Debug\Sorevnovanie_test.pdb

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Five-Exercises">
+</Property><Property Name="Файл решения" Value="E:\С#\Dimka\Five-Exercises\Five-Exercises.sln">
+</Property><Property Name="Date" Value="25 декабря 2019 г.">
+</Property><Property Name="Time" Value="19:26">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Five-Exercises.sln" Description="Успешно создана резервная копия файла E:\С#\Dimka\Five-Exercises\Five-Exercises.sln.old">
+</Event><Event ErrorLevel="0" Project="Five-Exercises" Source="Five-Exercises.csproj" Description="Файл проекта не нуждается в преобразовании.">
+</Event><Event ErrorLevel="3" Project="Five-Exercises" Source="Five-Exercises.csproj" Description="Преобразование не требуется">
+</Event><Event ErrorLevel="0" Project="Exercise2" Source="..\Exercise2\Exercise2.csproj" Description="Файл проекта не нуждается в преобразовании.">
+</Event><Event ErrorLevel="3" Project="Exercise2" Source="..\Exercise2\Exercise2.csproj" Description="Преобразование не требуется">
+</Event><Event ErrorLevel="0" Project="Exercise1" Source="..\Exercise1\Exercise1.csproj" Description="Файл проекта не нуждается в преобразовании.">
+</Event><Event ErrorLevel="3" Project="Exercise1" Source="..\Exercise1\Exercise1.csproj" Description="Преобразование не требуется">
+</Event><Event ErrorLevel="0" Project="Exercise3" Source="..\Exercise3\Exercise3.csproj" Description="Файл проекта не нуждается в преобразовании.">
+</Event><Event ErrorLevel="3" Project="Exercise3" Source="..\Exercise3\Exercise3.csproj" Description="Преобразование не требуется">
+</Event><Event ErrorLevel="3" Project="Exercise33" Source="..\Exercise33\Exercise33.vcxproj" Description="Преобразование не требуется">
+</Event><Event ErrorLevel="0" Project="Exercise4" Source="..\Exercise4\Exercise4.csproj" Description="Файл проекта не нуждается в преобразовании.">
+</Event><Event ErrorLevel="3" Project="Exercise4" Source="..\Exercise4\Exercise4.csproj" Description="Преобразование не требуется">
+</Event><Event ErrorLevel="0" Project="Exercise5" Source="..\Exercise5\Exercise5.csproj" Description="Файл проекта не нуждается в преобразовании.">
+</Event><Event ErrorLevel="3" Project="Exercise5" Source="..\Exercise5\Exercise5.csproj" Description="Преобразование не требуется">
+</Event><Event ErrorLevel="3" Project="Exercise44" Source="..\Exercise44\Exercise44.vcxproj" Description="Преобразование не требуется">
+</Event><Event ErrorLevel="2" Project="Exercise2" Source="..\Exercise2\Exercise2.csproj" Description="Не удается прочесть файл проекта &quot;Exercise2.csproj&quot;. &#xA;E:\С#\Dimka\Exercise2\Exercise2.csproj(1,1): пространством имен XML по умолчанию для этого проекта должно быть пространством имен MSBuild XML. Если проект создан в формате MSBuild 2003, добавьте xmlns=&quot;http://schemas.microsoft.com/developer/msbuild/2003&quot; в элемент &lt;Project&gt;. Если проект был создан в старом формате 1.0 или 1.2, преобразуйте его в формат MSBuild 2003.">
+</Event><Event ErrorLevel="2" Project="Exercise1" Source="..\Exercise1\Exercise1.csproj" Description="Не удается прочесть файл проекта &quot;Exercise1.csproj&quot;. &#xA;E:\С#\Dimka\Exercise1\Exercise1.csproj(1,1): пространством имен XML по умолчанию для этого проекта должно быть пространством имен MSBuild XML. Если проект создан в формате MSBuild 2003, добавьте xmlns=&quot;http://schemas.microsoft.com/developer/msbuild/2003&quot; в элемент &lt;Project&gt;. Если проект был создан в старом формате 1.0 или 1.2, преобразуйте его в формат MSBuild 2003.">
+</Event><Event ErrorLevel="2" Project="Exercise3" Source="..\Exercise3\Exercise3.csproj" Description="Не удается прочесть файл проекта &quot;Exercise3.csproj&quot;. &#xA;E:\С#\Dimka\Exercise3\Exercise3.csproj(1,1): пространством имен XML по умолчанию для этого проекта должно быть пространством имен MSBuild XML. Если проект создан в формате MSBuild 2003, добавьте xmlns=&quot;http://schemas.microsoft.com/developer/msbuild/2003&quot; в элемент &lt;Project&gt;. Если проект был создан в старом формате 1.0 или 1.2, преобразуйте его в формат MSBuild 2003.">
+</Event><Event ErrorLevel="2" Project="Exercise33" Source="..\Exercise33\Exercise33.vcxproj" Description="">
+</Event><Event ErrorLevel="2" Project="Exercise4" Source="..\Exercise4\Exercise4.csproj" Description="Не удается прочесть файл проекта &quot;Exercise4.csproj&quot;. &#xA;E:\С#\Dimka\Exercise4\Exercise4.csproj(1,1): пространством имен XML по умолчанию для этого проекта должно быть пространством имен MSBuild XML. Если проект создан в формате MSBuild 2003, добавьте xmlns=&quot;http://schemas.microsoft.com/developer/msbuild/2003&quot; в элемент &lt;Project&gt;. Если проект был создан в старом формате 1.0 или 1.2, преобразуйте его в формат MSBuild 2003.">
+</Event><Event ErrorLevel="2" Project="Exercise5" Source="..\Exercise5\Exercise5.csproj" Description="Не удается прочесть файл проекта &quot;Exercise5.csproj&quot;. &#xA;E:\С#\Dimka\Exercise5\Exercise5.csproj(1,1): пространством имен XML по умолчанию для этого проекта должно быть пространством имен MSBuild XML. Если проект создан в формате MSBuild 2003, добавьте xmlns=&quot;http://schemas.microsoft.com/developer/msbuild/2003&quot; в элемент &lt;Project&gt;. Если проект был создан в старом формате 1.0 или 1.2, преобразуйте его в формат MSBuild 2003.">
+</Event><Event ErrorLevel="2" Project="Exercise44" Source="..\Exercise44\Exercise44.vcxproj" Description="">
+</Event><Event ErrorLevel="0" Project="" Source="Five-Exercises.sln" Description="Преобразование решения успешно завершено">
+</Event><Event ErrorLevel="3" Project="" Source="Five-Exercises.sln" Description="Converted">
+</Event></UpgradeLog>

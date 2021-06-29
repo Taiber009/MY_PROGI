@@ -1,0 +1,11 @@
+E:\С#\Dimka\Five-Exercises\bin\Debug\Sorevnovanie_test.exe
+E:\С#\Dimka\Five-Exercises\bin\Debug\Sorevnovanie_test.pdb
+E:\С#\Dimka\Five-Exercises\obj\x86\Debug\Five-Exercises.csprojAssemblyReference.cache
+E:\С#\Dimka\Five-Exercises\obj\x86\Debug\Sorevnovanie_test.exe
+E:\С#\Dimka\Five-Exercises\obj\x86\Debug\Sorevnovanie_test.pdb
+G:\С#\Dimka\Five-Exercises\obj\x86\Debug\Sorevnovanie_test.exe
+G:\С#\Dimka\Five-Exercises\obj\x86\Debug\Sorevnovanie_test.pdb
+G:\С#\Dimka\Five-Exercises\bin\Debug\Sorevnovanie_test.exe
+G:\С#\Dimka\Five-Exercises\obj\x86\Debug\Five-Exercises.csprojResolveAssemblyReference.cache
+G:\С#\Dimka\Five-Exercises\bin\Debug\Sorevnovanie_test.pdb
+E:\С#\Dimka\Five-Exercises\bin\Debug\Sorevnovanie_test.exe.config

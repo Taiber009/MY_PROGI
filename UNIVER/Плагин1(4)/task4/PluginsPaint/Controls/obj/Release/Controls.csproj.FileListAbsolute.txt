@@ -1,0 +1,10 @@
+Z:\solomatin\!\Src\Controls\bin\Release\PaintControls.dll
+Z:\solomatin\!\Src\Controls\obj\Release\ResolveAssemblyReference.cache
+Z:\solomatin\!\Src\Controls\obj\Release\Oop.Tasks.Paint.Controls.ColorGrid.resources
+Z:\solomatin\!\Src\Controls\obj\Release\Controls.csproj.GenerateResource.Cache
+Z:\solomatin\!\Src\Controls\obj\Release\PaintControls.dll
+Z:\!\Src\Controls\bin\Release\PaintControls.dll
+Z:\!\Src\Controls\obj\Release\ResolveAssemblyReference.cache
+Z:\!\Src\Controls\obj\Release\Oop.Tasks.Paint.Controls.ColorGrid.resources
+Z:\!\Src\Controls\obj\Release\Controls.csproj.GenerateResource.Cache
+Z:\!\Src\Controls\obj\Release\PaintControls.dll

@@ -1,0 +1,12 @@
+c:\users\taiber009\documents\visual studio 2015\Projects\Задание №16 Хозиев 1 курс 2.2\Задание №16 Хозиев\bin\Debug\Задание №16 Хозиев.exe.config
+C:\Users\Taiber009\Documents\Visual Studio 2015\Projects\Задание №16 Хозиев 1 курс 2.2\Задание №16 Хозиев\obj\Debug\Задание №16 Хозиев.csprojResolveAssemblyReference.cache
+C:\Users\Taiber009\Documents\Visual Studio 2015\Projects\Задание №16 Хозиев 1 курс 2.2\Задание №16 Хозиев\bin\Debug\Задание №16 Хозиев.exe
+C:\Users\Taiber009\Documents\Visual Studio 2015\Projects\Задание №16 Хозиев 1 курс 2.2\Задание №16 Хозиев\bin\Debug\Задание №16 Хозиев.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2015\Projects\Задание №16 Хозиев 1 курс 2.2\Задание №16 Хозиев\obj\Debug\Задание №16 Хозиев.exe
+C:\Users\Taiber009\Documents\Visual Studio 2015\Projects\Задание №16 Хозиев 1 курс 2.2\Задание №16 Хозиев\obj\Debug\Задание №16 Хозиев.pdb
+J:\Задание №16 Хозиев 1 курс 2.2\Задание №16 Хозиев\bin\Debug\Задание №16 Хозиев.exe.config
+J:\Задание №16 Хозиев 1 курс 2.2\Задание №16 Хозиев\obj\Debug\Задание №16 Хозиев.exe
+J:\Задание №16 Хозиев 1 курс 2.2\Задание №16 Хозиев\obj\Debug\Задание №16 Хозиев.pdb
+J:\Задание №16 Хозиев 1 курс 2.2\Задание №16 Хозиев\bin\Debug\Задание №16 Хозиев.exe
+J:\Задание №16 Хозиев 1 курс 2.2\Задание №16 Хозиев\bin\Debug\Задание №16 Хозиев.pdb
+J:\Задание №16 Хозиев 1 курс 2.2\Задание №16 Хозиев\obj\Debug\Задание №16 Хозиев.csprojResolveAssemblyReference.cache

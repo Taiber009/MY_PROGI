@@ -1,0 +1,28 @@
+ru:
+  user:
+    attributes:
+      name: "Юрий"
+      password: "1234"
+    errors:
+      password:
+        blank: "Не введён пароль"
+        to_short: "Пароль слишком короткий"
+  film:
+    attributes:
+      name: "ВГУ.Сложный прикол"
+      actors: "Тутельян, Леонтьев, Прохорченко"
+es:
+  name: "qqqqq"
+en:
+  user:
+    attributes:
+      name: "Yuri"
+      password: "1234"
+    errors:
+      password:
+        blank: "the password is not entered"
+        to_short: "Password is too short"
+  film:
+    attributes:
+      name: "VSU.Difficult joke"
+      actors: "Tytelian, Leontev, Prohorchenko"

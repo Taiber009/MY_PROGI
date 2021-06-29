@@ -1,0 +1,52 @@
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\InfBez1\bin\Debug\InfBez1.exe
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\InfBez1\bin\Debug\InfBez1.pdb
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\InfBez1\obj\x86\Debug\InfBez1.exe
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\InfBez1\obj\x86\Debug\InfBez1.pdb
+F:\4курс\Информационная безопасность\InfBez1\obj\x86\Debug\InfBez1.exe
+F:\4курс\Информационная безопасность\InfBez1\obj\x86\Debug\InfBez1.pdb
+F:\4курс\Информационная безопасность\InfBez1\bin\Debug\InfBez1.exe
+F:\4курс\Информационная безопасность\InfBez1\bin\Debug\InfBez1.pdb
+F:\4курс\Информационная безопасность\InfBez1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\4курс\Информационная безопасность\InfBez2\obj\x86\Debug\InfBez1.exe
+E:\4курс\Информационная безопасность\InfBez2\obj\x86\Debug\InfBez1.pdb
+F:\4курс\Информационная безопасность\InfBez2\obj\x86\Debug\InfBez1.exe
+F:\4курс\Информационная безопасность\InfBez2\obj\x86\Debug\InfBez1.pdb
+F:\4курс\Информационная безопасность\InfBez2\bin\Debug\InfBez1.exe
+F:\4курс\Информационная безопасность\InfBez2\bin\Debug\InfBez1.pdb
+F:\4курс\Информационная безопасность\InfBez2\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\4курс\Информационная безопасность\InfBez2\bin\Debug\InfBez1.exe
+E:\4курс\Информационная безопасность\InfBez2\bin\Debug\InfBez1.pdb
+E:\4курс\Информационная безопасность\!Проги\InfBez3\obj\x86\Debug\InfBez1.exe
+E:\4курс\Информационная безопасность\!Проги\InfBez3\obj\x86\Debug\InfBez1.pdb
+E:\4курс\Информационная безопасность\!Проги\InfBez3\bin\Debug\InfBez1.exe
+E:\4курс\Информационная безопасность\!Проги\InfBez3\bin\Debug\InfBez1.pdb
+F:\4курс\Информационная безопасность\!Проги\InfBez3\obj\x86\Debug\InfBez1.exe
+F:\4курс\Информационная безопасность\!Проги\InfBez3\obj\x86\Debug\InfBez1.pdb
+F:\4курс\Информационная безопасность\!Проги\InfBez3\bin\Debug\InfBez1.exe
+F:\4курс\Информационная безопасность\!Проги\InfBez3\bin\Debug\InfBez1.pdb
+F:\4курс\Информационная безопасность\!Проги\InfBez3\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\4курс\Информационная безопасность\!Проги\InfBez3\obj\x86\Debug\InfBez1.exe
+G:\4курс\Информационная безопасность\!Проги\InfBez3\obj\x86\Debug\InfBez1.pdb
+G:\4курс\Информационная безопасность\!Проги\InfBez3\bin\Debug\InfBez1.exe
+G:\4курс\Информационная безопасность\!Проги\InfBez3\bin\Debug\InfBez1.pdb
+G:\4курс\Информационная безопасность\!Проги\InfBez3\obj\x86\Debug\InfBez1.csprojResolveAssemblyReference.cache
+\\csfs\home$\hoziev_yu_g\Profile\Desktop\InfBez3\obj\x86\Debug\InfBez1.exe
+\\csfs\home$\hoziev_yu_g\Profile\Desktop\InfBez3\obj\x86\Debug\InfBez1.pdb
+\\csfs\home$\hoziev_yu_g\Profile\Desktop\InfBez3\bin\Debug\InfBez1.exe
+\\csfs\home$\hoziev_yu_g\Profile\Desktop\InfBez3\bin\Debug\InfBez1.pdb
+\\csfs\home$\hoziev_yu_g\Profile\Desktop\InfBez3\obj\x86\Debug\InfBez1.csprojResolveAssemblyReference.cache
+\\csfs\home$\hoziev_yu_g\Profile\Desktop\InfBez4\obj\x86\Debug\InfBez1.exe
+\\csfs\home$\hoziev_yu_g\Profile\Desktop\InfBez4\obj\x86\Debug\InfBez1.pdb
+\\csfs\home$\hoziev_yu_g\Profile\Desktop\InfBez4\bin\Debug\InfBez1.exe
+\\csfs\home$\hoziev_yu_g\Profile\Desktop\InfBez4\bin\Debug\InfBez1.pdb
+\\csfs\home$\hoziev_yu_g\Profile\Desktop\InfBez4\obj\x86\Debug\InfBez1.csprojResolveAssemblyReference.cache
+E:\4курс\Информационная безопасность\!Проги\InfBez4\obj\x86\Debug\InfBez1.exe
+E:\4курс\Информационная безопасность\!Проги\InfBez4\obj\x86\Debug\InfBez1.pdb
+E:\4курс\Информационная безопасность\!Проги\InfBez4\bin\Debug\InfBez1.exe
+E:\4курс\Информационная безопасность\!Проги\InfBez4\bin\Debug\InfBez1.pdb
+E:\4курс\Информационная безопасность\!Проги\InfBez4\obj\x86\Debug\InfBez1.csprojResolveAssemblyReference.cache
+F:\4курс\Информационная безопасность\!Проги\InfBez4\obj\x86\Debug\InfBez1.exe
+F:\4курс\Информационная безопасность\!Проги\InfBez4\obj\x86\Debug\InfBez1.pdb
+F:\4курс\Информационная безопасность\!Проги\InfBez4\bin\Debug\InfBez1.exe
+F:\4курс\Информационная безопасность\!Проги\InfBez4\bin\Debug\InfBez1.pdb
+F:\4курс\Информационная безопасность\!Проги\InfBez4\obj\x86\Debug\ResolveAssemblyReference.cache

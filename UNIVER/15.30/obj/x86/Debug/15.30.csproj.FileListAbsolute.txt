@@ -1,0 +1,26 @@
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\15.30\bin\Debug\15.30.exe
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\15.30\bin\Debug\15.30.pdb
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\15.30\obj\x86\Debug\ResolveAssemblyReference.cache
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\15.30\obj\x86\Debug\_15._30.Proga.resources
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\15.30\obj\x86\Debug\_15._30.Properties.Resources.resources
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\15.30\obj\x86\Debug\GenerateResource.read.1.tlog
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\15.30\obj\x86\Debug\GenerateResource.write.1.tlog
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\15.30\obj\x86\Debug\15.30.exe
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\15.30\obj\x86\Debug\15.30.pdb
+J:\15.30\obj\x86\Debug\15.30.exe
+J:\15.30\obj\x86\Debug\15.30.pdb
+J:\15.30\bin\Debug\15.30.exe
+J:\15.30\bin\Debug\15.30.pdb
+J:\15.30\obj\x86\Debug\15.30.csprojResolveAssemblyReference.cache
+J:\15.30\obj\x86\Debug\_15._30.Proga.resources
+J:\15.30\obj\x86\Debug\_15._30.Properties.Resources.resources
+J:\15.30\obj\x86\Debug\15.30.csproj.GenerateResource.Cache
+F:\15.30\obj\x86\Debug\15.30.exe
+F:\15.30\obj\x86\Debug\15.30.pdb
+F:\15.30\bin\Debug\15.30.exe
+F:\15.30\bin\Debug\15.30.pdb
+F:\15.30\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\15.30\obj\x86\Debug\_15._30.Proga.resources
+F:\15.30\obj\x86\Debug\_15._30.Properties.Resources.resources
+F:\15.30\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\15.30\obj\x86\Debug\GenerateResource.write.1.tlog

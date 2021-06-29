@@ -1,0 +1,5 @@
+C:\Users\Taiber009\Desktop\Anagramer\bin\Debug\Anagramer.exe
+C:\Users\Taiber009\Desktop\Anagramer\bin\Debug\Anagramer.pdb
+C:\Users\Taiber009\Desktop\Anagramer\obj\Debug\Anagramer.csprojResolveAssemblyReference.cache
+C:\Users\Taiber009\Desktop\Anagramer\obj\Debug\Anagramer.exe
+C:\Users\Taiber009\Desktop\Anagramer\obj\Debug\Anagramer.pdb

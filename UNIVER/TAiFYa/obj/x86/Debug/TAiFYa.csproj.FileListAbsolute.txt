@@ -1,0 +1,9 @@
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\TAiFYa\obj\x86\Debug\TAiFYa.csprojAssemblyReference.cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\TAiFYa\obj\x86\Debug\TAiFYa.csproj.GenerateResource.cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\TAiFYa\obj\x86\Debug\TAiFYa.csproj.CoreCompileInputs.cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\TAiFYa\bin\Debug\TAiFYa.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\TAiFYa\bin\Debug\TAiFYa.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\TAiFYa\obj\x86\Debug\TAiFYa.Properties.Resources.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\TAiFYa\obj\x86\Debug\TAiFYa.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\TAiFYa\obj\x86\Debug\TAiFYa.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\TAiFYa\obj\x86\Debug\TAiFYa.MainForm.resources

@@ -1,0 +1,48 @@
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Химия(3)\bin\Debug\Химия(3).exe
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Химия(3)\bin\Debug\Химия(3).pdb
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Химия(3)\obj\x86\Debug\Химия_3_.Form1.resources
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Химия(3)\obj\x86\Debug\Химия_3_.Properties.Resources.resources
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Химия(3)\obj\x86\Debug\Химия(3).exe
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Химия(3)\obj\x86\Debug\Химия(3).pdb
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Химия(3)\obj\x86\Debug\ResolveAssemblyReference.cache
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Химия(3)\obj\x86\Debug\GenerateResource.read.1.tlog
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Химия(3)\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Химия(3)\obj\x86\Debug\Химия(3).exe
+F:\Химия(3)\obj\x86\Debug\Химия(3).pdb
+F:\Химия(3)\obj\x86\Debug\Химия_3_.Properties.Resources.resources
+F:\Химия(3)\bin\Debug\Химия(3).exe
+F:\Химия(3)\bin\Debug\Химия(3).pdb
+D:\Химия(3)\obj\x86\Debug\Химия(3).exe
+D:\Химия(3)\obj\x86\Debug\Химия(3).pdb
+D:\Химия(3)\obj\x86\Debug\Химия(3).csprojResolveAssemblyReference.cache
+D:\Химия(3)\obj\x86\Debug\Химия_3_.Properties.Resources.resources
+D:\Химия(3)\obj\x86\Debug\Химия(3).csproj.GenerateResource.Cache
+D:\Химия(3)\bin\Debug\Химия(3).exe
+D:\Химия(3)\bin\Debug\Химия(3).pdb
+D:\Химия(3)\obj\x86\Debug\Химия_3_.Proga.resources
+F:\Химия(3)\obj\x86\Debug\Химия_3_.Proga.resources
+G:\Химия(3)\obj\x86\Debug\Химия(3).exe
+G:\Химия(3)\obj\x86\Debug\Химия(3).pdb
+G:\Химия(3)\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Химия(3)\obj\x86\Debug\Химия_3_.Proga.resources
+G:\Химия(3)\obj\x86\Debug\Химия_3_.Properties.Resources.resources
+G:\Химия(3)\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\Химия(3)\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Химия(3)\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Химия(3)\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Химия(3)\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Химия(3)\obj\x86\Debug\Химия(3).exe
+E:\Химия(3)\obj\x86\Debug\Химия(3).pdb
+F:\С#\Химия(3)\obj\x86\Debug\Химия(3).exe
+F:\С#\Химия(3)\obj\x86\Debug\Химия(3).pdb
+D:\С#\Химия(3)\obj\x86\Debug\Химия(3).exe
+D:\С#\Химия(3)\obj\x86\Debug\Химия(3).pdb
+E:\С#\Химия(3)\obj\x86\Debug\Химия(3).exe
+E:\С#\Химия(3)\obj\x86\Debug\Химия(3).pdb
+D:\С#\Химия(3)\bin\Debug\Химия(3).exe
+D:\С#\Химия(3)\bin\Debug\Химия(3).pdb
+D:\С#\Химия(3)\obj\x86\Debug\Химия_3_.Proga.resources
+D:\С#\Химия(3)\obj\x86\Debug\Химия_3_.Properties.Resources.resources
+D:\С#\Химия(3)\obj\x86\Debug\Химия(3).csproj.GenerateResource.Cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Химия(3)\obj\x86\Debug\Химия(3).exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Химия(3)\obj\x86\Debug\Химия(3).pdb

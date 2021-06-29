@@ -1,0 +1,14 @@
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval'-O-Matic v.1\obj\x86\Debug\EXAMPLE2010.Proga.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval'-O-Matic v.1\obj\x86\Debug\Koval.Properties.Resources.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval'-O-Matic v.1\obj\x86\Debug\EXAMPLE2010.csproj.GenerateResource.Cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval'-O-Matic v.1\bin\Debug\Koval'-O-Matic v.1.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval'-O-Matic v.1\bin\Debug\Koval'-O-Matic v.1.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval'-O-Matic v.1\obj\x86\Debug\Koval'-O-Matic v.1.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Koval'-O-Matic v.1\obj\x86\Debug\Koval'-O-Matic v.1.pdb
+E:\С#\Koval-O-Matic v.1\bin\Debug\Koval-O-Matic v.1.exe
+E:\С#\Koval-O-Matic v.1\bin\Debug\Koval-O-Matic v.1.pdb
+E:\С#\Koval-O-Matic v.1\obj\x86\Debug\EXAMPLE2010.Proga.resources
+E:\С#\Koval-O-Matic v.1\obj\x86\Debug\Koval.Properties.Resources.resources
+E:\С#\Koval-O-Matic v.1\obj\x86\Debug\EXAMPLE2010.csproj.GenerateResource.Cache
+E:\С#\Koval-O-Matic v.1\obj\x86\Debug\Koval-O-Matic v.1.exe
+E:\С#\Koval-O-Matic v.1\obj\x86\Debug\Koval-O-Matic v.1.pdb

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="SUDOKU.Kod">
+    <Position X="1.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACAAAAAIBAAAgAAAAAAAIAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SUDOKU.MyTimer">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyTimer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SUDOKU.SudokuForm">
+    <Position X="5" Y="4" Width="4.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CCmVABBIBDSKAALnCAGFAiEqAAC4ABoAAABghQCUAAU=</HashCode>
+      <FileName>SudokuForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SUDOKU.DifficultyForm" Collapsed="true">
+    <Position X="9.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACAAAAACAAAABAAACAAAACAAAEAAAAAAAAACgAQAA=</HashCode>
+      <FileName>DifficultyForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SUDOKU.StartingValue">
+    <Position X="9" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>StartingValue.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

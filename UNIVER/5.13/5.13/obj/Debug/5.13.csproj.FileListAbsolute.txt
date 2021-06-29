@@ -1,0 +1,6 @@
+c:\users\taiber009\documents\visual studio 2013\Projects\5.13\5.13\bin\Debug\5.13.exe.config
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\5.13\5.13\bin\Debug\5.13.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\5.13\5.13\bin\Debug\5.13.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\5.13\5.13\obj\Debug\5.13.csprojResolveAssemblyReference.cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\5.13\5.13\obj\Debug\5.13.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\5.13\5.13\obj\Debug\5.13.pdb

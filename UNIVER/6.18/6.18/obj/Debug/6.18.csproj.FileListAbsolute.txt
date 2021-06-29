@@ -1,0 +1,9 @@
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Формы\6.18\bin\Debug\6.18.exe.config
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Формы\6.18\bin\Debug\6.18.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Формы\6.18\bin\Debug\6.18.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Формы\6.18\obj\Debug\6.18.csprojResolveAssemblyReference.cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Формы\6.18\obj\Debug\_6._18.Properties.Resources.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Формы\6.18\obj\Debug\6.18.csproj.GenerateResource.Cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Формы\6.18\obj\Debug\6.18.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Формы\6.18\obj\Debug\6.18.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Формы\6.18\obj\Debug\_6._18.PROGA.resources

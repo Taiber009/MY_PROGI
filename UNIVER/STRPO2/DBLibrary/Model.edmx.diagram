@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c67c27e96f3c4326a5b5c6cc482cefc9" Name="Diagram1">
+        <EntityTypeShape EntityType="STRPOModel.Comics" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="STRPOModel.Rating_system" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="STRPOModel.Rental_Comics" Width="1.5" PointX="5.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="STRPOModel.Sold_Comics" Width="1.5" PointX="8.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="STRPOModel.User" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="STRPOModel.User_type" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="STRPOModel.FK_Comics_Rating_system" ManuallyRouted="false" />
+        <AssociationConnector Association="STRPOModel.FK_Rental_Comics_Comics" ManuallyRouted="false" />
+        <AssociationConnector Association="STRPOModel.FK_Sold_Comics_Comics" ManuallyRouted="false" />
+        <AssociationConnector Association="STRPOModel.FK_Rental_Comics_User" ManuallyRouted="false" />
+        <AssociationConnector Association="STRPOModel.FK_Sold_Comics_User" ManuallyRouted="false" />
+        <AssociationConnector Association="STRPOModel.FK_User_User_type" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

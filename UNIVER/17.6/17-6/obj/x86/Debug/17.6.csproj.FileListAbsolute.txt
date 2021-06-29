@@ -1,0 +1,9 @@
+F:\17.6\17-6\bin\Debug\17-6.exe
+F:\17.6\17-6\bin\Debug\17-6.pdb
+F:\17.6\17-6\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\17.6\17-6\obj\x86\Debug\_17_6.Proga.resources
+F:\17.6\17-6\obj\x86\Debug\_17_6.Properties.Resources.resources
+F:\17.6\17-6\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\17.6\17-6\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\17.6\17-6\obj\x86\Debug\17-6.exe
+F:\17.6\17-6\obj\x86\Debug\17-6.pdb

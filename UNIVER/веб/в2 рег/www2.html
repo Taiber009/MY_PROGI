@@ -1,0 +1,20 @@
+﻿<html>
+	<input type = "text" id = "a1" /> 
+		<br/>
+	<button onclick="my()"> Проверить </button>
+		<br/>
+	<input type = "text" id = "a2" /> 
+		<br/>
+		<script>
+		function my(){
+		var c=new RegExp("^((https?|ftp)\:\/\/)?([a-z0-9]{1})((\.[a-z0-9-])|([a-z0-9-]))*\.([a-z]{2,6})(\/?)$");
+		if (c.test(document.getElementById("a1").value)){
+		document.getElementById("a2").value = "Подходит";
+		}		
+		else{
+		document.getElementById("a2").value = "Не подходит";
+		}
+		}
+		</script>
+</html>
+2. URL (протокол, хост, путь): http://ru.wikipedia.org/wiki/url

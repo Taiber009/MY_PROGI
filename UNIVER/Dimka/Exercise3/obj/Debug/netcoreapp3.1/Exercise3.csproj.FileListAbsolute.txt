@@ -1,0 +1,11 @@
+E:\С#\Dimka\Exercise3\bin\Debug\netcoreapp3.1\Exercise3.exe
+E:\С#\Dimka\Exercise3\bin\Debug\netcoreapp3.1\Exercise3.deps.json
+E:\С#\Dimka\Exercise3\bin\Debug\netcoreapp3.1\Exercise3.runtimeconfig.json
+E:\С#\Dimka\Exercise3\bin\Debug\netcoreapp3.1\Exercise3.runtimeconfig.dev.json
+E:\С#\Dimka\Exercise3\bin\Debug\netcoreapp3.1\Exercise3.dll
+E:\С#\Dimka\Exercise3\bin\Debug\netcoreapp3.1\Exercise3.pdb
+E:\С#\Dimka\Exercise3\obj\Debug\netcoreapp3.1\Exercise3.csprojAssemblyReference.cache
+E:\С#\Dimka\Exercise3\obj\Debug\netcoreapp3.1\Exercise3.AssemblyInfoInputs.cache
+E:\С#\Dimka\Exercise3\obj\Debug\netcoreapp3.1\Exercise3.AssemblyInfo.cs
+E:\С#\Dimka\Exercise3\obj\Debug\netcoreapp3.1\Exercise3.dll
+E:\С#\Dimka\Exercise3\obj\Debug\netcoreapp3.1\Exercise3.pdb

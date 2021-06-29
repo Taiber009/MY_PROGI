@@ -1,0 +1,72 @@
+D:\Документы\C#\Book\Ch 12 Деревья\Tree\Tree\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Документы\C#\Book\Ch 12 Деревья\Tree\Tree\obj\x86\Debug\Tree.Properties.Resources.resources
+D:\Документы\C#\Book\Ch 12 Деревья\Tree\Tree\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Документы\C#\Book\Ch 12 Деревья\Tree\Tree\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Документы\C#\Book\Ch 12 Деревья\Tree\Tree\bin\Debug\Tree.exe
+D:\Документы\C#\Book\Ch 12 Деревья\Tree\Tree\bin\Debug\Tree.pdb
+D:\Документы\C#\Book\Ch 12 Деревья\Tree\Tree\obj\x86\Debug\Tree.exe
+D:\Документы\C#\Book\Ch 12 Деревья\Tree\Tree\obj\x86\Debug\Tree.pdb
+D:\Документы\C#\Book\Ch 12 Деревья\Tree\Tree\obj\x86\Debug\SpaceTree.FormMain.resources
+F:\Документы\Лекции\АиСД C#\Лекция 3 Множества Оптимальная\Tree\Tree\obj\x86\Debug\Tree.exe
+F:\Документы\Лекции\АиСД C#\Лекция 3 Множества Оптимальная\Tree\Tree\obj\x86\Debug\Tree.pdb
+F:\Документы\Лекции\АиСД C#\Лекция 3 Множества Оптимальная\Tree\Tree\bin\Debug\Tree.exe
+F:\Документы\Лекции\АиСД C#\Лекция 3 Множества Оптимальная\Tree\Tree\bin\Debug\Tree.pdb
+F:\Документы\Лекции\АиСД C#\Лекция 3 Множества Оптимальная\Tree\Tree\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Документы\Лекции\АиСД C#\Лекция 3 Множества Оптимальная\Tree\Tree\obj\x86\Debug\SpaceTree.FormMain.resources
+F:\Документы\Лекции\АиСД C#\Лекция 3 Множества Оптимальная\Tree\Tree\obj\x86\Debug\Tree.Properties.Resources.resources
+F:\Документы\Лекции\АиСД C#\Лекция 3 Множества Оптимальная\Tree\Tree\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Документы\Лекции\АиСД C#\Лекция 3 Множества Оптимальная\Tree\Tree\obj\x86\Debug\GenerateResource.write.1.tlog
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\Tree.exe
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\Tree.pdb
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 3 Деревья\Tree\Tree\bin\Debug\Tree.exe
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 3 Деревья\Tree\Tree\bin\Debug\Tree.pdb
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\ResolveAssemblyReference.cache
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\SpaceTree.FormMain.resources
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\Tree.Properties.Resources.resources
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\GenerateResource.read.1.tlog
+L:\Лекции\1 Курс\АиСД C#\2015\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\GenerateResource.write.1.tlog
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\Tree.exe
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\Tree.pdb
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 3 Деревья\Tree\Tree\bin\Debug\Tree.exe
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 3 Деревья\Tree\Tree\bin\Debug\Tree.pdb
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\ResolveAssemblyReference.cache
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\SpaceTree.FormMain.resources
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\Tree.Properties.Resources.resources
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\GenerateResource.read.1.tlog
+L:\Лекции\1 Курс\АиСД C#\2016\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Универ\АиСД C#\2016\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\Tree.exe
+F:\Универ\АиСД C#\2016\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\Tree.pdb
+F:\Универ\АиСД C#\2016\Лекция 3 Деревья\Tree\Tree\bin\Debug\Tree.exe
+F:\Универ\АиСД C#\2016\Лекция 3 Деревья\Tree\Tree\bin\Debug\Tree.pdb
+F:\Универ\АиСД C#\2016\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Универ\АиСД C#\2016\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\SpaceTree.FormMain.resources
+F:\Универ\АиСД C#\2016\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\Tree.Properties.Resources.resources
+F:\Универ\АиСД C#\2016\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Универ\АиСД C#\2016\Лекция 3 Деревья\Tree\Tree\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\18.15\Tree\obj\x86\Debug\Tree.exe
+F:\18.15\Tree\obj\x86\Debug\Tree.pdb
+F:\18.15\Tree\bin\Debug\Tree.exe
+F:\18.15\Tree\bin\Debug\Tree.pdb
+F:\18.15\Tree\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\18.15\Tree\obj\x86\Debug\SpaceTree.FormMain.resources
+F:\18.15\Tree\obj\x86\Debug\Tree.Properties.Resources.resources
+F:\18.15\Tree\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\18.15\Tree\obj\x86\Debug\GenerateResource.write.1.tlog
+J:\18.15\Tree\obj\x86\Debug\Tree.exe
+J:\18.15\Tree\obj\x86\Debug\Tree.pdb
+J:\18.15\Tree\bin\Debug\Tree.exe
+J:\18.15\Tree\bin\Debug\Tree.pdb
+J:\18.15\Tree\obj\x86\Debug\Tree.csprojResolveAssemblyReference.cache
+J:\18.15\Tree\obj\x86\Debug\SpaceTree.FormMain.resources
+J:\18.15\Tree\obj\x86\Debug\Tree.Properties.Resources.resources
+J:\18.15\Tree\obj\x86\Debug\Tree.csproj.GenerateResource.Cache
+F:\18.15+31\Tree\obj\x86\Debug\Tree.exe
+F:\18.15+31\Tree\obj\x86\Debug\Tree.pdb
+D:\18.15+31\Tree\obj\x86\Debug\Tree.exe
+D:\18.15+31\Tree\obj\x86\Debug\Tree.pdb
+D:\18.15+31\Tree\bin\Debug\Tree.exe
+D:\18.15+31\Tree\bin\Debug\Tree.pdb
+D:\18.15+31\Tree\obj\x86\Debug\Tree.csprojResolveAssemblyReference.cache
+D:\18.15+31\Tree\obj\x86\Debug\SpaceTree.FormMain.resources
+D:\18.15+31\Tree\obj\x86\Debug\Tree.Properties.Resources.resources
+D:\18.15+31\Tree\obj\x86\Debug\Tree.csproj.GenerateResource.Cache

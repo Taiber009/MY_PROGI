@@ -1,0 +1,6 @@
+c:\users\taiber009\documents\visual studio 2013\Projects\3.4\3.4\bin\Debug\3.4.exe.config
+c:\users\taiber009\documents\visual studio 2013\Projects\3.4\3.4\bin\Debug\3.4.exe
+c:\users\taiber009\documents\visual studio 2013\Projects\3.4\3.4\bin\Debug\3.4.pdb
+c:\users\taiber009\documents\visual studio 2013\Projects\3.4\3.4\obj\Debug\3.4.csprojResolveAssemblyReference.cache
+c:\users\taiber009\documents\visual studio 2013\Projects\3.4\3.4\obj\Debug\3.4.exe
+c:\users\taiber009\documents\visual studio 2013\Projects\3.4\3.4\obj\Debug\3.4.pdb

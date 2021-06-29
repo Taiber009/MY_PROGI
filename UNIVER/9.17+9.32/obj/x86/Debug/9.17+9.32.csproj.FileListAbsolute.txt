@@ -1,0 +1,33 @@
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\9.17+9.32\bin\Debug\9.17+9.32.exe
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\9.17+9.32\bin\Debug\9.17+9.32.pdb
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\9.17+9.32\obj\x86\Debug\ResolveAssemblyReference.cache
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\9.17+9.32\obj\x86\Debug\_9._17_9._32.Proga.resources
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\9.17+9.32\obj\x86\Debug\_9._17_9._32.Properties.Resources.resources
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\9.17+9.32\obj\x86\Debug\GenerateResource.read.1.tlog
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\9.17+9.32\obj\x86\Debug\GenerateResource.write.1.tlog
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\9.17+9.32\obj\x86\Debug\9.17+9.32.exe
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\9.17+9.32\obj\x86\Debug\9.17+9.32.pdb
+J:\aaaa\9.17+9.32\obj\x86\Debug\9.17+9.32.exe
+J:\aaaa\9.17+9.32\obj\x86\Debug\9.17+9.32.pdb
+J:\aaaa\9.17+9.32\bin\Debug\9.17+9.32.exe
+J:\aaaa\9.17+9.32\bin\Debug\9.17+9.32.pdb
+J:\aaaa\9.17+9.32\obj\x86\Debug\9.17+9.32.csprojResolveAssemblyReference.cache
+J:\aaaa\9.17+9.32\obj\x86\Debug\_9._17_9._32.Proga.resources
+J:\aaaa\9.17+9.32\obj\x86\Debug\_9._17_9._32.Properties.Resources.resources
+J:\aaaa\9.17+9.32\obj\x86\Debug\9.17+9.32.csproj.GenerateResource.Cache
+D:\aaaa\9.17+9.32\bin\Debug\9.17+9.32.exe
+D:\aaaa\9.17+9.32\bin\Debug\9.17+9.32.pdb
+D:\aaaa\9.17+9.32\obj\x86\Debug\9.17+9.32.csprojResolveAssemblyReference.cache
+D:\aaaa\9.17+9.32\obj\x86\Debug\_9._17_9._32.Proga.resources
+D:\aaaa\9.17+9.32\obj\x86\Debug\_9._17_9._32.Properties.Resources.resources
+D:\aaaa\9.17+9.32\obj\x86\Debug\9.17+9.32.csproj.GenerateResource.Cache
+D:\aaaa\9.17+9.32\obj\x86\Debug\9.17+9.32.exe
+D:\aaaa\9.17+9.32\obj\x86\Debug\9.17+9.32.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\9.17+9.32\obj\x86\Debug\9.17+9.32.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\9.17+9.32\obj\x86\Debug\9.17+9.32.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\9.17+9.32\bin\Debug\9.17+9.32.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\9.17+9.32\bin\Debug\9.17+9.32.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\9.17+9.32\obj\x86\Debug\9.17+9.32.csprojResolveAssemblyReference.cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\9.17+9.32\obj\x86\Debug\_9._17_9._32.Proga.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\9.17+9.32\obj\x86\Debug\_9._17_9._32.Properties.Resources.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\9.17+9.32\obj\x86\Debug\9.17+9.32.csproj.GenerateResource.Cache

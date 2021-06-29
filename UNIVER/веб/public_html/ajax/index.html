@@ -1,0 +1,29 @@
+﻿<html> 
+<head> 
+<script type="text/javascript" src="http://yandex.st/jquery/2.0.3/jquery.min.js"></script> 
+</head> 
+
+<body>
+
+<b>Радиус:</b>
+<input name="radius"></input>
+<b>Высота:</b>
+<input name="visota"></input>
+<button id="but">Вычислить</button>
+<div id="Placeholder"></div> 
+
+<script>
+ $("#but").click(function(){
+  $.ajax({
+  url: 'Logic.php',
+  data: 'radius='+$('input[name="radius"]').val()+'&visota='+$('input[name="visota"]').val(),
+  dataType: 'html',
+  success: function(data){
+  $("#Placeholder").html(data);
+}
+});
+});
+
+</script>
+</body>
+</html>

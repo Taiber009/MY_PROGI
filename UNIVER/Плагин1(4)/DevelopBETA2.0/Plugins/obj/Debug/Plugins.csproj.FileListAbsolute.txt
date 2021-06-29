@@ -1,0 +1,19 @@
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Plugins\bin\Debug\PaintDemoPlugins.dll
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Plugins\bin\Debug\PaintDemoPlugins.pdb
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Plugins\bin\Debug\PaintInterface.dll
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Plugins\bin\Debug\PaintInterface.pdb
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Plugins\obj\Debug\ResolveAssemblyReference.cache
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Plugins\obj\Debug\Oop.Tasks.Paint.Plugins.PaintDemo1CirclePluginOptionsControl.resources
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Plugins\obj\Debug\GenerateResource.read.1.tlog
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Plugins\obj\Debug\GenerateResource.write.1.tlog
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Plugins\obj\Debug\PaintDemoPlugins.dll
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Plugins\obj\Debug\PaintDemoPlugins.pdb
+E:\ЯиСП\Develop\Plugins\obj\Debug\Plugins.csprojResolveAssemblyReference.cache
+E:\ЯиСП\Develop\Plugins\obj\Debug\Oop.Tasks.Paint.Plugins.PaintDemo1CirclePluginOptionsControl.resources
+E:\ЯиСП\Develop\Plugins\obj\Debug\Plugins.csproj.GenerateResource.Cache
+E:\ЯиСП\Develop\Plugins\obj\Debug\PaintDemoPlugins.dll
+E:\ЯиСП\Develop\Plugins\obj\Debug\PaintDemoPlugins.pdb
+E:\ЯиСП\Develop\Plugins\bin\Debug\PaintDemoPlugins.dll
+E:\ЯиСП\Develop\Plugins\bin\Debug\PaintDemoPlugins.pdb
+E:\ЯиСП\Develop\Plugins\bin\Debug\PaintInterface.dll
+E:\ЯиСП\Develop\Plugins\bin\Debug\PaintInterface.pdb

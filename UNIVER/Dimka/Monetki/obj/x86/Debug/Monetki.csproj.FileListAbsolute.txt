@@ -1,0 +1,8 @@
+F:\С#\Dimka\Monetki\bin\Debug\Sorevnovanie_test.exe
+F:\С#\Dimka\Monetki\bin\Debug\Sorevnovanie_test.pdb
+F:\С#\Dimka\Monetki\obj\x86\Debug\Sorevnovanie_test.exe
+F:\С#\Dimka\Monetki\obj\x86\Debug\Sorevnovanie_test.pdb
+F:\Флешка\С#\Dimka\Monetki\obj\x86\Debug\Sorevnovanie_test.exe
+F:\Флешка\С#\Dimka\Monetki\obj\x86\Debug\Sorevnovanie_test.pdb
+F:\Флешка\С#\Dimka\Monetki\bin\Debug\Sorevnovanie_test.exe
+F:\Флешка\С#\Dimka\Monetki\bin\Debug\Sorevnovanie_test.pdb

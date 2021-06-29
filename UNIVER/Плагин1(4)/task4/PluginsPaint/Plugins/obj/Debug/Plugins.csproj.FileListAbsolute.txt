@@ -1,0 +1,66 @@
+Z:\solomatin\!\Src\Plugins\bin\Debug\PaintDemoPlugins.dll
+Z:\solomatin\!\Src\Plugins\bin\Debug\PaintDemoPlugins.pdb
+Z:\solomatin\!\Src\Plugins\bin\Debug\PaintInterface.dll
+Z:\solomatin\!\Src\Plugins\bin\Debug\PaintInterface.pdb
+Z:\solomatin\!\Src\Plugins\obj\Debug\ResolveAssemblyReference.cache
+Z:\solomatin\!\Src\Plugins\obj\Debug\Oop.Tasks.Paint.Plugins.PaintDemo1CirclePluginOptionsControl.resources
+Z:\solomatin\!\Src\Plugins\obj\Debug\Plugins.csproj.GenerateResource.Cache
+Z:\solomatin\!\Src\Plugins\obj\Debug\PaintDemoPlugins.dll
+Z:\solomatin\!\Src\Plugins\obj\Debug\PaintDemoPlugins.pdb
+Z:\!\Src\Plugins\bin\Debug\PaintDemoPlugins.dll
+Z:\!\Src\Plugins\bin\Debug\PaintDemoPlugins.pdb
+Z:\!\Src\Plugins\bin\Debug\PaintInterface.dll
+Z:\!\Src\Plugins\bin\Debug\PaintInterface.pdb
+Z:\!\Src\Plugins\obj\Debug\ResolveAssemblyReference.cache
+Z:\!\Src\Plugins\obj\Debug\Oop.Tasks.Paint.Plugins.PaintDemo1CirclePluginOptionsControl.resources
+Z:\!\Src\Plugins\obj\Debug\Plugins.csproj.GenerateResource.Cache
+Z:\!\Src\Plugins\obj\Debug\PaintDemoPlugins.dll
+Z:\!\Src\Plugins\obj\Debug\PaintDemoPlugins.pdb
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Plugins\bin\Debug\PaintDemoPlugins.dll
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Plugins\bin\Debug\PaintDemoPlugins.pdb
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Plugins\bin\Debug\PaintInterface.dll
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Plugins\bin\Debug\PaintInterface.pdb
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Plugins\obj\Debug\ResolveAssemblyReference.cache
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Plugins\obj\Debug\Oop.Tasks.Paint.Plugins.PaintDemo1CirclePluginOptionsControl.resources
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Plugins\obj\Debug\GenerateResource.read.1.tlog
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Plugins\obj\Debug\GenerateResource.write.1.tlog
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Plugins\obj\Debug\PaintDemoPlugins.dll
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Plugins\obj\Debug\PaintDemoPlugins.pdb
+F:\task4\PluginsPaint\Plugins\bin\Debug\PaintDemoPlugins.dll
+F:\task4\PluginsPaint\Plugins\bin\Debug\PaintDemoPlugins.pdb
+F:\task4\PluginsPaint\Plugins\bin\Debug\PaintInterface.dll
+F:\task4\PluginsPaint\Plugins\bin\Debug\PaintInterface.pdb
+F:\task4\PluginsPaint\Plugins\obj\Debug\ResolveAssemblyReference.cache
+F:\task4\PluginsPaint\Plugins\obj\Debug\Oop.Tasks.Paint.Plugins.PaintDemo1CirclePluginOptionsControl.resources
+F:\task4\PluginsPaint\Plugins\obj\Debug\GenerateResource.read.1.tlog
+F:\task4\PluginsPaint\Plugins\obj\Debug\GenerateResource.write.1.tlog
+F:\task4\PluginsPaint\Plugins\obj\Debug\PaintDemoPlugins.dll
+F:\task4\PluginsPaint\Plugins\obj\Debug\PaintDemoPlugins.pdb
+E:\task4\PluginsPaint\Plugins\bin\Debug\PaintDemoPlugins.dll
+E:\task4\PluginsPaint\Plugins\bin\Debug\PaintDemoPlugins.pdb
+E:\task4\PluginsPaint\Plugins\bin\Debug\PaintInterface.dll
+E:\task4\PluginsPaint\Plugins\bin\Debug\PaintInterface.pdb
+E:\task4\PluginsPaint\Plugins\obj\Debug\Plugins.csprojResolveAssemblyReference.cache
+E:\task4\PluginsPaint\Plugins\obj\Debug\Oop.Tasks.Paint.Plugins.PaintDemo1CirclePluginOptionsControl.resources
+E:\task4\PluginsPaint\Plugins\obj\Debug\Plugins.csproj.GenerateResource.Cache
+E:\task4\PluginsPaint\Plugins\obj\Debug\PaintDemoPlugins.dll
+E:\task4\PluginsPaint\Plugins\obj\Debug\PaintDemoPlugins.pdb
+F:\Плагин1(4)\task4\PluginsPaint\Plugins\bin\Debug\PaintDemoPlugins.dll
+F:\Плагин1(4)\task4\PluginsPaint\Plugins\bin\Debug\PaintDemoPlugins.pdb
+F:\Плагин1(4)\task4\PluginsPaint\Plugins\bin\Debug\PaintInterface.dll
+F:\Плагин1(4)\task4\PluginsPaint\Plugins\bin\Debug\PaintInterface.pdb
+F:\Плагин1(4)\task4\PluginsPaint\Plugins\obj\Debug\ResolveAssemblyReference.cache
+F:\Плагин1(4)\task4\PluginsPaint\Plugins\obj\Debug\Oop.Tasks.Paint.Plugins.PaintDemo1CirclePluginOptionsControl.resources
+F:\Плагин1(4)\task4\PluginsPaint\Plugins\obj\Debug\GenerateResource.read.1.tlog
+F:\Плагин1(4)\task4\PluginsPaint\Plugins\obj\Debug\GenerateResource.write.1.tlog
+F:\Плагин1(4)\task4\PluginsPaint\Plugins\obj\Debug\PaintDemoPlugins.dll
+F:\Плагин1(4)\task4\PluginsPaint\Plugins\obj\Debug\PaintDemoPlugins.pdb
+D:\Плагин1(4)\task4\PluginsPaint\Plugins\bin\Debug\PaintDemoPlugins.dll
+D:\Плагин1(4)\task4\PluginsPaint\Plugins\bin\Debug\PaintDemoPlugins.pdb
+D:\Плагин1(4)\task4\PluginsPaint\Plugins\bin\Debug\PaintInterface.dll
+D:\Плагин1(4)\task4\PluginsPaint\Plugins\bin\Debug\PaintInterface.pdb
+D:\Плагин1(4)\task4\PluginsPaint\Plugins\obj\Debug\Plugins.csprojResolveAssemblyReference.cache
+D:\Плагин1(4)\task4\PluginsPaint\Plugins\obj\Debug\Oop.Tasks.Paint.Plugins.PaintDemo1CirclePluginOptionsControl.resources
+D:\Плагин1(4)\task4\PluginsPaint\Plugins\obj\Debug\Plugins.csproj.GenerateResource.Cache
+D:\Плагин1(4)\task4\PluginsPaint\Plugins\obj\Debug\PaintDemoPlugins.dll
+D:\Плагин1(4)\task4\PluginsPaint\Plugins\obj\Debug\PaintDemoPlugins.pdb

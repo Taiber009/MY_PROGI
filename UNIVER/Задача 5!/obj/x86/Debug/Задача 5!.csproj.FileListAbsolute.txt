@@ -1,0 +1,42 @@
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\Задача 5!\bin\Debug\Задача 5!.exe
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\Задача 5!\bin\Debug\Задача 5!.pdb
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\Задача 5!\obj\x86\Debug\Задача_5_.Form1.resources
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\Задача 5!\obj\x86\Debug\Задача_5_.Properties.Resources.resources
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\Задача 5!\obj\x86\Debug\Задача 5!.csproj.GenerateResource.Cache
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\Задача 5!\obj\x86\Debug\Задача 5!.exe
+\\csfs\home$\hoziev_yu_g\profile\my documents\visual studio 2010\Projects\Задача 5!\obj\x86\Debug\Задача 5!.pdb
+J:\Задача 5!\obj\x86\Debug\Задача 5!.exe
+J:\Задача 5!\obj\x86\Debug\Задача 5!.pdb
+J:\Задача 5!\bin\Debug\Задача 5!.exe
+J:\Задача 5!\bin\Debug\Задача 5!.pdb
+J:\Задача 5!\obj\x86\Debug\Задача 5!.csprojResolveAssemblyReference.cache
+J:\Задача 5!\obj\x86\Debug\Задача_5_.Properties.Resources.resources
+J:\Задача 5!\obj\x86\Debug\Задача 5!.csproj.GenerateResource.Cache
+H:\Задача 5!\obj\x86\Debug\Задача 5!.exe
+H:\Задача 5!\obj\x86\Debug\Задача 5!.pdb
+H:\Задача 5!\obj\x86\Debug\Задача 5!.csprojResolveAssemblyReference.cache
+H:\Задача 5!\obj\x86\Debug\Задача_5_.Proga.resources
+H:\Задача 5!\obj\x86\Debug\Задача_5_.Properties.Resources.resources
+H:\Задача 5!\obj\x86\Debug\Задача 5!.csproj.GenerateResource.Cache
+H:\Задача 5!\bin\Debug\Задача 5!.exe
+H:\Задача 5!\bin\Debug\Задача 5!.pdb
+D:\Задача 5!\obj\x86\Debug\Задача 5!.exe
+D:\Задача 5!\obj\x86\Debug\Задача 5!.pdb
+D:\Задача 5!\bin\Debug\Задача 5!.exe
+D:\Задача 5!\bin\Debug\Задача 5!.pdb
+D:\Задача 5!\obj\x86\Debug\Задача 5!.csprojResolveAssemblyReference.cache
+D:\Задача 5!\obj\x86\Debug\Задача_5_.Proga.resources
+D:\Задача 5!\obj\x86\Debug\Задача_5_.Properties.Resources.resources
+D:\Задача 5!\obj\x86\Debug\Задача 5!.csproj.GenerateResource.Cache
+J:\Задача 5!\obj\x86\Debug\Задача_5_.Proga.resources
+F:\Задача 5!\obj\x86\Debug\Задача 5!.exe
+F:\Задача 5!\obj\x86\Debug\Задача 5!.pdb
+F:\Задача 5!\bin\Debug\Задача 5!.exe
+F:\Задача 5!\bin\Debug\Задача 5!.pdb
+F:\Задача 5!\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Задача 5!\obj\x86\Debug\Задача_5_.Proga.resources
+F:\Задача 5!\obj\x86\Debug\Задача_5_.Properties.Resources.resources
+F:\Задача 5!\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Задача 5!\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Задача 5!\obj\x86\Debug\Задача 5!.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Задача 5!\obj\x86\Debug\Задача 5!.pdb

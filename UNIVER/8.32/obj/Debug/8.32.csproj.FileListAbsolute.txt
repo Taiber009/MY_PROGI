@@ -1,0 +1,9 @@
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\8.32\bin\Debug\8.32.exe.config
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\8.32\bin\Debug\8.32.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\8.32\bin\Debug\8.32.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\8.32\obj\Debug\8.32.csprojResolveAssemblyReference.cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\8.32\obj\Debug\_8._32.Proga.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\8.32\obj\Debug\_8._32.Properties.Resources.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\8.32\obj\Debug\8.32.csproj.GenerateResource.Cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\8.32\obj\Debug\8.32.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\8.32\obj\Debug\8.32.pdb

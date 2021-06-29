@@ -1,0 +1,26 @@
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\OOP1\obj\x86\Debug\ResolveAssemblyReference.cache
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\OOP1\obj\x86\Debug\OOP1.Properties.Resources.resources
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\OOP1\obj\x86\Debug\GenerateResource.read.1.tlog
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\OOP1\obj\x86\Debug\GenerateResource.write.1.tlog
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\OOP1\bin\Debug\OOP1.exe
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\OOP1\bin\Debug\OOP1.pdb
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\OOP1\obj\x86\Debug\OOP1.exe
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\OOP1\obj\x86\Debug\OOP1.pdb
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\OOP1\obj\x86\Debug\OOP1.Form1.resources
+D:\OOP1\obj\x86\Debug\OOP1.exe
+D:\OOP1\obj\x86\Debug\OOP1.pdb
+D:\OOP1\bin\Debug\OOP1.exe
+D:\OOP1\bin\Debug\OOP1.pdb
+D:\OOP1\obj\x86\Debug\OOP1.csprojResolveAssemblyReference.cache
+D:\OOP1\obj\x86\Debug\OOP1.Form1.resources
+D:\OOP1\obj\x86\Debug\OOP1.Properties.Resources.resources
+D:\OOP1\obj\x86\Debug\OOP1.csproj.GenerateResource.Cache
+E:\OOP1\obj\x86\Debug\OOP1.exe
+E:\OOP1\obj\x86\Debug\OOP1.pdb
+E:\OOP1\bin\Debug\OOP1.exe
+E:\OOP1\bin\Debug\OOP1.pdb
+E:\OOP1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\OOP1\obj\x86\Debug\OOP1.Form1.resources
+E:\OOP1\obj\x86\Debug\OOP1.Properties.Resources.resources
+E:\OOP1\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\OOP1\obj\x86\Debug\GenerateResource.write.1.tlog

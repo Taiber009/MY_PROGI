@@ -1,0 +1,28 @@
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Engine\bin\Debug\PaintEngine.exe.config
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Engine\obj\Debug\PaintEngine.exe
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Engine\obj\Debug\PaintEngine.pdb
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Engine\bin\Debug\PaintEngine.exe
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Engine\bin\Debug\PaintEngine.pdb
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Engine\bin\Debug\PaintControls.dll
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Engine\bin\Debug\PaintInterface.dll
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Engine\bin\Debug\PaintControls.pdb
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Engine\bin\Debug\PaintInterface.pdb
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Engine\obj\Debug\ResolveAssemblyReference.cache
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Engine\obj\Debug\Oop.Tasks.Paint.Engine.PaintMainForm.resources
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Engine\obj\Debug\GenerateResource.read.1.tlog
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint.old\Develop\Engine\obj\Debug\GenerateResource.write.1.tlog
+E:\ЯиСП\task4\PluginsPaint.old\Develop\Engine\bin\Debug\PaintEngine.exe.config
+E:\ЯиСП\task4\PluginsPaint.old\Develop\Engine\bin\Debug\PaintEngine.exe
+E:\ЯиСП\task4\PluginsPaint.old\Develop\Engine\bin\Debug\PaintEngine.pdb
+E:\ЯиСП\task4\PluginsPaint.old\Develop\Engine\bin\Debug\PaintControls.dll
+E:\ЯиСП\task4\PluginsPaint.old\Develop\Engine\bin\Debug\PaintInterface.dll
+E:\ЯиСП\task4\PluginsPaint.old\Develop\Engine\bin\Debug\PaintControls.pdb
+E:\ЯиСП\task4\PluginsPaint.old\Develop\Engine\bin\Debug\PaintInterface.pdb
+E:\ЯиСП\task4\PluginsPaint.old\Develop\Engine\obj\Debug\Engine.csprojResolveAssemblyReference.cache
+E:\ЯиСП\task4\PluginsPaint.old\Develop\Engine\obj\Debug\Oop.Tasks.Paint.Engine.PaintMainForm.resources
+E:\ЯиСП\task4\PluginsPaint.old\Develop\Engine\obj\Debug\Engine.csproj.GenerateResource.Cache
+E:\ЯиСП\task4\PluginsPaint.old\Develop\Engine\obj\Debug\PaintEngine.exe
+E:\ЯиСП\task4\PluginsPaint.old\Develop\Engine\obj\Debug\PaintEngine.pdb
+E:\ЯиСП\Develop\Engine\bin\Debug\PaintEngine.exe.config
+E:\ЯиСП\Develop\Engine\obj\Debug\PaintEngine.exe
+E:\ЯиСП\Develop\Engine\obj\Debug\PaintEngine.pdb

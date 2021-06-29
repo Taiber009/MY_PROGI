@@ -1,0 +1,7 @@
+bin\Debug\PaintControls.dll
+bin\Debug\PaintControls.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Oop.Tasks.Paint.Controls.ColorGrid.resources
+obj\Debug\Controls.csproj.GenerateResource.Cache
+obj\Debug\PaintControls.dll
+obj\Debug\PaintControls.pdb

@@ -1,0 +1,15 @@
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\6.50\obj\x86\Debug\_6._50.Form1.resources
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\6.50\obj\x86\Debug\_6._50.Properties.Resources.resources
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\6.50\obj\x86\Debug\6.50.csproj.GenerateResource.Cache
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\6.50\bin\Debug\6.50.exe
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\6.50\bin\Debug\6.50.pdb
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\6.50\obj\x86\Debug\6.50.exe
+\\csfs\home$\hoziev_yu_g\Profile\My Documents\Visual Studio 2010\Projects\Задачи(Хоз)\6.50\obj\x86\Debug\6.50.pdb
+J:\6.50\obj\x86\Debug\6.50.exe
+J:\6.50\obj\x86\Debug\6.50.pdb
+J:\6.50\obj\x86\Debug\6.50.csprojResolveAssemblyReference.cache
+J:\6.50\obj\x86\Debug\_6._50.Form1.resources
+J:\6.50\obj\x86\Debug\_6._50.Properties.Resources.resources
+J:\6.50\obj\x86\Debug\6.50.csproj.GenerateResource.Cache
+J:\6.50\bin\Debug\6.50.exe
+J:\6.50\bin\Debug\6.50.pdb

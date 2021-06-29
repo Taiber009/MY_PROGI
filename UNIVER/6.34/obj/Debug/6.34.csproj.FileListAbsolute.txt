@@ -1,0 +1,8 @@
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\6.34\bin\Debug\6.34.exe.config
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\6.34\bin\Debug\6.34.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\6.34\bin\Debug\6.34.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\6.34\obj\Debug\_6._34.Proga.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\6.34\obj\Debug\_6._34.Properties.Resources.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\6.34\obj\Debug\6.34.csproj.GenerateResource.Cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\6.34\obj\Debug\6.34.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\6.34\obj\Debug\6.34.pdb

@@ -1,0 +1,4 @@
+<html>
+<textarea rows = "6" cols = "70">Комментарии</textarea>
+<input width="48" height="48"></input>
+</html>

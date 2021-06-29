@@ -1,0 +1,15 @@
+E:\лол3\лол3\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\лол3\лол3\bin\Debug\лол3.exe
+E:\лол3\лол3\bin\Debug\лол3.pdb
+E:\лол3\лол3\obj\x86\Debug\лол3.exe
+E:\лол3\лол3\obj\x86\Debug\лол3.pdb
+D:\лол3\лол3\obj\x86\Debug\лол3.exe
+D:\лол3\лол3\obj\x86\Debug\лол3.pdb
+D:\лол3\лол3\bin\Debug\лол3.exe
+D:\лол3\лол3\bin\Debug\лол3.pdb
+D:\лол3\лол3\obj\x86\Debug\лол3.csprojResolveAssemblyReference.cache
+E:\С#\Графы в консоле\лол3\obj\x86\Debug\лол3.exe
+E:\С#\Графы в консоле\лол3\obj\x86\Debug\лол3.pdb
+E:\С#\Графы в консоле\лол3\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\С#\Графы в консоле\лол3\bin\Debug\лол3.exe
+E:\С#\Графы в консоле\лол3\bin\Debug\лол3.pdb

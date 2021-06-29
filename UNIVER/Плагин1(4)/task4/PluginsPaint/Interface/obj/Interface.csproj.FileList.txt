@@ -1,0 +1,8 @@
+bin\Debug\PaintInterface.dll
+bin\Debug\PaintInterface.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PaintInterface.dll
+obj\Debug\PaintInterface.pdb
+bin\Release\PaintInterface.dll
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\PaintInterface.dll

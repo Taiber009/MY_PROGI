@@ -1,0 +1,29 @@
+<html> 
+<head> 
+<title>Аякс</title> 
+</head> 
+<head> 
+<meta charset="utf-8"> 
+<script type="text/javascript" src="http://yandex.st/jquery/2.0.3/jquery.min.js"> 
+</script> 
+</head> 
+<body> 
+<button id="baton">Go!</button> 
+<br><br> 
+<div id="Placeholder"></div> 
+<script> 
+$(document).ready(function(){ 
+$("#baton").click(function(){ 
+$.ajax({ 
+url: 'HelloPhp.php', 
+data: 'a = 3 & b = 5', 
+dataType: 'html', 
+success: function(response){ 
+$("#Placeholder").html(response); 
+} 
+}) 
+}) 
+}); 
+</script> 
+</body> 
+</html>

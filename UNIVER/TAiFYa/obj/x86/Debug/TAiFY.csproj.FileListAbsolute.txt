@@ -1,0 +1,9 @@
+C:\Users\Taiber009\Desktop\EXAMPLE2010\bin\Debug\EXAMPLE2010.exe
+C:\Users\Taiber009\Desktop\EXAMPLE2010\bin\Debug\EXAMPLE2010.pdb
+C:\Users\Taiber009\Desktop\EXAMPLE2010\obj\x86\Debug\TAiFY.csprojAssemblyReference.cache
+C:\Users\Taiber009\Desktop\EXAMPLE2010\obj\x86\Debug\EXAMPLE2010.Form1.resources
+C:\Users\Taiber009\Desktop\EXAMPLE2010\obj\x86\Debug\EXAMPLE2010.Properties.Resources.resources
+C:\Users\Taiber009\Desktop\EXAMPLE2010\obj\x86\Debug\TAiFY.csproj.GenerateResource.cache
+C:\Users\Taiber009\Desktop\EXAMPLE2010\obj\x86\Debug\TAiFY.csproj.CoreCompileInputs.cache
+C:\Users\Taiber009\Desktop\EXAMPLE2010\obj\x86\Debug\EXAMPLE2010.exe
+C:\Users\Taiber009\Desktop\EXAMPLE2010\obj\x86\Debug\EXAMPLE2010.pdb

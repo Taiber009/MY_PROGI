@@ -1,0 +1,15 @@
+c:\users\nastena\documents\visual studio 2010\Projects\1task\1task\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\nastena\documents\visual studio 2010\Projects\1task\1task\obj\x86\Debug\_1task.Form1.resources
+c:\users\nastena\documents\visual studio 2010\Projects\1task\1task\obj\x86\Debug\_1task.Properties.Resources.resources
+c:\users\nastena\documents\visual studio 2010\Projects\1task\1task\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\nastena\documents\visual studio 2010\Projects\1task\1task\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Taiber009\Desktop\1task\1task\obj\x86\Debug\_1task.Proga.resources
+C:\Users\Taiber009\Desktop\1task\1task\obj\x86\Debug\_1task.Properties.Resources.resources
+C:\Users\Taiber009\Desktop\1task\1task\obj\x86\Debug\1task.csproj.GenerateResource.Cache
+C:\Users\Taiber009\Desktop\1task\1task\bin\Debug\1task.exe
+C:\Users\Taiber009\Desktop\1task\1task\bin\Debug\1task.pdb
+C:\Users\Taiber009\Desktop\1task\1task\obj\x86\Debug\1task.exe
+C:\Users\Taiber009\Desktop\1task\1task\obj\x86\Debug\1task.pdb
+C:\Users\Taiber009\Desktop\1task\1task\obj\x86\Debug\1task.csprojResolveAssemblyReference.cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\1task\1task\obj\x86\Debug\1task.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\1task\1task\obj\x86\Debug\1task.pdb

@@ -1,0 +1,10 @@
+T:\Progi\TestColors\bin\Debug\TestColors.exe.config
+T:\Progi\TestColors\bin\Debug\TestColors.exe
+T:\Progi\TestColors\bin\Debug\TestColors.pdb
+T:\Progi\TestColors\obj\Debug\TestColors.csprojAssemblyReference.cache
+T:\Progi\TestColors\obj\Debug\TestColors.Form1.resources
+T:\Progi\TestColors\obj\Debug\TestColors.Properties.Resources.resources
+T:\Progi\TestColors\obj\Debug\TestColors.csproj.GenerateResource.cache
+T:\Progi\TestColors\obj\Debug\TestColors.csproj.CoreCompileInputs.cache
+T:\Progi\TestColors\obj\Debug\TestColors.exe
+T:\Progi\TestColors\obj\Debug\TestColors.pdb

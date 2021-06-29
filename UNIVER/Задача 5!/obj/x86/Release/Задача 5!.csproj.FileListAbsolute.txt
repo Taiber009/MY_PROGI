@@ -1,0 +1,9 @@
+F:\Задача 5!\bin\Release\Задача 5!.exe
+F:\Задача 5!\bin\Release\Задача 5!.pdb
+F:\Задача 5!\obj\x86\Release\ResolveAssemblyReference.cache
+F:\Задача 5!\obj\x86\Release\Задача_5_.Proga.resources
+F:\Задача 5!\obj\x86\Release\Задача_5_.Properties.Resources.resources
+F:\Задача 5!\obj\x86\Release\GenerateResource.read.1.tlog
+F:\Задача 5!\obj\x86\Release\GenerateResource.write.1.tlog
+F:\Задача 5!\obj\x86\Release\Задача 5!.exe
+F:\Задача 5!\obj\x86\Release\Задача 5!.pdb

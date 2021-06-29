@@ -1,0 +1,12 @@
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\11.6\bin\Debug\11.6.exe.config
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\11.6\bin\Debug\11.6.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\11.6\bin\Debug\11.6.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\11.6\obj\Debug\11.6.csprojResolveAssemblyReference.cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\11.6\obj\Debug\_11._6.Proga.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\11.6\obj\Debug\_11._6.Properties.Resources.resources
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\11.6\obj\Debug\11.6.csproj.GenerateResource.Cache
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\11.6\obj\Debug\11.6.exe
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\11.6\obj\Debug\11.6.pdb
+J:\11.6\bin\Debug\11.6.exe.config
+J:\11.6\obj\Debug\11.6.exe
+J:\11.6\obj\Debug\11.6.pdb

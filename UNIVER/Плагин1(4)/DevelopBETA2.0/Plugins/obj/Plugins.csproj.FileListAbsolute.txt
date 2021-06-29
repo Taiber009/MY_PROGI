@@ -1,0 +1,9 @@
+L:\Лекции\2 Курс\ООП\Tasks\task3\PluginsPaint\Develop\Plugins\bin\Debug\PaintDemoPlugins.dll
+L:\Лекции\2 Курс\ООП\Tasks\task3\PluginsPaint\Develop\Plugins\bin\Debug\PaintDemoPlugins.pdb
+L:\Лекции\2 Курс\ООП\Tasks\task3\PluginsPaint\Develop\Plugins\bin\Debug\PaintInterface.dll
+L:\Лекции\2 Курс\ООП\Tasks\task3\PluginsPaint\Develop\Plugins\bin\Debug\PaintInterface.pdb
+L:\Лекции\2 Курс\ООП\Tasks\task3\PluginsPaint\Develop\Plugins\obj\Debug\ResolveAssemblyReference.cache
+L:\Лекции\2 Курс\ООП\Tasks\task3\PluginsPaint\Develop\Plugins\obj\Debug\Oop.Tasks.Paint.Plugins.PaintDemo1CirclePluginOptionsControl.resources
+L:\Лекции\2 Курс\ООП\Tasks\task3\PluginsPaint\Develop\Plugins\obj\Debug\Plugins.csproj.GenerateResource.Cache
+L:\Лекции\2 Курс\ООП\Tasks\task3\PluginsPaint\Develop\Plugins\obj\Debug\PaintDemoPlugins.dll
+L:\Лекции\2 Курс\ООП\Tasks\task3\PluginsPaint\Develop\Plugins\obj\Debug\PaintDemoPlugins.pdb

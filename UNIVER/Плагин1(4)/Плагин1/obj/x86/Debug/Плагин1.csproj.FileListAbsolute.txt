@@ -1,0 +1,12 @@
+E:\Плагин1(4)\Плагин1\obj\x86\Debug\UserControl1.baml
+E:\Плагин1(4)\Плагин1\obj\x86\Debug\UserControl1.g.cs
+E:\Плагин1(4)\Плагин1\obj\x86\Debug\Плагин1_MarkupCompile.cache
+E:\Плагин1(4)\Плагин1\obj\x86\Debug\Плагин1.g.resources
+E:\Плагин1(4)\Плагин1\obj\x86\Debug\Плагин1.Properties.Resources.resources
+E:\Плагин1(4)\Плагин1\obj\x86\Debug\Плагин1.csproj.GenerateResource.Cache
+G:\Плагин1(4)\Плагин1\obj\x86\Debug\UserControl1.baml
+G:\Плагин1(4)\Плагин1\obj\x86\Debug\UserControl1.g.cs
+G:\Плагин1(4)\Плагин1\obj\x86\Debug\Плагин1_MarkupCompile.cache
+G:\Плагин1(4)\Плагин1\obj\x86\Debug\Плагин1.g.resources
+G:\Плагин1(4)\Плагин1\obj\x86\Debug\Плагин1.Properties.Resources.resources
+G:\Плагин1(4)\Плагин1\obj\x86\Debug\Плагин1.csproj.GenerateResource.Cache

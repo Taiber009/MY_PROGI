@@ -1,0 +1,13 @@
+T:\Progi!\PITNeroLab\bin\Debug\netcoreapp3.1\PITNeroLab.exe
+T:\Progi!\PITNeroLab\bin\Debug\netcoreapp3.1\PITNeroLab.deps.json
+T:\Progi!\PITNeroLab\bin\Debug\netcoreapp3.1\PITNeroLab.runtimeconfig.json
+T:\Progi!\PITNeroLab\bin\Debug\netcoreapp3.1\PITNeroLab.runtimeconfig.dev.json
+T:\Progi!\PITNeroLab\bin\Debug\netcoreapp3.1\PITNeroLab.dll
+T:\Progi!\PITNeroLab\bin\Debug\netcoreapp3.1\PITNeroLab.pdb
+T:\Progi!\PITNeroLab\obj\Debug\netcoreapp3.1\PITNeroLab.csprojAssemblyReference.cache
+T:\Progi!\PITNeroLab\obj\Debug\netcoreapp3.1\PITNeroLab.AssemblyInfoInputs.cache
+T:\Progi!\PITNeroLab\obj\Debug\netcoreapp3.1\PITNeroLab.AssemblyInfo.cs
+T:\Progi!\PITNeroLab\obj\Debug\netcoreapp3.1\PITNeroLab.csproj.CoreCompileInputs.cache
+T:\Progi!\PITNeroLab\obj\Debug\netcoreapp3.1\PITNeroLab.dll
+T:\Progi!\PITNeroLab\obj\Debug\netcoreapp3.1\PITNeroLab.pdb
+T:\Progi!\PITNeroLab\obj\Debug\netcoreapp3.1\PITNeroLab.genruntimeconfig.cache

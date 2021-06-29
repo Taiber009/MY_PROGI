@@ -1,0 +1,13 @@
+T:\Progi!\Dreva\bin\Debug\netcoreapp3.1\Dreva.exe
+T:\Progi!\Dreva\bin\Debug\netcoreapp3.1\Dreva.deps.json
+T:\Progi!\Dreva\bin\Debug\netcoreapp3.1\Dreva.runtimeconfig.json
+T:\Progi!\Dreva\bin\Debug\netcoreapp3.1\Dreva.runtimeconfig.dev.json
+T:\Progi!\Dreva\bin\Debug\netcoreapp3.1\Dreva.dll
+T:\Progi!\Dreva\bin\Debug\netcoreapp3.1\Dreva.pdb
+T:\Progi!\Dreva\obj\Debug\netcoreapp3.1\Dreva.csprojAssemblyReference.cache
+T:\Progi!\Dreva\obj\Debug\netcoreapp3.1\Dreva.AssemblyInfoInputs.cache
+T:\Progi!\Dreva\obj\Debug\netcoreapp3.1\Dreva.AssemblyInfo.cs
+T:\Progi!\Dreva\obj\Debug\netcoreapp3.1\Dreva.csproj.CoreCompileInputs.cache
+T:\Progi!\Dreva\obj\Debug\netcoreapp3.1\Dreva.dll
+T:\Progi!\Dreva\obj\Debug\netcoreapp3.1\Dreva.pdb
+T:\Progi!\Dreva\obj\Debug\netcoreapp3.1\Dreva.genruntimeconfig.cache

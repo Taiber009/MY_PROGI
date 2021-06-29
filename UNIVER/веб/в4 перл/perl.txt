@@ -1,0 +1,5 @@
+http://citforum.ru/internet/perl_tut/index.shtml - Введение в Perl
+http://project.net.ru/web-master/perl/article8/index.html - Электронный учебник по Perl
+http://php-perl.narod.ru/ - Электронный учебник по Perl
+http://www.helloworld.ru/show.php?curraz=29 - Материалы по Perl
+

@@ -1,0 +1,37 @@
+Z:\solomatin\!\Src\Interface\bin\Debug\PaintInterface.dll
+Z:\solomatin\!\Src\Interface\bin\Debug\PaintInterface.pdb
+Z:\solomatin\!\Src\Interface\obj\Debug\ResolveAssemblyReference.cache
+Z:\solomatin\!\Src\Interface\obj\Debug\PaintInterface.dll
+Z:\solomatin\!\Src\Interface\obj\Debug\PaintInterface.pdb
+Z:\!\Src\Interface\bin\Debug\PaintInterface.dll
+Z:\!\Src\Interface\bin\Debug\PaintInterface.pdb
+Z:\!\Src\Interface\obj\Debug\ResolveAssemblyReference.cache
+Z:\!\Src\Interface\obj\Debug\PaintInterface.dll
+Z:\!\Src\Interface\obj\Debug\PaintInterface.pdb
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Interface\bin\Debug\PaintInterface.dll
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Interface\bin\Debug\PaintInterface.pdb
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Interface\obj\Debug\ResolveAssemblyReference.cache
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Interface\obj\Debug\PaintInterface.dll
+L:\Лекции\2 Курс\ЯиСП\task4\PluginsPaint\Interface\obj\Debug\PaintInterface.pdb
+F:\task4\PluginsPaint\Interface\bin\Debug\PaintInterface.dll
+F:\task4\PluginsPaint\Interface\bin\Debug\PaintInterface.pdb
+F:\task4\PluginsPaint\Interface\obj\Debug\ResolveAssemblyReference.cache
+F:\task4\PluginsPaint\Interface\obj\Debug\PaintInterface.dll
+F:\task4\PluginsPaint\Interface\obj\Debug\PaintInterface.pdb
+E:\task4\PluginsPaint\Interface\bin\Debug\PaintInterface.dll
+E:\task4\PluginsPaint\Interface\bin\Debug\PaintInterface.pdb
+E:\task4\PluginsPaint\Interface\obj\Debug\PaintInterface.dll
+E:\task4\PluginsPaint\Interface\obj\Debug\PaintInterface.pdb
+F:\Плагин1(4)\task4\PluginsPaint\Interface\bin\Debug\PaintInterface.dll
+F:\Плагин1(4)\task4\PluginsPaint\Interface\bin\Debug\PaintInterface.pdb
+F:\Плагин1(4)\task4\PluginsPaint\Interface\obj\Debug\ResolveAssemblyReference.cache
+F:\Плагин1(4)\task4\PluginsPaint\Interface\obj\Debug\PaintInterface.dll
+F:\Плагин1(4)\task4\PluginsPaint\Interface\obj\Debug\PaintInterface.pdb
+D:\Плагин1(4)\task4\PluginsPaint\Interface\bin\Debug\PaintInterface.dll
+D:\Плагин1(4)\task4\PluginsPaint\Interface\bin\Debug\PaintInterface.pdb
+D:\Плагин1(4)\task4\PluginsPaint\Interface\obj\Debug\PaintInterface.dll
+D:\Плагин1(4)\task4\PluginsPaint\Interface\obj\Debug\PaintInterface.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Interface\bin\Debug\PaintInterface.dll
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Interface\bin\Debug\PaintInterface.pdb
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Interface\obj\Debug\PaintInterface.dll
+C:\Users\Taiber009\Documents\Visual Studio 2013\Projects\Плагин1(4)\task4\PluginsPaint\Interface\obj\Debug\PaintInterface.pdb
